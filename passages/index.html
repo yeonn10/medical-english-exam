@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>본문 학습 — 의학영어 시험대비</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="site-title"><a href="../index.html" style="color:inherit;">의학영어<span class="accent"> · </span>시험대비</a></div>
+    <nav class="site-nav">
+      <a href="../index.html">홈</a>
+      <a href="index.html" class="active">본문 학습</a>
+      <a href="../quiz/index.html">문제 학습</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="eyebrow">PASSAGES</div>
+  <h1 class="page-title">본문 학습</h1>
+  <p class="page-subtitle">본문을 선택하면 원문 모드와 요약 모드를 전환하며 학습할 수 있습니다.</p>
+
+  <div class="card-grid" id="passage-cards"></div>
+</main>
+
+<footer class="site-footer">의학영어 시험대비 자료 · 개인 학습용</footer>
+
+<script src="../assets/app.js"></script>
+<script>
+  const grid = document.getElementById("passage-cards");
+  grid.innerHTML = PASSAGE_META.map((p) => `
+    <a class="passage-card" href="passage.html?id=${p.id}">
+      <div class="num">${p.num}</div>
+      <h3>${p.title}</h3>
+      <p>${p.desc}</p>
+    </a>
+  `).join("");
+</script>
+</body>
+</html>

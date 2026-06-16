@@ -1,0 +1,972 @@
+{
+  "fever": {
+    "id": "fever",
+    "title": "Fever",
+    "authors": "Charles A. Dinarello, Jeffrey A. Gelfand",
+    "summaryHint": "체온조절 기전과 발열의 병태생리, 발열+발진 환자 접근법",
+    "paragraphs": [
+      {
+        "en": "Body temperature is controlled by the {{hypothalamus}}. Neurons in both the {{preoptic anterior hypothalamus}} and the posterior hypothalamus receive two kinds of signals: one from peripheral nerves that reflect warmth/cold receptors and the other from the temperature of the blood bathing the region. These two types of signals are integrated by the thermoregulatory center of the hypothalamus to maintain normal temperature. In a neutral environment, the metabolic rate of humans consistently produces more heat than is necessary to maintain the core body temperature at 37 °C.",
+        "kr": "체온은 시상하부(hypothalamus)에 의해 조절된다. 시상하부의 전시각 영역(preoptic anterior hypothalamus)과 후부 시상하부의 뉴런들은 두 종류의 신호를 받는다. 하나는 말초신경으로부터 오는 신호로, 따뜻함과 차가움을 감지하는 수용체의 정보를 반영한다. 다른 하나는 해당 부위를 흐르는 혈액의 온도에 대한 신호이다. 이 두 종류의 신호는 시상하부의 체온조절중추에 의해 통합되어 정상 체온을 유지하게 된다. 중립적인 환경에서는 인간의 대사율이 지속적으로 체온 유지에 필요한 양보다 더 많은 열을 생성한다.",
+        "note": "체온조절의 두 입력 경로(말초 온도수용체 → 중추 / 혈액온도 → 중추)를 시상하부가 통합한다는 구조를 기억해두면 이후 발열 기전 단락을 이해하기 쉽다."
+      },
+      {
+        "en": "A normal body temperature is ordinarily maintained, despite environmental variations, because the hypothalamic thermoregulatory center balances the excess heat production derived from metabolic activity in muscle and the liver with heat dissipation from the skin and lungs. According to studies of healthy individuals 18 to 40 years of age, the mean oral temperature is 36.8°C ±0.4 °C, with low levels at 6 A.M. and higher levels at 4 to 6 P.M. The maximum normal oral temperature is 37.2 °C at 6 A.M. and 37.7 °C at 4 P.M.; these values define the 99th percentile for healthy individuals. In light of these studies, an A.M. temperature of >37.2 °C or a P.M. temperature of >37.7 °C would define a fever.",
+        "kr": "정상 체온은 환경 변화에도 불구하고 일반적으로 유지되는데, 이는 시상하부의 체온조절중추가 근육과 간의 대사 활동으로 생성되는 과잉 열과 피부 및 폐를 통한 열 방출 사이의 균형을 맞추기 때문이다. 18세에서 40세 사이의 건강한 사람들을 대상으로 한 연구에 따르면 평균 구강 체온은 36.8±0.4°C였으며, 오전 6시에 가장 낮고 오후 4~6시에 가장 높았다. 정상적인 최대 구강 체온은 오전 6시 기준 37.2°C, 오후 4시 기준 37.7°C였고, 이는 건강한 사람들의 99백분위수에 해당한다. 이러한 연구 결과에 따르면 오전 체온이 37.2°C를 초과하거나 오후 체온이 37.7°C를 초과할 경우 발열로 정의할 수 있다.",
+        "note": "정상체온은 하루 중 변동(circadian variation)이 있다는 점이 핵심 — 오전 최고치와 오후 최고치 기준이 다르게 fever를 정의한다."
+      },
+      {
+        "en": "Fever is an elevation of body temperature that exceeds the normal daily variation and occurs in conjunction with an increase in the hypothalamic set point—for example, from 37°C to 39°C. This shift of the set point from \"normothermic\" to febrile levels very much resembles the resetting of the home thermostat to a higher level in order to raise the ambient temperature in a room. Once the hypothalamic set point is raised, neurons in the vasomotor center are activated and {{vasoconstriction}} commences. The individual first notices vasoconstriction in the hands and feet. Shunting of blood away from the periphery to the internal organs essentially decreases heat loss from the skin, and the person feels cold. For most fevers, body temperature increases by 1°C to 2°C. Shivering, which increases heat production from the muscles, may begin at this time; however, shivering is not required if heat conservation mechanisms raise blood temperature sufficiently. Heat production from the liver also increases. In humans, behavior (e.g., putting on more clothing or bedding) helps raise body temperature.",
+        "kr": "발열(fever)은 정상적인 일일 체온 변동 범위를 초과하는 체온 상승으로, 시상하부의 설정값(set point) 상승과 함께 발생한다(예: 37°C에서 39°C로). \"정상체온\" 상태에서 발열 상태로의 설정값 변화는 가정용 온도조절기를 더 높은 온도로 재설정하여 실내 온도를 올리는 것과 매우 유사하다. 시상하부 설정값이 상승하면 혈관운동중추의 뉴런이 활성화되어 혈관수축이 시작된다. 환자는 먼저 손과 발에서 혈관수축을 느끼게 된다. 말초에서 내부 장기로 혈액이 우회되면 피부를 통한 열 손실이 줄어들고, 사람은 추위를 느낀다. 대부분의 발열에서 체온은 1~2°C 상승한다. 이때 근육의 열 생성을 증가시키는 떨림이 시작될 수 있으나, 열 보존 기전만으로 혈액 온도가 충분히 상승하면 떨림이 반드시 필요하지는 않다. 간에서의 열 생성도 증가한다. 인간은 옷이나 이불을 더 덮는 등의 행동을 통해 체온 상승을 돕는다.",
+        "note": "발열 = 시상하부 set point의 상승. 가정용 온도조절기(thermostat) 비유가 시험에 자주 인용되는 핵심 문장이다. set point 상승 → 혈관수축(말단이 차가워짐) → 떨림/대사 증가의 순서를 기억할 것."
+      },
+      {
+        "en": "The processes of heat conservation (vasoconstriction) and heat production (shivering and increased metabolic activity) continue until the temperature of the blood bathing the hypothalamic neurons matches the new thermostat setting. Once that point is reached, the hypothalamus maintains the temperature at the febrile level by the same mechanisms of heat balance that are operative in the afebrile state. When the hypothalamic set point is again reset downward (due to either a reduction in the concentration of {{pyrogens}} or the use of {{antipyretics}}), the processes of heat loss through vasodilation and sweating are initiated.",
+        "kr": "열 보존(혈관수축)과 열 생성(떨림 및 대사 활동 증가) 과정은 시상하부 뉴런을 흐르는 혈액의 온도가 새로운 설정값에 도달할 때까지 계속된다. 그 지점에 도달하면, 시상하부는 발열이 없는 상태에서 작동하는 것과 동일한 열 균형 기전을 통해 발열 수준의 체온을 유지한다. 시상하부 설정값이 다시 낮아지면(발열물질 농도 감소 또는 해열제 사용으로 인해), 혈관확장과 발한을 통한 열 손실 과정이 시작된다.",
+        "note": "set point가 다시 내려가는 두 가지 원인: ① pyrogen 농도 감소 ② antipyretics(해열제) 사용. 이후 vasodilation + sweating으로 열을 방출한다."
+      },
+      {
+        "en": "Loss of heat by sweating and vasodilation continues until the blood temperature at the hypothalamic level matches the lower setting.",
+        "kr": "발한과 혈관확장을 통한 열 손실은 시상하부 수준의 혈액 온도가 낮아진 설정값에 도달할 때까지 계속된다.",
+        "note": null
+      },
+      {
+        "en": "A fever of >41.5°C is called {{hyperpyrexia}}. This extraordinarily high fever can develop in patients with severe infections but most commonly occurs in patients with central nervous system (CNS) hemorrhages. In the preantibiotic era, fever due to a variety of infectious diseases rarely exceeded 41°C, and there has been speculation that this natural \"thermal ceiling\" is mediated by neuropeptides functioning as central antipyretics.",
+        "kr": "41.5°C를 초과하는 발열은 고열(hyperpyrexia)이라고 한다. 이처럼 극도로 높은 발열은 중증 감염 환자에서도 발생할 수 있으나, 가장 흔하게는 중추신경계(CNS) 출혈 환자에서 나타난다. 항생제가 없던 시대에는 다양한 감염성 질환으로 인한 발열이 41°C를 넘는 경우가 드물었으며, 이러한 자연적인 \"체온 상한선\"이 중추 해열 작용을 하는 신경펩타이드에 의해 매개된다는 추측이 있다.",
+        "note": "hyperpyrexia(>41.5°C)의 가장 흔한 원인은 감염이 아니라 CNS hemorrhage라는 점이 시험 포인트."
+      },
+      {
+        "en": "The term {{pyrogen}} is used to describe any substance that causes fever. {{Exogenous}} pyrogens are derived from outside the patient; most are microbial products, microbial toxins, or whole microorganisms. The classic example of an exogenous pyrogen is the lipopolysaccharide (LPS) {{endotoxin}} produced by all gram-negative bacteria. Endotoxins are potent not only as pyrogens but also as inducers of various pathologic changes in gram-negative infections. Another group of potent bacterial pyrogens is produced by gram-positive organisms and includes the peptidoglycan of Staphylococcus aureus and the group A and B streptococcal toxins. The toxins produced by staphylococci and streptococci cause fever in experimental animals when injected intravenously at concentrations of <1 μg/kg of body weight. Endotoxin is a highly pyrogenic molecule in humans: a dose of 2 to 3 ng/kg produces fever and generalized symptoms of malaise in volunteers.",
+        "kr": "발열물질(pyrogen)은 발열을 유발하는 모든 물질을 가리키는 용어이다. 외인성 발열물질(exogenous pyrogen)은 환자 외부에서 유래하며, 대부분 미생물의 산물, 미생물 독소, 또는 미생물 자체이다. 외인성 발열물질의 대표적인 예는 모든 그람음성균이 생성하는 지질다당류(LPS) 내독소(endotoxin)이다. 내독소는 발열물질로서뿐 아니라 그람음성균 감염에서 다양한 병리적 변화를 유도하는 물질로도 작용한다. 또 다른 강력한 세균성 발열물질은 그람양성균이 생성하며, 황색포도상구균의 펩티도글리칸과 A군 및 B군 연쇄구균 독소가 이에 포함된다. 포도상구균과 연쇄구균이 생성하는 독소는 체중 kg당 1μg 미만의 농도로 정맥 투여 시 실험동물에서 발열을 유발한다. 내독소는 인체에서 매우 강력한 발열 유발 물질로, 체중 kg당 2~3ng의 용량만으로도 자원자에게 발열과 전반적인 권태감 증상을 유발한다.",
+        "note": "pyrogen의 분류: exogenous(외인성, 미생물 유래 — 대표例 LPS endotoxin) vs endogenous(다음 단락의 cytokine). 그람음성균=LPS endotoxin, 그람양성균=peptidoglycan/streptococcal toxin으로 짝지어 기억."
+      },
+      {
+        "en": "{{Cytokines}} are small proteins (molecular mass, 10,000 to 20,000 Da) that regulate immune, inflammatory, and hematopoietic processes. For example, stimulation of lymphocyte proliferation during an immune response to vaccination is the result of the cytokines interleukin (IL) 2, IL-4, and IL-6. Some cytokines cause fever and hence are called pyrogenic cytokines. From a historic point of view, the field of cytokine biology began in the 1940s with laboratory investigations into fever induction by products of activated leukocytes. These fever-producing molecules were called {{endogenous pyrogens}}. The known pyrogenic cytokines include IL-1, tumor necrosis factor alpha (TNF-α), and type I interferons (IFN-α and IFN-β).",
+        "kr": "사이토카인(cytokine)은 면역, 염증, 혈액 생성 과정을 조절하는 작은 단백질(분자량 10,000~20,000 Da)이다. 예를 들어, 백신 접종에 대한 면역 반응 중 림프구 증식 자극은 인터루킨(IL) 2, IL-4, IL-6 등의 사이토카인 작용에 의한 것이다. 일부 사이토카인은 발열을 유발하여 발열성 사이토카인이라 불린다. 역사적으로 사이토카인 생물학 분야는 1940년대 활성화된 백혈구의 산물에 의한 발열 유도 연구에서 시작되었다. 이러한 발열 유발 분자들은 내인성 발열물질(endogenous pyrogen)이라 불렸다. 알려진 발열성 사이토카인으로는 IL-1, 종양괴사인자 알파(TNF-α), 그리고 1형 인터페론(IFN-α 및 IFN-β)이 있다.",
+        "note": "내인성 발열물질(endogenous pyrogen) = 발열성 사이토카인(pyrogenic cytokine): IL-1, TNF-α, IFN-α/β. 기출에서 'IL-1, IL-6, TNF로 불리는 발열성 사이토카인을 ___라 한다' 형태로 자주 출제됨 → endogenous pyrogens."
+      },
+      {
+        "en": "The acutely ill patient with fever and rash often presents a diagnostic challenge for physicians. The distinctive appearance of an eruption in concert with a clinical syndrome may facilitate a prompt diagnosis and the institution of life-saving therapy or critical infection-control interventions.",
+        "kr": "발열과 발진을 동반한 급성 환자는 의사에게 진단상의 어려움을 안겨주는 경우가 많다. 발진(eruption)의 특징적인 양상이 임상 증후군과 함께 나타나면 신속한 진단과 생명을 구하는 치료, 또는 중요한 감염 관리 조치를 시행하는 데 도움이 될 수 있다.",
+        "note": "이 단락부터 'Fever and Rash' 섹션 — 발열+발진 환자의 접근법으로 주제가 전환된다."
+      },
+      {
+        "en": "A thorough history of patients with fever and rash includes the following relevant information: immune status, medications taken within the previous month, specific travel history, immunization status, exposure to domestic pets and other animals, history of animal or arthropod bites, existence of cardiac abnormalities, presence of {{prosthetic}} material, recent exposure to ill individuals, and exposure to sexually transmitted diseases. The history should also include the site of onset of the rash and its direction and rate of spread.",
+        "kr": "발열과 발진이 있는 환자의 철저한 병력 청취에는 다음과 같은 관련 정보가 포함되어야 한다: 면역 상태, 지난 한 달간 복용한 약물, 구체적인 여행력, 예방접종 상태, 가정용 애완동물 및 기타 동물과의 접촉, 동물이나 곤충에 물린 병력, 심장 이상 유무, 보철물 존재 여부, 최근 병에 걸린 사람과의 접촉, 성매개질환 노출 여부. 병력에는 발진이 시작된 부위와 퍼지는 방향 및 속도도 포함되어야 한다.",
+        "note": "병력 청취 항목 리스트 — 시험에서 단독으로 빈칸화되는 단어는 prosthetic(보철의) 정도. 나머지는 항목 자체를 묻기보다 어휘 문제로 잘 안 나옴."
+      },
+      {
+        "en": "A thorough physical examination entails close attention to the rash, with an assessment and precise definition of its salient features. First, it is critical to determine the type of lesions that make up the eruption. {{Macules}} are flat lesions defined by an area of changed color (i.e., an erythema). {{Papules}} are raised, solid lesions <5 mm in diameter; {{plaques}} are lesions >5 mm in diameter with a flat, plateau-like surface; and nodules are lesions >5 mm in diameter with a more rounded configuration.",
+        "kr": "철저한 신체 검진에는 발진에 대한 면밀한 관찰과 주요 특징의 정확한 평가 및 정의가 포함된다. 먼저, 발진을 구성하는 병변의 유형을 파악하는 것이 중요하다. 반점(macule)은 색이 변한 부위(즉, 홍반)로 정의되는 평평한 병변이다. 구진(papule)은 직경 5mm 미만의 솟아오른 단단한 병변이고, 판(plaque)은 직경 5mm를 초과하며 평평한 고원 모양의 표면을 가진 병변이며, 결절(nodule)은 직경 5mm를 초과하면서 더 둥근 모양을 가진 병변이다.",
+        "note": "피부 병변 분류 시작 — macule(평평+변색) / papule(<5mm 융기) / plaque(>5mm 평평융기) / nodule(>5mm 둥근융기). 크기(5mm)와 모양(flat vs round)으로 구분하는 게 핵심."
+      },
+      {
+        "en": "{{Wheals}} (urticaria, hives) are papules or plaques that are pale pink and may appear annular (ringlike) as they enlarge; classic (nonvasculitic) wheals are transient, lasting only 24 to 48 h in any defined area. {{Vesicles}} (<5 mm) and {{bullae}} (>5 mm) are circumscribed, elevated lesions containing fluid. {{Pustules}} are raised lesions containing {{purulent}} {{exudate}}; vesicular processes such as varicella or herpes simplex may evolve to pustules.",
+        "kr": "팽진(wheal, 두드러기, hives)은 옅은 분홍색의 구진 또는 판으로, 커지면서 환형(고리 모양)으로 보일 수 있다. 전형적인(혈관염이 아닌) 팽진은 일시적이며, 한 부위에서 24~48시간만 지속된다. 수포(vesicle, 5mm 미만)와 대수포(bulla, 5mm 초과)는 경계가 분명하고 솟아오른, 액체를 포함한 병변이다. 농포(pustule)는 화농성 삼출물을 포함한 솟아오른 병변으로, 수두나 단순포진 같은 수포성 과정이 농포로 진행될 수 있다.",
+        "note": "wheal=두드러기(일시적, 24-48h) / vesicle(<5mm 액체) vs bulla(>5mm 액체) / pustule=농(pus) 포함. 크기 기준 5mm가 반복적으로 분류 기준이 됨."
+      },
+      {
+        "en": "Nonpalpable {{purpura}} is a flat lesion that is due to bleeding into the skin; if <3 mm in diameter, the purpuric lesions are termed {{petechiae}}; if >3 mm, they are termed {{ecchymoses}}. Palpable purpura is a raised lesion that is due to inflammation of the vessel wall (vasculitis) with subsequent hemorrhage. An {{ulcer}} is a defect in the skin extending at least into the upper layer of the dermis, and an {{eschar}} is a necrotic lesion covered with a black crust. Other pertinent features of rashes include their configuration (i.e., annular or target), the arrangement of their lesions, and their distribution (i.e., central or peripheral).",
+        "kr": "비촉지성 자반(nonpalpable purpura)은 피부 내 출혈로 인한 평평한 병변으로, 직경 3mm 미만이면 점상출혈(petechiae), 3mm를 초과하면 반상출혈(ecchymoses)이라 한다. 촉지성 자반(palpable purpura)은 혈관벽의 염증(혈관염)과 이에 따른 출혈로 인한 솟아오른 병변이다. 궤양(ulcer)은 최소 진피 상층까지 이르는 피부의 결손이며, 가피(eschar)는 검은 딱지로 덮인 괴사성 병변이다. 발진의 그 외 주요 특징으로는 모양(예: 환형 또는 표적 모양), 병변의 배열, 분포(예: 중심성 또는 말단성)가 있다.",
+        "note": "purpura(자반, 출혈성) 3mm 기준으로 petechiae(<3mm)/ecchymoses(>3mm) 구분. palpable(촉지) purpura=vasculitis 동반. ulcer=결손, eschar=괴사+검은딱지."
+      }
+    ],
+    "footnotes": {
+      "hypothalamus": "시상하부. 체온조절중추가 위치한 뇌 영역. (강의자료에 뇌 구조 단면도 첨부 — 대뇌/시상하부/뇌하수체/소뇌/뇌간/척수 위치)",
+      "preoptic anterior hypothalamus": "전시각 시상하부. 시각교차전구역은 열 발산을 담당하고, 후방영역은 열 보존을 담당한다. (강의자료에 시상하부 단면도 첨부)",
+      "vasoconstriction": "혈관수축. set point가 올라가면 가장 먼저 일어나는 반응으로, 손발에서 먼저 느껴진다.",
+      "pyrogens": "발열원(pyrogen). 발열을 유발하는 물질. Substance or agent that produces fever.",
+      "antipyretics": "해열제(antipyretic). Any medicine that lowers body temperature.",
+      "hyperpyrexia": "초고열(hyperpyrexia). Extremely high fever, 41.5°C 초과.",
+      "pyrogen": "발열원. Substance or agent that produces fever.",
+      "Exogenous": "외인성(exogenous). 환자 외부에서 유래한 발열원.",
+      "endotoxin": "내독소. 그람음성균이 생성하는 LPS. 발열물질이자 병리적 변화 유도 물질.",
+      "Cytokines": "사이토카인. 면역/염증/혈액생성 과정을 조절하는 작은 단백질.",
+      "endogenous pyrogens": "내인성 발열물질. IL-1, TNF-α, IFN-α/β 등 발열성 사이토카인을 지칭.",
+      "prosthetic": "보철, 인공의. Prosthetic valve(인공판막), Prosthetic foot(의족) 등으로 활용.",
+      "Macules": "반점(macule). 색 변화로 정의되는 평평한 병변.",
+      "Papules": "구진(papule). 직경 5mm 미만의 솟아오른 단단한 병변.",
+      "plaques": "판(plaque). 직경 5mm 초과, 평평한 고원형 표면의 병변.",
+      "Wheals": "팽진(wheal, 두드러기/hives). 옅은 분홍색, 일시적(24-48시간)인 구진/판.",
+      "Vesicles": "소수포(vesicle). 5mm 미만, 액체를 포함한 경계가 분명한 융기 병변.",
+      "bullae": "대수포(bulla). 5mm 초과, 액체를 포함한 융기 병변.",
+      "Pustules": "농포(pustule). 화농성 삼출물을 포함한 솟아오른 병변.",
+      "purulent": "화농성의(purulent). 고름을 포함하는. = suppurative.",
+      "exudate": "삼출물(exudate). 염증 조직에서 혈관으로부터 서서히 배출되는 액체/세포 성분.",
+      "purpura": "자반(purpura). 피부 내 출혈로 인한 자홍색/적갈색 병변.",
+      "petechiae": "점상출혈(petechiae). 자반 중 직경 3mm 미만.",
+      "ecchymoses": "반상출혈(ecchymoses). 자반 중 직경 3mm 초과.",
+      "ulcer": "궤양(ulcer). 진피 상층까지 이르는 피부 결손.",
+      "eschar": "가피(eschar). 검은 딱지로 덮인 괴사성 병변."
+    },
+    "summary": {
+      "sections": [
+        {
+          "type": "narrative",
+          "heading": "체온조절 기전",
+          "html": "<p>체온은 <span class=\"term\" data-term=\"hypothalamus\">hypothalamus</span>가 두 입력 신호(말초 온도수용체, 혈액 온도)를 통합해 조절한다. 정상 범위에서는 대사로 생긴 과잉 열과 피부·폐를 통한 열 방출이 균형을 이룬다. 정상 구강체온은 평균 36.8±0.4°C이며 오전 6시에 가장 낮고 오후 4~6시에 가장 높은 일중 변동을 보인다.</p>"
+        },
+        {
+          "type": "table",
+          "heading": "발열의 단계별 기전",
+          "columns": [
+            "단계",
+            "기전",
+            "신체 반응"
+          ],
+          "rows": [
+            [
+              "set point 상승",
+              "37°C → 39°C로 시상하부 설정값이 올라감 (가정용 thermostat 비유)",
+              "—"
+            ],
+            [
+              "열 보존",
+              "<span class=\"term\" data-term=\"vasoconstriction\">vasoconstriction</span> 시작 (손발에서 먼저 느껴짐)",
+              "피부 열손실 감소, 추위 느낌"
+            ],
+            [
+              "열 생성",
+              "떨림(shivering) + 대사 활동 증가, 간 열생성 증가",
+              "체온 1~2°C 상승"
+            ],
+            [
+              "고원기",
+              "혈액온도가 새 set point에 도달하면 그 수준에서 유지",
+              "발열 상태 지속"
+            ],
+            [
+              "해열",
+              "<span class=\"term\" data-term=\"pyrogens\">pyrogen</span> 감소 또는 <span class=\"term\" data-term=\"antipyretics\">antipyretics</span> 사용 → set point 하강",
+              "혈관확장 + 발한으로 열 방출"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "발열원(pyrogen)의 분류",
+          "columns": [
+            "분류",
+            "유래",
+            "대표 예"
+          ],
+          "rows": [
+            [
+              "<span class=\"term\" data-term=\"Exogenous\">Exogenous</span> pyrogen",
+              "환자 외부 (미생물)",
+              "그람음성균의 <span class=\"term\" data-term=\"endotoxin\">endotoxin</span>(LPS), 그람양성균의 peptidoglycan/연쇄구균 독소"
+            ],
+            [
+              "<span class=\"term\" data-term=\"endogenous pyrogens\">Endogenous pyrogen</span>",
+              "환자 내부 (백혈구 산물)",
+              "<span class=\"term\" data-term=\"Cytokines\">pyrogenic cytokine</span>: IL-1, TNF-α, IFN-α/β"
+            ]
+          ]
+        },
+        {
+          "type": "narrative",
+          "heading": "고열 (hyperpyrexia)",
+          "html": "<p><span class=\"term\" data-term=\"hyperpyrexia\">Hyperpyrexia</span>는 41.5°C를 초과하는 발열로, 중증 감염보다 <strong>CNS 출혈</strong> 환자에서 더 흔하게 나타난다는 점이 시험에 자주 나오는 포인트다.</p>"
+        },
+        {
+          "type": "table",
+          "heading": "피부 병변 분류 (Fever and Rash)",
+          "columns": [
+            "병변",
+            "정의",
+            "크기/특징"
+          ],
+          "rows": [
+            [
+              "<span class=\"term\" data-term=\"Macules\">Macule</span> (반점)",
+              "색이 변한 평평한 병변 (erythema)",
+              "—"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Papules\">Papule</span> (구진)",
+              "솟아오른 단단한 병변",
+              "&lt;5mm"
+            ],
+            [
+              "<span class=\"term\" data-term=\"plaques\">Plaque</span> (판)",
+              "평평한 고원형 융기 병변",
+              "&gt;5mm"
+            ],
+            [
+              "Nodule (결절)",
+              "둥근 융기 병변",
+              "&gt;5mm"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Wheals\">Wheal</span> (팽진/두드러기)",
+              "옅은 분홍색 구진·판, 환형으로 커짐",
+              "일시적, 24~48시간"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Vesicles\">Vesicle</span> (소수포)",
+              "액체를 포함한 융기 병변",
+              "&lt;5mm"
+            ],
+            [
+              "<span class=\"term\" data-term=\"bullae\">Bulla</span> (대수포)",
+              "액체를 포함한 융기 병변",
+              "&gt;5mm"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Pustules\">Pustule</span> (농포)",
+              "<span class=\"term\" data-term=\"purulent\">purulent</span> <span class=\"term\" data-term=\"exudate\">exudate</span> 포함 융기 병변",
+              "수두·단순포진이 진행되어 발생 가능"
+            ],
+            [
+              "<span class=\"term\" data-term=\"petechiae\">Petechiae</span> (점상출혈)",
+              "비촉지성 <span class=\"term\" data-term=\"purpura\">purpura</span>",
+              "&lt;3mm"
+            ],
+            [
+              "<span class=\"term\" data-term=\"ecchymoses\">Ecchymoses</span> (반상출혈)",
+              "비촉지성 purpura",
+              "&gt;3mm"
+            ],
+            [
+              "<span class=\"term\" data-term=\"ulcer\">Ulcer</span> (궤양)",
+              "진피 상층까지 이르는 결손",
+              "—"
+            ],
+            [
+              "<span class=\"term\" data-term=\"eschar\">Eschar</span> (가피)",
+              "검은 딱지로 덮인 괴사성 병변",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "terms": {
+        "hypothalamus": "체온조절중추가 있는 뇌 영역. 말초 온도신호 + 혈액온도 신호를 통합한다.",
+        "vasoconstriction": "혈관수축. set point 상승 시 가장 먼저 일어나는 열 보존 반응.",
+        "pyrogens": "발열을 일으키는 모든 물질을 가리키는 용어.",
+        "antipyretics": "체온을 낮추는 약물. 해열제.",
+        "hyperpyrexia": "41.5°C를 초과하는 극도의 고열. 가장 흔한 원인은 CNS 출혈.",
+        "Exogenous": "환자 외부에서 유래한 (발열원의 경우 미생물 유래).",
+        "endotoxin": "그람음성균이 생성하는 LPS. 강력한 발열원이자 병리 유도 물질.",
+        "endogenous pyrogens": "체내에서 생성되는 발열성 사이토카인(IL-1, TNF-α, IFN 등)의 총칭.",
+        "Cytokines": "면역·염증·혈액생성을 조절하는 작은 단백질. 일부는 발열을 유발(pyrogenic cytokine).",
+        "Macules": "색 변화로 정의되는 평평한 병변(반점).",
+        "Papules": "5mm 미만의 솟아오른 단단한 병변(구진).",
+        "plaques": "5mm를 초과하는 평평한 고원형 병변(판).",
+        "Wheals": "일시적인(24~48시간) 분홍색 두드러기성 병변(팽진).",
+        "Vesicles": "5mm 미만, 액체를 포함한 병변(소수포).",
+        "bullae": "5mm 초과, 액체를 포함한 병변(대수포).",
+        "Pustules": "고름을 포함한 솟아오른 병변(농포).",
+        "purulent": "고름(pus)을 포함하는 성질.",
+        "exudate": "염증 조직에서 혈관으로부터 배출되는 액체·세포 성분(삼출물).",
+        "purpura": "피부 내 출혈로 인한 자홍색 병변(자반).",
+        "petechiae": "3mm 미만의 점상출혈.",
+        "ecchymoses": "3mm 초과의 반상출혈.",
+        "ulcer": "진피 상층까지 이르는 피부 결손(궤양).",
+        "eschar": "검은 딱지로 덮인 괴사성 병변(가피)."
+      }
+    }
+  },
+  "acute_abdomen": {
+    "id": "acute_abdomen",
+    "title": "Evaluation and Management of Acute Abdominal Pain in the Emergency Department",
+    "authors": "Christopher R Macaluso and Robert M McNamara",
+    "summaryHint": "응급실 복통 환자 평가 — PQRST, 통증 위치/양상/방사/경과/악화완화요인",
+    "paragraphs": [
+      {
+        "en": "Abdominal pain is the most common reason for a visit to the emergency department (ED), accounting for 8 million (7%) of the 119 million ED visits in 2006. Obviously, anyone practicing emergency medicine (EM) must be skilled in the assessment of abdominal pain. Although a common presentation (manifestation), abdominal pain must be approached in a serious manner, as it is often a symptom of serious disease and misdiagnosis may occur. Abdominal pain is the presenting issue in a high percentage of medicolegal actions against both general and pediatric EM physicians. The modern physician should be humbled by the fact that, despite diagnostic and therapeutic advances (computed tomography [CT], ultrasonography, and {{laparoscopy}}), the misdiagnosis rate of the most common surgical emergency, acute appendicitis, has changed little over time.",
+        "kr": "복통은 응급실(ED) 방문의 가장 흔한 이유로, 2006년 기준 총 1억 1,900만 건의 응급실 방문 중 800만 건(7%)을 차지한다. 응급의학(EM)을 실천하는 의사라면 누구나 복통 평가에 능숙해야 한다. 복통은 흔한 주소(manifestation)이지만, 심각한 질환의 증상일 수 있고 오진이 발생할 수 있으므로 진지하게 접근해야 한다. 복통은 일반 및 소아 응급의학과 의사에 대한 의료법적 소송에서 높은 비율을 차지하는 주제이다. CT, 초음파, 복강경(laparoscopy) 등 진단·치료 기술의 발전에도 불구하고, 가장 흔한 외과적 응급인 급성 충수염의 오진율은 시간이 지나도 크게 변하지 않았다는 사실은 현대 의사에게 겸허함을 요구한다.",
+        "note": "복통은 ED 방문의 7%를 차지하는 흔한 주소이지만, 진단 기술이 발전해도 충수염 오진율이 안 줄어든다는 게 이 서론의 핵심 메시지."
+      },
+      {
+        "en": "The clinician should try to obtain as complete a history as possible, as this is generally the cornerstone of an accurate diagnosis. The history should include a complete description of the patient's pain and associated symptoms. Medical, surgical, and social history should also be sought as this may provide important information.",
+        "kr": "임상의는 가능한 한 완전한 병력을 얻으려 노력해야 한다. 이는 정확한 진단의 초석이 된다. 병력에는 환자의 통증과 관련 증상에 대한 완전한 기술이 포함되어야 한다. 과거 병력, 수술력, 사회력도 중요한 정보를 제공할 수 있으므로 반드시 확인해야 한다.",
+        "note": null
+      },
+      {
+        "en": "The classic PQRST mnemonic for a complete pain history is as follows: P³ – Positional, palliating, and provoking factors / Q – Quality / R³ – Region, radiation, referral / S – Severity / T³ – Temporal factors (time and mode of onset, progression, previous episodes).",
+        "kr": "통증 병력을 완전히 파악하기 위한 고전적인 PQRST 기억법은 다음과 같다: P³ – 자세(Positional), 완화 요인(Palliating), 유발 요인(Provoking) / Q – 통증의 성질(Quality) / R³ – 부위(Region), 방사(Radiation), 연관통(Referral) / S – 중증도(Severity) / T³ – 시간적 요소(발병 시간 및 양상, 경과, 이전 삽화).",
+        "note": "PQRST 기억법 자체가 시험에서 구조를 묻는 단골 소재. P/Q/R/S/T 각각이 무엇의 약자인지 통째로 외워둘 것."
+      },
+      {
+        "en": "This mnemonic will help to ensure a thorough history, but rigidly following the above sequence does not allow for a smooth patient interview, so the authors prefer to ask the patient where they feel the pain (location), what kind of pain it is (character), when and how it began ({{onset}}), how bad it is (intensity), and where else they feel it, what makes it worse or better, how it has changed over time, and whether they have ever had it before.",
+        "kr": "이 기억법은 철저한 병력 청취에 도움이 되지만, 위 순서를 엄격하게 따르면 자연스러운 환자 면담이 어렵다. 따라서 저자들은 통증의 위치(location), 성질(character), 발병 시점과 양상(onset), 강도(intensity), 방사 부위, 악화·완화 요인, 시간에 따른 변화, 이전 경험 여부를 순서에 구애받지 않고 질문하는 방식을 선호한다.",
+        "note": "실제 저자들이 권장하는 순서: location → character → onset → intensity → radiation → provocative/palliating → progression → history. PQRST와 비교해서 알아둘 것."
+      },
+      {
+        "en": "{{Embryology}} determines where a patient will \"feel\" {{visceral}} pain, which is generally perceived in the midline because {{afferent}} impulses from visceral organs are poorly localized. Visceral {{nociceptors}} can be stimulated by distention, stretch, vigorous contraction, and {{ischemia}}.",
+        "kr": "발생학(embryology)은 환자가 내장 통증(visceral pain)을 어디서 느끼는지를 결정한다. 내장 기관에서 오는 구심성(afferent) 신호는 국소화가 잘 되지 않아, 내장 통증은 일반적으로 정중선(midline)에서 느껴진다. 내장 통각 수용기(nociceptor)는 팽창, 신장, 강한 수축, 허혈(ischemia)에 의해 자극될 수 있다.",
+        "note": "내장통(visceral pain)이 정중선에서 느껴지는 이유 = 발생학적 기원 + afferent 신호의 낮은 국소화. 이 원리가 다음 단락의 foregut/midgut/hindgut 구분의 토대가 된다."
+      },
+      {
+        "en": "Pain from foregut structures, which include the stomach, pancreas, liver, biliary system, and the proximal duodenum, will be typically localized to the {{epigastric}} region. The rest of the small bowel (intestine), and the proximal third of the colon including the appendix are {{midgut}} structures, and visceral pain associated with these organs is perceived in the periumbilical region. Hindgut structures such as the bladder, and distal two-thirds of the colon, as well as pelvic genitourinary organs usually cause pain in the suprapubic region. Pain is usually reported in the back for {{retroperitoneal}} structures such as the aorta and kidneys.",
+        "kr": "위, 췌장, 간, 담도계, 근위부(proximal) 십이지장을 포함하는 전장(foregut) 구조물에서 오는 통증은 주로 상복부(epigastric region)에 국소화된다. 충수를 포함한 소장의 나머지 부분과 결장 근위 1/3은 중장(midgut) 구조물로, 이 부위의 내장 통증은 배꼽 주위(periumbilical region)에서 느껴진다. 방광, 결장 원위 2/3, 골반 비뇨생식기 등 후장(hindgut) 구조물은 주로 치골 상부(suprapubic region)에 통증을 유발한다. 대동맥, 신장 등 후복막(retroperitoneal) 구조물의 통증은 대개 등(back)에서 보고된다.",
+        "note": "foregut(위·췌장·간·담도·근위 십이지장)→상복부 / midgut(소장 나머지+결장 근위 1/3+충수)→배꼽주위 / hindgut(방광+결장 원위 2/3+골반장기)→치골상부 / retroperitoneal(대동맥·신장)→등. 표로 정리해 외우면 효율적."
+      },
+      {
+        "en": "Clinicians should seek to distinguish between the dull, poorly localized, {{aching}}, or {{gnawing}} pain generated by viscerally innervated organs, compared with the characteristically \"sharp,\" more {{defined}} and {{localized}} {{somatic pain}} caused by irritation of the {{parietal peritoneum}} or other somatically innervated structures. Somatic pain is transmitted via the spinal nerves from the parietal peritoneum or {{mesodermal}} structures of the abdominal wall. Noxious stimuli to the parietal peritoneum may be inflammatory or chemical in nature (eg, blood, infected peritoneal fluid, and gastric contents).",
+        "kr": "임상의는 내장 신경이 지배하는 기관에서 발생하는 둔하고 국소화가 잘 안 되는 둔통(aching) 또는 쓰라리는 통증(gnawing)과, 벽쪽 복막(parietal peritoneum) 또는 체성 신경 지배 구조물의 자극으로 인한 특징적으로 \"날카로운(sharp)\" 체성 통증(somatic pain)을 구별해야 한다. 체성 통증은 벽쪽 복막 또는 복벽의 중배엽(mesodermal) 구조물에서 척수 신경을 통해 전달된다. 벽쪽 복막에 대한 유해 자극은 염증성 또는 화학적 성질(예: 혈액, 감염된 복막액, 위 내용물)일 수 있다.",
+        "note": "visceral pain(둔하고 국소화 안 됨, aching/gnawing) vs somatic pain(날카롭고 국소화 잘 됨, parietal peritoneum 자극). 이 대조가 통증 character 파악의 핵심."
+      },
+      {
+        "en": "Acute-onset pain, especially if severe, should prompt immediate concern about a potential intra-abdominal catastrophe. The foremost consideration would be a vascular emergency such as a ruptured abdominal aortic aneurysm (AAA) or aortic {{dissection}}. Other considerations for pain of acute onset include a perforated ulcer, {{volvulus}}, mesenteric ischemia, and torsion; however, these conditions may also occur without an acute onset.",
+        "kr": "급성 발병(acute onset)의 통증, 특히 심한 경우에는 복강 내 응급 상황의 가능성을 즉시 고려해야 한다. 가장 먼저 생각해야 할 것은 복부 대동맥류(AAA) 파열이나 대동맥 박리(aortic dissection) 같은 혈관 응급이다. 급성 발병 통증의 다른 원인으로는 천공성 궤양, 장염전(volvulus), 장간막 허혈(mesenteric ischemia), 염전(torsion) 등이 있다. 단, 이러한 질환들이 항상 급성 발병으로 나타나지는 않는다.",
+        "note": "급성 발병 통증 = 혈관응급(AAA 파열, aortic dissection)을 최우선으로 의심. 천공성 궤양/volvulus/mesenteric ischemia/torsion도 후보지만 급성 발병이 아닐 수도 있다는 단서가 다음 단락과 연결됨."
+      },
+      {
+        "en": "For example, only 47% of elderly patients with a proven perforated ulcer report the acute onset of pain. Likewise, volvulus, particularly of the sigmoid colon, can present with a gradual onset of pain. Serious vascular issues such as mesenteric ischemia may present with a gradual onset of pain. Conversely, one would expect a gradual onset in the setting of an infectious or inflammatory process. Pain that awakens the patient from sleep should be considered serious until proven otherwise. The time of onset establishes the duration of the pain and allows the physician to interpret the current findings in relation to the expected temporal progression of the various causes of abdominal pain.",
+        "kr": "예를 들어, 천공성 궤양이 확진된 노인 환자 중 급성 발병 통증을 보고하는 경우는 47%에 불과하다. 마찬가지로, S자 결장(sigmoid colon)의 장염전은 점진적 발병으로 나타날 수 있다. 장간막 허혈과 같은 심각한 혈관 문제도 점진적 발병으로 나타날 수 있다. 반면, 감염성 또는 염증성 과정에서는 점진적 발병이 예상된다. 수면 중 통증으로 깨는 경우는 다른 증거가 없는 한 심각한 상태로 간주해야 한다. 발병 시점은 통증의 지속 시간을 파악하고, 다양한 복통 원인의 예상되는 시간적 경과와 현재 소견을 연결하는 데 도움이 된다.",
+        "note": "주의: 위중한 질환(perforated ulcer 47%, volvulus, mesenteric ischemia)도 급성 발병이 아닐 수 있다는 반례. 수면 중 깨우는 통증은 항상 심각한 것으로 간주."
+      },
+      {
+        "en": "Pain that is severe should heighten the concern for a serious underlying cause; however, descriptions of milder pain cannot be relied on to exclude serious illness, especially in older patients who may under-report symptoms.",
+        "kr": "심한 통증은 심각한 기저 원인에 대한 우려를 높여야 한다. 그러나 증상을 과소 보고하는 경향이 있는 노인 환자에서는 특히, 경미한 통증이라는 기술만으로 심각한 질환을 배제할 수 없다.",
+        "note": "노인 환자는 증상을 과소 보고할 수 있어, 통증이 약하다고 해서 안심할 수 없다."
+      },
+      {
+        "en": "The neural pathways give rise to predictable patterns of referred pain and radiation. Kehr's sign is a classic example where diaphragmatic irritation, usually from {{free}} intraperitoneal blood, causes shoulder pain. Any other inflammatory process or organ contiguous to the diaphragm can also cause referred shoulder pain. Another well described example is {{ipsilateral}} scapula pain caused by biliary disease. Radiation may also reflect progression of disease such as with continued aortic dissection, or ongoing passage of a {{ureteral}} stone.",
+        "kr": "신경 경로는 예측 가능한 연관통(referred pain)과 방사통(radiation) 양상을 만들어낸다. Kehr 징후는 대표적인 예로, 복강 내 유리 혈액에 의한 횡격막 자극이 어깨 통증을 유발한다. 횡격막에 인접한 다른 염증 과정이나 장기도 연관 어깨 통증을 유발할 수 있다. 또 다른 잘 알려진 예는 담도(biliary) 질환에 의한 동측(ipsilateral) 견갑골 통증이다. 방사통은 지속되는 대동맥 박리나 요관 결석의 이동처럼 질병의 진행을 반영하기도 한다.",
+        "note": "Kehr's sign = 복강내 유리혈액 → 횡격막자극 → 어깨통증(연관통의 대표 예). 담도질환 → 동측 견갑골통증도 같은 원리. 둘 다 referred pain의 예시로 묶어서 기억."
+      },
+      {
+        "en": "While considering referred pain, it is important to remember that deep musculoskeletal structures (especially of the back) are innervated by visceral sensory fibers with similar qualities to those arising from intra-abdominal organs. These fibers converge in the spinal cord, giving rise to \"{{sclerotomes}}\": regions of referral in the abdomen and flanks. Thus, in cases where a patient's perceived location of symptoms appears to be completely unrevealing on physical exam, a careful assessment of musculoskeletal structures should be made.",
+        "kr": "연관통을 고려할 때, 특히 등의 심부 근골격계 구조물이 복강 내 장기에서 오는 것과 유사한 내장 감각 섬유의 지배를 받는다는 점을 기억해야 한다. 이 섬유들은 척수에서 수렴하여 복부와 옆구리의 연관 영역인 \"뼈분절(sclerotomes)\"을 형성한다. 따라서 환자가 호소하는 증상의 위치가 신체 검진에서 전혀 단서를 제공하지 못하는 경우, 근골격계 구조물에 대한 세심한 평가가 이루어져야 한다.",
+        "note": "sclerotomes(뼈분절) = 근골격계 구조물의 내장감각 섬유가 척수에서 수렴해 만드는 복부/옆구리 연관통 영역. 신체검진이 무의미할 때 근골격계를 살펴야 하는 이유."
+      },
+      {
+        "en": "If you have radiating pain that means that your pain begins in one place and travels to another location along the path of a nerve. Radiating pain typically stems from back pain with nerve irritation that causes pain down the leg, or neck pain with nerve pain into the arms and hands. Radiating pain follows specific nerves, while referred pain is more general and can occur in many places around an injured tissue. Referred pain is when the pain is located away from or adjacent to the organ involved; for instance, when a person with a {{myocardial infarction}} has pain only in their jaw or left arm, but not in the chest.",
+        "kr": "방사통(radiating pain)은 통증이 한 부위에서 시작하여 신경 경로를 따라 다른 위치로 이동하는 것을 의미한다. 방사통은 주로 신경 자극을 동반한 허리 통증이 다리로 내려가거나, 목 통증이 팔과 손으로 뻗치는 형태로 나타난다. 방사통은 특정 신경을 따르는 반면, 연관통(referred pain)은 더 광범위하며 손상된 조직 주변 여러 곳에서 나타날 수 있다. 연관통은 통증이 관련 장기와 떨어진 곳 또는 인접한 곳에서 느껴지는 것으로, 예를 들어 심근경색(myocardial infarction) 환자가 흉부가 아닌 턱이나 왼팔에서만 통증을 느끼는 경우가 이에 해당한다.",
+        "note": "radiating pain(특정 신경 경로를 따라 이동) vs referred pain(손상부위 인근 광범위하게 발생, 신경경로 무관). 심근경색의 턱/왼팔 통증 = referred pain의 대표 예. 기출 단골 대조 개념."
+      },
+      {
+        "en": "Persistent worsening pain is worrisome, while pain that is improving is typically favorable. Serious causes of abdominal pain generally present early in their course; however, delays in presentation can occur, especially in the elderly. Certain patterns of progression can be diagnostic, such as the migration of pain in {{appendicitis}} where the initial distention of the appendix causes a periumbilical visceral pain that shifts to the right lower quadrant once the inflammatory process is detected by the somatic sensors of the parietal peritoneum.",
+        "kr": "지속적으로 악화되는 통증은 우려스럽고, 호전되는 통증은 대개 좋은 신호이다. 복통의 심각한 원인은 일반적으로 초기에 발현되지만, 특히 노인에서는 발현이 지연될 수 있다. 특정 경과 양상은 진단적 의미를 가진다. 충수염에서의 통증 이동이 대표적인 예로, 초기에 충수의 팽창으로 배꼽 주위 내장 통증이 나타나다가, 염증 과정이 벽쪽 복막의 체성 감각기에 감지되면 우하복부(right lower quadrant)로 이동한다.",
+        "note": "충수염(appendicitis)의 전형적 통증 이동: periumbilical(내장통, 충수 팽창) → RLQ(체성통, 벽쪽 복막 자극). visceral→somatic 전환의 교과서적 예시로 시험에 자주 나옴."
+      },
+      {
+        "en": "Although labeled \"{{colic}}\", gallbladder pain is generally not {{paroxysmal}}, and it almost never lasts less than 1 hour, with an average of 5–16 hours' duration, and ranging up to 24 hours. Small bowel obstruction typically progresses from an intermittent (\"colicky\") pain to more constant pain when distention occurs. One would only expect somatic pain (arising from {{transmural}} ischemia or perforation contiguous to the parietal peritoneum) late in the course of a bowel obstruction.",
+        "kr": "\"산통(colic)\"이라고 불리지만, 담낭 통증은 일반적으로 발작성(paroxysmal)이 아니며, 거의 항상 1시간 이상 지속되고 평균 5~16시간, 최대 24시간까지 지속된다. 소장 폐색은 주로 간헐적(\"colicky\") 통증에서 팽창이 발생하면 더 지속적인 통증으로 진행된다. 장 폐색 경과 후반부에서야 벽쪽 복막에 인접한 전층 허혈(transmural ischemia)이나 천공으로 인한 체성 통증을 예상할 수 있다.",
+        "note": "주의할 함정: 담낭통증은 이름이 'colic'이지만 실제로는 paroxysmal(발작성)하지 않다 — 명칭과 실제 양상의 불일치. 소장폐색은 colicky→constant로 진행, 후반부에야 somatic pain 발생."
+      },
+      {
+        "en": "The clinician needs to ask what, if anything, makes the pain worse and what improves the pain. It is important to establish whether jarring motions such as coughing or walking exacerbate the pain, suggesting peritoneal {{irritation}}. Patients with peritonitis often remark on increased pain with jolts or bumps in the road. A recommended interview sequence would be \"how did you get here today? Tell me about the ambulance/car ride.\"",
+        "kr": "임상의는 무엇이 통증을 악화시키고 무엇이 완화시키는지 반드시 물어야 한다. 기침이나 걷기 같은 충격적 움직임이 통증을 악화시키는지 확인하는 것이 중요한데, 이는 복막 자극을 시사한다. 복막염 환자는 종종 도로의 충격이나 요철에서 통증이 심해진다고 말한다. 권장되는 면담 방식은 \"오늘 어떻게 여기 오셨나요? 구급차/차 타고 오시는 동안 어떠셨나요?\"라고 묻는 것이다.",
+        "note": "기침/보행 등 충격에 의한 통증 악화 = 복막 자극(peritoneal irritation) 시사. 차량 이동 중 통증 여부를 묻는 것이 실용적인 선별 질문."
+      },
+      {
+        "en": "With upper abdominal pain one should specifically ask whether it is pleuritic as this may signify chest disease. Peptic ulcer disease may be exacerbated (gastric) or relieved (duodenal) by eating. Mesenteric ischemia may be precipitated by eating, as can the pain of intermittently symptomatic gallstones, often associated with fatty meals. The patient should be questioned about any self treatments, particularly analgesics and antacids, and the response to these measures.",
+        "kr": "상복부 통증의 경우, 흉막성(pleuritic) 통증인지 특별히 확인해야 하는데 이는 흉부 질환을 시사할 수 있다. 소화성 궤양 질환은 식사에 의해 악화(위궤양)되거나 완화(십이지장궤양)될 수 있다. 장간막 허혈과 간헐적으로 증상이 있는 담석 통증도 식사, 특히 지방식에 의해 유발될 수 있다. 환자에게 자가 치료, 특히 진통제와 제산제 복용 여부 및 그 효과에 대해 반드시 질문해야 한다.",
+        "note": "식사와 통증의 관계: 위궤양(gastric ulcer)=식후 악화 / 십이지장궤양(duodenal ulcer)=식후 완화. 정반대로 짝지어 기억. 담석통/장간막허혈도 식사(특히 지방식)로 유발될 수 있음."
+      }
+    ],
+    "footnotes": {
+      "laparoscopy": "복강경검사(laparoscopy). 작은 절개를 통해 소형 스코프를 복부에 삽입하는 수술. laparo-(복부) + -scope(보는 기구).",
+      "onset": "발병(onset). 질병의 징후/증상이 처음 나타나는 시점. 시작.",
+      "Embryology": "발생학(embryology). 배아 및 태아 시기 장기 발생을 연구하는 학문. foregut/midgut/hindgut 구분의 근거가 됨.",
+      "visceral": "내장의(visceral). 체내 3대 공간(특히 복부)에 있는 큰 내부 장기를 가리킴.",
+      "afferent": "구심성(afferent). 말초에서 중추(심장/뇌)로 전도되는 방향. 반대말은 efferent(원심성).",
+      "nociceptors": "통각 수용기(nociceptor). 통증성 자극을 감지하는 감각 수용체.",
+      "ischemia": "허혈(ischemia). 동맥혈 공급 장애 또는 혈류 부족으로 조직이 저산소 상태가 되는 것.",
+      "epigastric": "상복부(epigastric region). 늑골연 사이, 최하단 늑골연을 가로지르는 선 위쪽의 복부 중앙 영역.",
+      "midgut": "중장(midgut). 위에서 대장까지 이어지는 위장관의 중간 부분.",
+      "retroperitoneal": "후복막의(retroperitoneal). 복막 뒤쪽/후방에 위치한.",
+      "aching": "둔통(aching). 둔하고 지속적인 통증을 유발하는 성질.",
+      "gnawing": "쓰라린 통증(gnawing). 둔하고 지속적인 통증의 감각.",
+      "defined": "경계가 분명한(defined). 윤곽이나 경계가 명확하게 드러나는.",
+      "localized": "국소의(localized). 전신성(generalized)과 대조되는 개념.",
+      "somatic pain": "체성 통증(somatic pain). 피부, 조직, 근육 통증을 포함하는 통각수용 통증의 한 유형.",
+      "parietal peritoneum": "벽쪽 복막(parietal peritoneum). 복부/골반 벽의 내면을 덮는 복막. parietal = 벽(wall).",
+      "mesodermal": "중배엽의(mesodermal). 3대 배엽 중 중간층으로, 근골격계·혈액·혈관·비뇨생식기계·결합조직(피부 진피 포함) 등을 만든다.",
+      "dissection": "박리(dissection). 대동맥의 경우 내벽이 찢어지는 것(aortic dissection).",
+      "volvulus": "장염전(volvulus). 위장이나 장이 뒤틀려 생기는 폐색.",
+      "ipsilateral": "동측의(ipsilateral). 신체의 같은 쪽에 관련된.",
+      "ureteral": "요관의(ureteral). 신장에서 방광으로 소변을 운반하는 관(ureter)에 관련된 형용사.",
+      "free": "유리된(free). 여기서는 'free intraperitoneal blood' = 복강 내에 고여있지 않고 자유롭게 퍼진 혈액.",
+      "sclerotomes": "뼈분절(sclerotome). 뼈, 인대, 관절 등 깊은 구조에서 오는 통증의 연관 영역.",
+      "myocardial infarction": "심근경색(myocardial infarction). 심장 근육의 비가역적 손상.",
+      "appendicitis": "충수염(appendicitis). 충수돌기의 염증. periumbilical→RLQ 통증 이동이 특징.",
+      "colic": "산통(colic). 급격한 발생과 소실을 특징으로 하는 간헐적 복통을 보이는 임상 증후군. 1.급통증 2.결장이라는 중의적 의미도 있음.",
+      "paroxysmal": "발작성의(paroxysmal). 갑작스럽고 통제할 수 없는 발작.",
+      "transmural": "전벽층의(transmural). 신체나 낭, 또는 모든 중공구조의 벽을 관통하는.",
+      "irritation": "자극(irritation). 비정상적이고 문제를 일으키는 자극."
+    },
+    "summary": {
+      "sections": [
+        {
+          "type": "narrative",
+          "heading": "병력 청취의 두 가지 틀: PQRST vs 저자 권장 순서",
+          "html": "<p>고전적인 PQRST 기억법(P³-자세/완화/유발, Q-성질, R³-부위/방사/연관통, S-중증도, T³-시간요소)은 철저하지만 면담 흐름을 끊는다. 저자들은 실제로는 <strong>위치 → 성질 → 발병(<span class=\"term\" data-term=\"onset\">onset</span>) → 강도 → 방사 → 악화/완화요인 → 경과 → 과거경험</strong> 순으로 자유롭게 묻는 방식을 선호한다.</p>"
+        },
+        {
+          "type": "table",
+          "heading": "통증의 위치 — 발생학적 구분 (Location)",
+          "columns": [
+            "구분",
+            "관련 장기",
+            "통증 부위"
+          ],
+          "rows": [
+            [
+              "Foregut",
+              "위, 췌장, 간, 담도계, 근위 십이지장",
+              "<span class=\"term\" data-term=\"epigastric\">상복부 (epigastric)</span>"
+            ],
+            [
+              "<span class=\"term\" data-term=\"midgut\">Midgut</span>",
+              "소장 나머지, 결장 근위 1/3, 충수",
+              "배꼽 주위 (periumbilical)"
+            ],
+            [
+              "Hindgut",
+              "방광, 결장 원위 2/3, 골반 비뇨생식기",
+              "치골 상부 (suprapubic)"
+            ],
+            [
+              "<span class=\"term\" data-term=\"retroperitoneal\">Retroperitoneal</span>",
+              "대동맥, 신장",
+              "등 (back)"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "통증의 성질 — 내장통 vs 체성통 (Character)",
+          "columns": [
+            "구분",
+            "특징",
+            "원인"
+          ],
+          "rows": [
+            [
+              "내장통 (visceral)",
+              "둔하고 국소화 안 됨 — <span class=\"term\" data-term=\"aching\">aching</span>, <span class=\"term\" data-term=\"gnawing\">gnawing</span>",
+              "내장 신경 지배 기관"
+            ],
+            [
+              "<span class=\"term\" data-term=\"somatic pain\">체성통 (somatic)</span>",
+              "날카로움(sharp), <span class=\"term\" data-term=\"defined\">defined</span> + <span class=\"term\" data-term=\"localized\">localized</span>",
+              "<span class=\"term\" data-term=\"parietal peritoneum\">parietal peritoneum</span> 또는 <span class=\"term\" data-term=\"mesodermal\">mesodermal</span> 구조물 자극"
+            ]
+          ]
+        },
+        {
+          "type": "narrative",
+          "heading": "발병 양상 (Onset)",
+          "html": "<p>급성 발병, 특히 심한 경우 혈관 응급(AAA 파열, 대동맥 <span class=\"term\" data-term=\"dissection\">dissection</span>)을 최우선으로 고려한다. 단, 천공성 궤양(노인의 47%만 급성 발병 보고), <span class=\"term\" data-term=\"volvulus\">volvulus</span>, 장간막 허혈은 <strong>점진적 발병</strong>으로도 나타날 수 있다는 함정에 주의. 수면 중 통증으로 깨는 경우는 항상 심각하게 간주한다.</p>"
+        },
+        {
+          "type": "table",
+          "heading": "연관통 vs 방사통 (Radiation and Referral)",
+          "columns": [
+            "용어",
+            "정의",
+            "예시"
+          ],
+          "rows": [
+            [
+              "Referred pain (연관통)",
+              "통증이 관련 장기에서 떨어진 곳/인접한 곳에서 느껴짐",
+              "Kehr's sign(횡격막자극→어깨통증), <span class=\"term\" data-term=\"myocardial infarction\">심근경색</span>의 턱/왼팔 통증, 담도질환의 <span class=\"term\" data-term=\"ipsilateral\">동측</span> 견갑골 통증"
+            ],
+            [
+              "Radiating pain (방사통)",
+              "한 부위에서 시작해 특정 신경 경로를 따라 이동",
+              "허리→다리, 목→팔/손, <span class=\"term\" data-term=\"ureteral\">요관</span> 결석 이동"
+            ]
+          ]
+        },
+        {
+          "type": "narrative",
+          "heading": "경과와 진행 (Duration and Progression)",
+          "html": "<p>충수염(<span class=\"term\" data-term=\"appendicitis\">appendicitis</span>)의 통증 이동(periumbilical 내장통 → RLQ 체성통)이 진행 양상의 대표 예다. 담낭통은 \"<span class=\"term\" data-term=\"colic\">colic</span>\"이라 불리지만 실제로는 <span class=\"term\" data-term=\"paroxysmal\">paroxysmal</span>하지 않으며 평균 5~16시간 지속된다. 소장폐색은 간헐적(colicky) 통증에서 시작해 팽창과 함께 지속통으로 진행하며, <span class=\"term\" data-term=\"transmural\">transmural</span> 허혈/천공에 의한 체성통은 경과 후반부에만 나타난다.</p>"
+        },
+        {
+          "type": "table",
+          "heading": "악화·완화 요인 (Provocative and Palliating Factors)",
+          "columns": [
+            "요인",
+            "내용"
+          ],
+          "rows": [
+            [
+              "기침/보행 시 악화",
+              "복막 <span class=\"term\" data-term=\"irritation\">irritation</span> 시사 (복막염 환자는 차량 요철에 통증 악화)"
+            ],
+            [
+              "식사 — 위궤양",
+              "악화 (gastric ulcer worsens with eating)"
+            ],
+            [
+              "식사 — 십이지장궤양",
+              "완화 (duodenal ulcer relieved by eating)"
+            ],
+            [
+              "지방식",
+              "장간막 허혈, 간헐적 담석통 유발 가능"
+            ]
+          ]
+        }
+      ],
+      "terms": {
+        "onset": "통증이 시작된 시점과 양상.",
+        "epigastric": "상복부 영역. foregut 장기(위·췌장·간·담도·근위십이지장) 통증의 위치.",
+        "midgut": "위장관 중간 부분(소장 나머지, 결장 근위 1/3, 충수). 통증은 배꼽 주위에서 느껴짐.",
+        "retroperitoneal": "복막 뒤쪽에 위치. 대동맥·신장 통증은 등에서 느껴짐.",
+        "aching": "둔하고 지속적인 통증.",
+        "gnawing": "쓰라리고 둔한 통증 감각.",
+        "somatic pain": "날카롭고 국소화가 잘 되는 통증. 벽쪽 복막 자극이 원인.",
+        "defined": "경계가 분명한, 명확한.",
+        "localized": "국소화된. 전신성(generalized)과 대조.",
+        "parietal peritoneum": "벽쪽 복막. 체성통 발생의 주요 부위.",
+        "mesodermal": "중배엽 기원의 구조물(근골격계 등).",
+        "dissection": "대동맥 내벽이 찢어지는 것. 혈관 응급의 대표 예.",
+        "volvulus": "위장/장의 뒤틀림에 의한 폐색. 점진적 발병 가능.",
+        "myocardial infarction": "심근경색. referred pain의 대표 예(턱/왼팔 통증).",
+        "ipsilateral": "신체의 같은 쪽. 담도질환의 견갑골 통증 위치 설명에 사용.",
+        "ureteral": "요관에 관련된. 결석 이동 시 방사통 발생.",
+        "appendicitis": "충수염. periumbilical에서 RLQ로 통증이 이동하는 대표 예.",
+        "colic": "간헐적 복통을 특징으로 하는 임상 증후군. 담낭통은 이름과 달리 paroxysmal하지 않음.",
+        "paroxysmal": "갑작스럽고 통제 불가능한 발작성의.",
+        "transmural": "벽을 관통하는. 전층 허혈/천공의 통증은 경과 후반부에 발생.",
+        "irritation": "자극. 기침/보행 시 통증 악화는 복막 자극을 시사."
+      }
+    }
+  },
+  "abdominal_pain": {
+    "id": "abdominal_pain",
+    "title": "Abdominal Pain",
+    "authors": "Mayo Clinic Staff",
+    "summaryHint": "복통의 시간경과(acute/chronic/progressive) 분류와 각 분류별 원인 질환",
+    "paragraphs": [
+      {
+        "en": "Everyone experiences abdominal pain from time to time. Other terms used to describe abdominal pain are stomachache, tummy ache, gut ache and bellyache. Abdominal pain can be mild or severe. It may be continuous or come and go. Abdominal pain can be short-lived ({{acute}}) or occur over weeks, months or years ({{chronic}}).",
+        "kr": "누구나 때때로 복통을 경험한다. 복통을 표현하는 다른 용어로는 stomachache(위장통), tummy ache(배앓이), gut ache(장통), bellyache(배탈) 등이 있다. 복통은 경미하거나 심할 수 있으며, 지속적으로 나타나거나 왔다 갔다 할 수 있다. 복통은 단기간에 끝나는 급성(acute)이거나, 몇 주·몇 달·수년에 걸쳐 나타나는 만성(chronic)일 수 있다.",
+        "note": "acute(급성, short-lived) vs chronic(만성, 장기간 지속)의 정의가 기출 단골 — 'having a short and relatively severe course'=acute, 'persisting over a long period of time'=chronic."
+      },
+      {
+        "en": "Call your doctor right away if you have abdominal pain so severe that you can't move without causing more pain, or you can't sit still or find a comfortable position.",
+        "kr": "움직일 때마다 통증이 악화되거나, 가만히 앉아 있지 못하거나 편한 자세를 찾을 수 없을 정도로 복통이 심하다면 즉시 의사에게 연락해야 한다.",
+        "note": null
+      },
+      {
+        "en": "Seek immediate medical help if pain is accompanied by other worrisome signs and symptoms, including: severe pain, fever, bloody stools, persistent {{nausea}} and {{vomiting}}, weight loss, skin that appears yellow, severe {{tenderness}} when you touch your abdomen, or swelling of the abdomen.",
+        "kr": "다음과 같은 징후(sign)나 증상(symptom)이 복통과 함께 나타난다면 즉시 의료 도움을 받아야 한다: 극심한 통증, 발열, 혈변, 지속적인 구역(nausea)과 구토(vomiting), 체중 감소, 황달성 피부색, 복부 압통(tenderness), 복부 팽만.",
+        "note": "응급 신호 목록 중 nausea(구역 — 주관적 느낌), vomiting(구토 — 실제 배출), tenderness(압통 — 만지면 아픈 것)는 정의가 자주 출제됨."
+      },
+      {
+        "en": "Abdominal pain has many potential causes. The most common causes — such as gas pains, {{indigestion}} or a pulled muscle — usually aren't serious. Other conditions may require more-urgent medical attention.",
+        "kr": "복통에는 다양한 잠재적 원인이 있다. 가장 흔한 원인인 가스통, 소화불량(indigestion), 근육 긴장(pulled muscle) 등은 대개 심각하지 않다. 하지만 일부 상태는 더 긴급한 의료적 처치가 필요하다.",
+        "note": null
+      },
+      {
+        "en": "While the location and pattern of abdominal pain can provide important clues, its time course is particularly useful when determining its cause.",
+        "kr": "복통의 위치와 양상이 중요한 단서를 제공하기도 하지만, 통증의 시간적 경과(time course)가 원인 파악에 특히 유용하다.",
+        "note": "이 본문 전체의 핵심 분류 기준 = time course(시간적 경과): acute / chronic(intermittent, episodic) / progressive 세 가지로 나뉜다."
+      },
+      {
+        "en": "Acute abdominal pain develops, and often resolves, over a few hours to a few days. Chronic abdominal pain may be intermittent, or {{episodic}}, meaning it may come and go. This type of pain may be present for weeks to months, or even years. Some conditions cause {{progressive}} pain, which steadily gets worse over time.",
+        "kr": "급성(acute) 복통은 수 시간에서 수 일에 걸쳐 발생하고 대개 그 안에 해결된다. 만성(chronic) 복통은 간헐적(intermittent) 또는 삽화성(episodic)으로 왔다 갔다 하는 양상을 보인다. 이 유형은 수 주에서 수 개월, 혹은 수 년간 지속될 수 있다. 일부 질환은 시간이 지남에 따라 지속적으로 악화되는 진행성(progressive) 통증을 유발한다.",
+        "note": "세 분류의 시간 기준: acute=수시간~수일(대개 해소됨) / chronic=수주~수년(간헐적·삽화적, 악화되지 않을 수 있음) / progressive=시간이 갈수록 꾸준히 악화."
+      },
+      {
+        "en": "The various conditions that cause acute abdominal pain are usually accompanied by other symptoms and develop over hours to days. Causes can range from minor conditions that resolve without any treatment to serious medical emergencies, including: Abdominal {{aneurysm}} — a sac formed by the dilatation of the wall of an artery, vein, or heart. Physical signs include {{pulsating}} tumor formation and often a {{bruit}} heard over the swelling, sometimes with symptoms from pressure on contiguous parts.",
+        "kr": "급성 복통을 유발하는 다양한 질환들은 대개 다른 증상들을 동반하며 수 시간에서 수 일에 걸쳐 발생한다. 원인은 치료 없이 자연 소실되는 경미한 상태에서부터 심각한 응급 상황까지 다양하다. 복부 대동맥류(Abdominal aortic aneurysm) — 동맥·정맥·심장 벽의 확장으로 형성된 주머니 모양의 구조물이다. 신체 징후로는 박동성 종괴 형성과 팽창 부위에서 청취되는 잡음(bruit)이 있으며, 인접 구조물에 대한 압박 증상이 동반될 수 있다.",
+        "note": "aneurysm(동맥류)의 정의와 신체 징후(pulsating mass + bruit)는 정의형 기출로 자주 등장."
+      },
+      {
+        "en": "Appendicitis — inflammation of the appendix. {{Cholangitis}} (bile duct inflammation). {{Cholecystitis}} (gallbladder inflammation). {{Cystitis}} — urinary bladder inflammation. {{Diabetic ketoacidosis}} — high levels of blood acids called {{ketones}}.",
+        "kr": "충수염(Appendicitis) — 충수돌기의 염증이다. 담관염(Cholangitis) — 쓸개관의 염증. 담낭염(Cholecystitis) — 쓸개주머니의 염증. 방광염(Cystitis) — 요방광의 염증. 당뇨병성 케톤산증(Diabetic ketoacidosis) — 케톤이라 불리는 혈중 산이 과도하게 높은 상태.",
+        "note": "Acute causes ① — '~염(-itis)' 계열 용어는 어근(chol/e=담즙, angi/o=관, cholecyst=담낭, cyst=방광)으로 풀어서 외우면 빠르다."
+      },
+      {
+        "en": "{{Diverticulitis}} — a small bulging sac (diverticulum) pushing outward from the intestine wall that becomes inflamed. They occur most commonly near the end of the left side of the colon (sigmoid colon). Duodenitis — inflammation in the first part of the small intestine. {{Ectopic}} pregnancy — implantation of a fertilized egg in an abnormal location outside the uterus. Fecal impaction — hardened stool that cannot be eliminated.",
+        "kr": "게실염(Diverticulitis) — 장벽 바깥쪽으로 돌출된 작은 주머니(게실)가 염증을 일으킨 상태로, 대장의 왼쪽 끝(S자 결장)에 가장 흔히 발생한다. 십이지장염(Duodenitis) — 소장의 첫 번째 부분의 염증. 자궁외임신(Ectopic pregnancy) — 수정란이 자궁 외부의 비정상적 위치에 착상된 상태. 분변매복(Fecal impaction) — 배출되지 못하고 굳어버린 대변.",
+        "note": "Acute causes ② — diverticulitis(게실염, S자 결장에 흔함), ectopic pregnancy('비정상 위치 착상'으로 출제됨)."
+      },
+      {
+        "en": "Intussusception — a telescoping of one portion of the intestine into another, resulting in reduced blood supply to the affected portion. It is seen almost exclusively in children. Kidney infection (pyelonephritis), Kidney stones (nephrolithiasis) — formation of calculi within the kidney.",
+        "kr": "장중첩증(Intussusception) — 장의 한 부분이 다른 부분 안으로 망원경처럼 겹쳐 들어가는 상태로, 해당 부위의 혈액 공급이 감소한다. 거의 소아에서만 발생한다. 신우신염(Pyelonephritis), 신장결석(Nephrolithiasis) — 신장 내에 결석이 형성된 상태.",
+        "note": "Intussusception(장중첩증)은 소아에 거의 국한된다는 점이 빈출 포인트."
+      },
+      {
+        "en": "Liver abscess (pus-filled pocket in the liver), {{Mesenteric}} ischemia (decreased blood flow to the intestines), Mesenteric lymphadenitis (swollen lymph nodes in the mesentery), Mesenteric {{thrombosis}} (blood clot in a vein carrying blood from the intestines).",
+        "kr": "간농양(Liver abscess, 간 내 고름 주머니), 장간막 허혈(Mesenteric ischemia, 장으로의 혈류 감소), 장간막 림프절염(Mesenteric lymphadenitis), 장간막 혈전증(Mesenteric thrombosis, 장 정맥의 혈전)이다.",
+        "note": "mesenteric 계열 3가지 구분: ischemia(혈류감소)/lymphadenitis(림프절염증)/thrombosis(정맥 혈전). thrombosis는 '혈전증' 단독으로도 자주 출제."
+      },
+      {
+        "en": "Pancreatitis (pancreas inflammation), Pericarditis (inflammation of the tissue around the heart), Peritonitis (infection of the abdominal lining), Pleurisy (inflammation of the membrane surrounding the lungs), Pneumonia, Pulmonary {{infarction}} (loss of blood flow to the lungs), Ruptured spleen, {{Salpingitis}} (inflammation of the fallopian tubes), {{Sclerosing}} mesenteritis (fibrosis from inflammation of mesentery), {{Shingles}} (herpes zoster).",
+        "kr": "췌장염(Pancreatitis), 심낭염(Pericarditis), 복막염(Peritonitis), 흉막염(Pleurisy), 폐렴(Pneumonia), 폐경색(Pulmonary infarction), 비장 파열(Ruptured spleen), 난관염(Salpingitis), 경화성 장간막염(Sclerosing mesenteritis), 대상포진(Shingles/Herpes zoster)이다.",
+        "note": "Acute causes 마지막 묶음 — pericarditis/peritonitis/pleurisy처럼 발음이 비슷한 '~itis' 용어들을 구분해서 외울 것. salpingitis(난관염)도 정의형으로 자주 출제."
+      },
+      {
+        "en": "The specific cause of chronic abdominal pain is often difficult to determine. Symptoms may range from mild to severe, coming and going but not necessarily worsening over time. Conditions that may cause chronic abdominal pain include: {{Angina pectoris}} — chest pain that occurs secondary to the reduced blood flow to the heart. Occurs when partial coronary artery occlusion restricts blood supply during exertion or excitement.",
+        "kr": "만성 복통의 구체적인 원인을 파악하는 것은 종종 어렵다. 증상은 경미한 것에서 심각한 것까지 다양하며, 반복적으로 나타나지만 반드시 시간이 지남에 따라 악화되지는 않는다. 협심증(Angina pectoris) — 심장으로의 혈류 감소로 인한 흉통이다. 심장 동맥의 부분 폐색으로 평소에는 증상이 없으나, 운동이나 흥분 시 심장에 혈액이 충분히 공급되지 않아 발생한다.",
+        "note": "Chronic causes ① — angina pectoris(협심증) 정의는 'chest pain secondary to reduced blood flow to the heart'로 빈출."
+      },
+      {
+        "en": "{{Celiac disease}} — a chronic disorder of the digestive tract resulting in an inability to tolerate gluten. {{Endometriosis}} — a condition in which functional endometrial tissue is present outside the uterus. Gallstones, Gastritis (inflammation of the stomach lining), Gastroesophageal reflux disease (GERD).",
+        "kr": "셀리악병(Celiac disease) — 글루텐 불내성을 특징으로 하는 만성 소화기 질환이다. 자궁내막증(Endometriosis) — 기능성 자궁내막 조직이 자궁 외부에 존재하는 상태이다. 담석증(Gallstones), 위염(Gastritis), 위식도역류질환(GERD)이다.",
+        "note": "Chronic causes ② — celiac disease(글루텐 불내성), endometriosis('자궁 외부의 기능성 자궁내막조직'으로 정의 출제)."
+      },
+      {
+        "en": "{{Hiatal}} hernia — abnormal exit of tissue or an organ through the wall of the cavity in which it normally resides, occurring at the hiatus (opening) in the diaphragm. Inguinal hernia, Irritable bowel {{syndrome}}, Mittelschmerz (pain associated with ovulation), Nonulcer stomach pain, Ovarian cysts.",
+        "kr": "열공 탈장(Hiatal hernia) — 정상적으로 위치해야 할 체강 벽을 통해 조직이나 장기가 비정상적으로 빠져나온 상태로, 횡격막의 열공(구멍)을 통해 발생한다. 서혜부 탈장(Inguinal hernia), 과민성 대장 증후군(Irritable bowel syndrome), 중간통(Mittelschmerz), 비궤양성 위통(Nonulcer stomach pain), 난소 낭종(Ovarian cysts).",
+        "note": "Chronic causes ③ — hernia(탈장)의 일반적 정의 'abnormal exit of tissue/organ through the wall of the cavity'가 정의형으로 출제됨."
+      },
+      {
+        "en": "Pelvic inflammatory disease (PID) — infection of the female reproductive organs. {{Peptic}} ulcer — related to the action of gastric juices on the digestive tract lining. Sickle cell anemia, {{Strained}} or pulled abdominal muscle, Ulcerative colitis (a type of inflammatory bowel disease [IBD]).",
+        "kr": "골반 염증성 질환(PID) — 여성 생식기관의 감염이다. 소화성 궤양(Peptic ulcer) — 위산 등 소화액의 작용으로 소화관 내막이 손상된 상태이다. 겸상 적혈구 빈혈(Sickle cell anemia), 복부 근육 긴장 또는 파열, 궤양성 대장염(Ulcerative colitis, 염증성 장질환[IBD]의 일종)이다.",
+        "note": "Chronic causes 마지막 — PID('infection of the female reproductive organs'), ulcerative colitis(IBD의 일종으로 분류되는 점 기억)."
+      },
+      {
+        "en": "Abdominal pain that steadily worsens over time, often accompanied by the development of other symptoms, is usually serious. Causes of progressive abdominal pain include: Cancer, Crohn's disease (a type of inflammatory bowel disease), Enlarged spleen (splenomegaly), Gallbladder cancer, {{Hepatitis}} (liver inflammation), Kidney cancer, Lead poisoning, Liver cancer.",
+        "kr": "시간이 지남에 따라 지속적으로 악화되는 복통은 다른 증상을 동반하는 경우가 많으며, 대개 심각한 상태를 의미한다. 암(Cancer), 크론병(Crohn's disease), 비장 비대(Splenomegaly), 담낭암(Gallbladder cancer), 간염(Hepatitis), 신장암(Kidney cancer), 납 중독(Lead poisoning), 간암(Liver cancer)이다.",
+        "note": "Progressive causes ① — hepatitis(간염, 'liver inflammation'으로 정의형 출제). Crohn's disease도 IBD의 일종(앞서 본 ulcerative colitis는 chronic 분류, Crohn's는 progressive 분류라는 점에 주의)."
+      },
+      {
+        "en": "Non-Hodgkin's lymphoma (malignant tumor of the lymphatic system), Pancreatic cancer, Stomach cancer, Tubo-ovarian abscess (pus-filled pocket involving a fallopian tube and an ovary), {{Uremia}} (retention or buildup of renal waste products in the blood).",
+        "kr": "비호지킨 림프종(Non-Hodgkin's lymphoma, 림프계의 악성 종양), 췌장암(Pancreatic cancer), 위암(Stomach cancer), 난관-난소 농양(Tubo-ovarian abscess), 요독증(Uremia, 혈중에 신장의 노폐물이 축적된 상태)이다.",
+        "note": "Progressive causes 마지막 — uremia(요독증, '혈중 신장노폐물 축적'으로 정의형 출제), Non-Hodgkin's lymphoma('malignant tumor of the lymphatic system'으로 정의형 출제) 둘 다 빈출."
+      }
+    ],
+    "footnotes": {
+      "acute": "급성(acute). Having a short and relatively severe course. 짧고 비교적 심한 경과.",
+      "chronic": "만성(chronic). Persisting over a long period of time. 장기간 지속되는.",
+      "nausea": "구역, 오심(nausea). The subjective feeling of a need to vomit. 토하고 싶은 주관적 느낌.",
+      "vomiting": "구토(vomiting). The oral expulsion of gastrointestinal contents due to gut and thoracoabdominal wall contractions.",
+      "tenderness": "압통(tenderness). The development of pain with the application of light touch (palpation) to a specific area. 만지면(촉진) 통증이 발생하는 것. (관련) rebound tenderness=반동압통: 누르던 손을 뗄 때 느끼는 통증.",
+      "indigestion": "소화불량(indigestion). 오심, 구토, 속쓰림, 역류, dyspepsia를 포괄하는 비특이적 상복부 불편감 용어.",
+      "episodic": "간헐적인(episodic). 불규칙한 간격으로 발생하거나 나타나는.",
+      "progressive": "진행성(progressive). Advancing, going from bad to worse, increasing in scope or severity.",
+      "aneurysm": "동맥류(aneurysm). A sac formed by the dilatation of the wall of an artery, a vein or the heart.",
+      "pulsating": "박동성의(pulsating). 심장박동처럼 주기적으로 확장·수축하는.",
+      "bruit": "잡음(bruit). 동맥/혈관에서 들리는 예상치 못한 swishing 소리. 부분 폐색에 의한 혈류 난류를 시사.",
+      "Cholangitis": "담관염(cholangitis). chol/e(담즙) + angi/o(관) + -itis(염증) = 쓸개관의 염증.",
+      "Cholecystitis": "담낭염(cholecystitis). cholecyst(담낭) + -itis(염증) = 쓸개주머니의 염증.",
+      "Cystitis": "방광염(cystitis). 요방광의 염증.",
+      "Diabetic ketoacidosis": "당뇨병성 케톤산증. 혈중 케톤(지방대사 부산물) 농도가 과도하게 높아진 심각한 대사 이상.",
+      "ketones": "케톤체(ketones). 지방 대사의 부산물. 혈중 과다 축적 시 당뇨병성 케톤산증을 유발.",
+      "Diverticulitis": "게실염(diverticulitis). 장벽 바깥으로 돌출된 게실(diverticulum)에 염증이 생긴 상태. S자 결장에 호발.",
+      "Ectopic": "딴곳의, 위치이상의(ectopic). 정상 위치가 아닌 곳에 존재하는. Ectopic pregnancy=자궁외임신.",
+      "Mesenteric": "장간막의(mesenteric). 장과 그 부속물을 후복벽에 연결하는 막(mesentery)에 관련된.",
+      "thrombosis": "혈전증(thrombosis). 혈관(주로 정맥) 내 혈전 형성.",
+      "infarction": "경색(infarction). 국소적 산소 결핍으로 인한 조직 괴사 영역의 형성.",
+      "Salpingitis": "난관염(salpingitis). Salpinx(난관)의 염증.",
+      "Sclerosing": "경화성의(sclerosing). Sclero-(경화, hardness)에서 유래.",
+      "Shingles": "대상포진(shingles). = herpes zoster.",
+      "Angina pectoris": "협심증(angina pectoris). 심장동맥의 부분 폐쇄로 운동/흥분 시 발생하는 흉통.",
+      "Celiac disease": "셀리악병(celiac disease). 글루텐 불내성을 특징으로 하는 만성 소화기 질환.",
+      "Endometriosis": "자궁내막증(endometriosis). 기능성 자궁내막 조직이 자궁 외부에 존재하는 상태.",
+      "Hiatal": "열공의(hiatal). Hiatus(틈새, 구멍)에서 유래. Hiatal hernia=열공탈장.",
+      "syndrome": "증후군(syndrome). 함께 발생하여 하나의 질환/상태를 가리키는 징후·증상의 집합.",
+      "Peptic": "소화성의(peptic). Pepsin 또는 소화 작용과 관련된. Peptic ulcer=소화성 궤양.",
+      "Strained": "긴장된, 과도긴장된(strained). 근육에 외력이 가해져 손상된 상태(=muscle strain).",
+      "Hepatitis": "간염(hepatitis). 간의 염증.",
+      "Uremia": "요독증(uremia). 신장 노폐물이 혈중에 축적된 상태."
+    },
+    "summary": {
+      "sections": [
+        {
+          "type": "narrative",
+          "heading": "복통의 시간경과 분류",
+          "html": "<p>복통은 위치·양상보다 <strong>시간적 경과(time course)</strong>로 분류하는 것이 원인 파악에 더 유용하다. <span class=\"term\" data-term=\"acute\">Acute</span>(급성), <span class=\"term\" data-term=\"chronic\">Chronic</span>(만성, intermittent/<span class=\"term\" data-term=\"episodic\">episodic</span>), <span class=\"term\" data-term=\"progressive\">Progressive</span>(진행성) 세 가지로 나뉜다.</p>"
+        },
+        {
+          "type": "table",
+          "heading": "세 가지 시간경과 분류",
+          "columns": [
+            "분류",
+            "정의",
+            "기간"
+          ],
+          "rows": [
+            [
+              "<span class=\"chip acute\">Acute</span>",
+              "<span class=\"term\" data-term=\"acute\">having a short and relatively severe course</span>",
+              "수 시간 ~ 수 일, 대개 해소됨"
+            ],
+            [
+              "<span class=\"chip chronic\">Chronic</span>",
+              "<span class=\"term\" data-term=\"chronic\">persisting over a long period of time</span> — 간헐적/삽화적",
+              "수 주 ~ 수 년"
+            ],
+            [
+              "<span class=\"chip progressive\">Progressive</span>",
+              "<span class=\"term\" data-term=\"progressive\">advancing, going from bad to worse</span>",
+              "시간이 갈수록 꾸준히 악화"
+            ]
+          ]
+        },
+        {
+          "type": "narrative",
+          "heading": "응급 신호 (Worrisome Signs)",
+          "html": "<p>severe pain, fever, bloody stools, persistent <span class=\"term\" data-term=\"nausea\">nausea</span> & <span class=\"term\" data-term=\"vomiting\">vomiting</span>, weight loss, jaundice, 복부 <span class=\"term\" data-term=\"tenderness\">tenderness</span>, swelling 동반 시 즉시 의료 도움이 필요하다.</p>"
+        },
+        {
+          "type": "table",
+          "heading": "Acute 원인 — 용어 정의 매칭",
+          "columns": [
+            "질환",
+            "정의/핵심 어근"
+          ],
+          "rows": [
+            [
+              "<span class=\"term\" data-term=\"aneurysm\">Aneurysm</span>",
+              "동맥·정맥·심장 벽의 dilatation으로 형성된 주머니. <span class=\"term\" data-term=\"pulsating\">pulsating</span> mass + <span class=\"term\" data-term=\"bruit\">bruit</span>"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Cystitis\">Cystitis</span>",
+              "urinary bladder inflammation (방광염)"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Cholecystitis\">Cholecystitis</span>",
+              "gallbladder inflammation (담낭염)"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Cholangitis\">Cholangitis</span>",
+              "bile duct inflammation (담관염)"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Diverticulitis\">Diverticulitis</span>",
+              "장벽 돌출 주머니(diverticulum)의 염증. S자결장 호발"
+            ],
+            [
+              "Intussusception",
+              "장의 한 부분이 다른 부분 속으로 telescoping. 거의 소아에서만"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Ectopic\">Ectopic</span> pregnancy",
+              "자궁 외 비정상 위치에 착상"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Mesenteric\">Mesenteric</span> ischemia",
+              "decreased blood flow to the intestines"
+            ],
+            [
+              "Mesenteric <span class=\"term\" data-term=\"thrombosis\">thrombosis</span>",
+              "장 정맥의 blood clot"
+            ],
+            [
+              "Pericarditis / Peritonitis / Pleurisy",
+              "심장 주변 / 복강 내막 / 폐 주변막의 염증 (혼동 주의)"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Salpingitis\">Salpingitis</span>",
+              "inflammation of the fallopian tubes (난관염)"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Shingles\">Shingles</span>",
+              "= herpes zoster (대상포진)"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "Chronic 원인 — 용어 정의 매칭",
+          "columns": [
+            "질환",
+            "정의/핵심 어근"
+          ],
+          "rows": [
+            [
+              "<span class=\"term\" data-term=\"Angina pectoris\">Angina pectoris</span>",
+              "chest pain secondary to reduced blood flow to the heart (협심증)"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Celiac disease\">Celiac disease</span>",
+              "chronic disorder, inability to tolerate gluten"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Endometriosis\">Endometriosis</span>",
+              "functional endometrial tissue outside the uterus"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Hiatal\">Hiatal</span> hernia",
+              "조직/장기가 횡격막 열공(hiatus)을 통해 비정상 탈출"
+            ],
+            [
+              "Irritable bowel <span class=\"term\" data-term=\"syndrome\">syndrome</span>",
+              "과민성 대장 증후군"
+            ],
+            [
+              "PID",
+              "infection of the female reproductive organs"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Peptic\">Peptic</span> ulcer",
+              "위산 등 소화액 작용과 관련된 궤양"
+            ],
+            [
+              "Ulcerative colitis",
+              "염증성 장질환(IBD)의 일종 — chronic 분류"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "Progressive 원인 — 용어 정의 매칭",
+          "columns": [
+            "질환",
+            "정의/핵심 어근"
+          ],
+          "rows": [
+            [
+              "<span class=\"term\" data-term=\"Hepatitis\">Hepatitis</span>",
+              "liver inflammation (간염)"
+            ],
+            [
+              "<span class=\"term\" data-term=\"Uremia\">Uremia</span>",
+              "retention/buildup of renal waste products in the blood (요독증)"
+            ],
+            [
+              "Non-Hodgkin's lymphoma",
+              "malignant tumor of the lymphatic system"
+            ],
+            [
+              "Crohn's disease",
+              "염증성 장질환(IBD)의 일종 — progressive 분류 (cf. ulcerative colitis는 chronic)"
+            ],
+            [
+              "Splenomegaly",
+              "비장 비대 (enlarged spleen)"
+            ],
+            [
+              "Tubo-ovarian abscess",
+              "난관과 난소를 포함하는 pus-filled pocket"
+            ]
+          ]
+        }
+      ],
+      "terms": {
+        "acute": "짧고 비교적 심한 경과를 가지는 (having a short and relatively severe course).",
+        "chronic": "장기간 지속되는 (persisting over a long period of time).",
+        "episodic": "불규칙한 간격으로 나타나는, 간헐적인.",
+        "progressive": "시간이 지날수록 악화되는, 진행성의.",
+        "nausea": "토하고 싶은 주관적 느낌(구역, 오심).",
+        "vomiting": "위장관 내용물의 구강 배출(구토).",
+        "tenderness": "촉진 시 통증이 발생하는 것(압통).",
+        "aneurysm": "동맥·정맥·심장 벽의 확장으로 생긴 주머니 모양 구조.",
+        "pulsating": "심장박동처럼 주기적으로 확장·수축하는.",
+        "bruit": "혈관에서 들리는 잡음. 부분 폐색에 의한 난류를 시사.",
+        "Cystitis": "요방광의 염증.",
+        "Cholecystitis": "담낭(쓸개주머니)의 염증.",
+        "Cholangitis": "담관(쓸개관)의 염증.",
+        "Diverticulitis": "게실(장벽 돌출 주머니)의 염증.",
+        "Ectopic": "정상 위치가 아닌 곳에 위치한.",
+        "Mesenteric": "장간막에 관련된.",
+        "thrombosis": "혈관 내 혈전 형성.",
+        "Salpingitis": "난관(나팔관)의 염증.",
+        "Shingles": "대상포진(herpes zoster).",
+        "Angina pectoris": "심장 혈류 감소로 인한 흉통.",
+        "Celiac disease": "글루텐 불내성을 특징으로 하는 만성 소화기 질환.",
+        "Endometriosis": "기능성 자궁내막 조직이 자궁 외부에 존재하는 상태.",
+        "Hiatal": "횡격막의 열공(틈새)에 관련된.",
+        "syndrome": "함께 나타나는 징후·증상의 집합.",
+        "Peptic": "위산/소화 작용과 관련된.",
+        "Hepatitis": "간의 염증.",
+        "Uremia": "신장 노폐물이 혈중에 축적된 상태."
+      }
+    }
+  },
+  "atherosclerosis": {
+    "id": "atherosclerosis",
+    "title": "Atherosclerosis",
+    "authors": "Peter Libby",
+    "summaryHint": "동맥경화의 공간적·시간적 국소성과 부위별 임상 양상",
+    "paragraphs": [
+      {
+        "en": "Atherosclerosis is the leading cause of death and disability in the developed world. Despite our familiarity with this disease, some of its fundamental characteristics remain poorly recognized and understood. Although many generalized or systemic risk factors predispose to its development, atherosclerosis affects various regions of the circulation preferentially and yields distinct clinical manifestations depending on the particular circulatory bed affected. Atherosclerosis of the coronary arteries commonly causes myocardial infarction and angina pectoris. Atherosclerosis of the arteries supplying the central nervous system frequently provokes strokes and transient cerebral ischemia. In the peripheral circulation, atherosclerosis causes intermittent {{claudication}} and gangrene and can jeopardize limb viability. Involvement of the {{splanchnic}} circulation can cause mesenteric ischemia. Atherosclerosis can affect the kidneys either directly (e.g., renal artery stenosis) or as a frequent site of {{atheroembolic}} disease.",
+        "kr": "동맥경화증(atherosclerosis)은 선진국에서 사망과 장애의 가장 주된 원인이다. 이 질환에 대한 익숙함에도 불구하고, 그 근본적인 특성 중 일부는 여전히 제대로 인식되거나 이해되지 못하고 있다. 발병을 유발하는 전신적 위험 요인이 많지만, 동맥경화증은 순환계의 특정 부위를 선택적으로 침범하며 침범된 혈관 부위에 따라 서로 다른 임상 양상을 나타낸다. 관상동맥의 동맥경화증은 흔히 심근경색과 협심증을 유발한다. 중추신경계에 혈액을 공급하는 동맥의 동맥경화증은 흔히 뇌졸중과 일시적인 뇌허혈을 일으킨다. 말초 순환계에서는 동맥경화증이 간헐적 파행(intermittent claudication)과 괴사(gangrene)를 유발하여 사지의 생존을 위협할 수 있다. 내장(splanchnic) 순환계의 침범은 장간막 허혈을 일으킬 수 있다. 동맥경화증은 신장에 직접적으로(예: 신동맥 협착) 영향을 미치거나, 죽종색전증(atheroembolic disease)이 흔히 발생하는 부위가 되기도 한다.",
+        "note": "부위별 동맥경화 임상양상 매칭이 핵심: 관상동맥→MI/angina, 뇌혈관→stroke/일시적 뇌허혈, 말초→intermittent claudication/gangrene, splanchnic→mesenteric ischemia, 신장→renal artery stenosis 또는 atheroembolic disease."
+      },
+      {
+        "en": "Even within a given arterial bed, atherosclerosis tends to occur focally, typically in certain {{predisposed regions}}. In the coronary circulation, for example, the proximal left anterior descending coronary artery exhibits a particular {{predilection}} for developing atherosclerotic {{occlusive}} disease. Likewise, atherosclerosis {{preferentially}} affects the proximal portions of the renal arteries and, in the extracranial circulation to the brain, the {{carotid bifurcation}}. Indeed, atherosclerotic lesions often form at branching points of arteries, regions of disturbed blood flow. Not all manifestations of atherosclerosis result from stenotic, occlusive disease. Ectasia and development of aneurysmal disease, for example, frequently occur in the aorta. The mechanisms that underlie this discontinuous anatomic distribution of atherosclerosis remain uncertain.",
+        "kr": "동일한 동맥 영역 내에서도 동맥경화증은 국소적으로, 즉 특정 취약 부위(predisposed region)에서 발생하는 경향이 있다. 예를 들어 관상동맥 순환에서는 좌전하행지(left anterior descending coronary artery)의 근위부(proximal)가 동맥경화성 폐색 질환이 발생하기 쉬운 호발부위(predilection)로 알려져 있다. 마찬가지로, 동맥경화증은 신동맥의 근위부와, 뇌로 가는 두개외(extracranial) 순환에서는 목동맥 갈림(carotid bifurcation)을 선호하여(preferentially) 침범한다. 실제로 동맥경화성 병변은 혈류가 흐트러지는 동맥의 분지점(branching point)에서 자주 형성된다. 동맥경화증의 모든 임상 양상이 협착성·폐색성 질환에서 비롯되는 것은 아니다. 예를 들어 대동맥에서는 확장(ectasia)과 동맥류(aneurysmal disease) 발생이 흔히 일어난다. 이러한 동맥경화증의 비연속적인 해부학적 분포를 뒷받침하는 기전은 아직 불확실하다.",
+        "note": "공간적 국소성(focal occurrence): 동맥경화는 같은 혈관 내에서도 특정 취약부위에 호발한다 — 관상동맥 근위 LAD, 신동맥 근위부, 목동맥 갈림(carotid bifurcation), 동맥 분지점(branching point)이 대표적 호발부위. 대동맥은 협착이 아니라 확장(ectasia)/동맥류로도 나타날 수 있다는 예외에 주의."
+      },
+      {
+        "en": "Atherosclerosis manifests itself focally not only in space, as just described, but in time as well. Atherogenesis in humans typically occurs over a period of many years, usually many decades. Growth of atherosclerotic plaques probably does not occur in a smooth linear fashion, but rather discontinuously, with periods of relative quiescence punctuated by periods of rapid evolution. After a generally prolonged \"silent\" period, atherosclerosis may become clinically manifest. The clinical expressions of atherosclerosis may be chronic, as in the development of stable, effort-induced angina pectoris or of predictable and reproducible intermittent claudication. Alternatively, a much more dramatic acute clinical event such as myocardial infarction, a cerebrovascular accident, or sudden cardiac death may first herald the presence of atherosclerosis. Other individuals may never experience clinical manifestations of arterial disease despite the presence of widespread atherosclerosis demonstrated postmortem.",
+        "kr": "동맥경화증은 앞서 설명한 공간적 국소성뿐 아니라, 시간적으로도 국소적인 양상을 보인다. 인간에서 동맥경화 발생(atherogenesis)은 일반적으로 수년, 보통은 수십 년에 걸쳐 일어난다. 동맥경화성 죽종판(plaque)의 성장은 부드럽게 선형으로 진행되기보다는, 상대적으로 정체된 시기와 급속히 진행되는 시기가 번갈아 나타나는 비연속적인 양상을 보이는 것으로 보인다. 일반적으로 길게 이어지는 \"무증상(silent)\" 기간이 지난 후, 동맥경화증은 임상적으로 발현될 수 있다. 동맥경화증의 임상 양상은 만성적으로 나타날 수 있는데, 안정적이고 운동에 의해 유발되는 협심증이나, 예측 가능하고 재현되는 간헐적 파행의 발생이 그 예이다. 반면, 심근경색, 뇌졸중, 또는 급사와 같은 훨씬 더 극적인 급성 임상 사건이 동맥경화증의 존재를 처음으로 알리는 경우도 있다. 또 다른 사람들은 부검(postmortem)에서 광범위한 동맥경화증이 확인되더라도 동맥 질환의 임상 증상을 전혀 경험하지 않을 수도 있다.",
+        "note": "시간적 국소성: plaque 성장은 선형이 아니라 정체기/급속진행기가 번갈아 나타남(discontinuous). 임상발현은 ① 만성(안정 협심증, 예측가능한 claudication) ② 급성 사건(MI, 뇌졸중, 급사)으로 처음 발현 ③ 평생 무증상이나 부검에서 발견되는 경우까지 3가지 양상이 모두 가능하다는 게 핵심 — 시험범위 마지막 문장 'manifestations...postmortem'까지가 빈출 구간."
+      }
+    ],
+    "footnotes": {
+      "claudication": "파행(claudication). 절뚝거림. 간헐적 파행(intermittent claudication)=운동 시 근육의 혈액 공급 부족으로 생기는 통증/불편감. 걷다가 아프고 쉬면 호전. 원인은 말초동맥질환(PAD). 주로 종아리(calf)에 발생.",
+      "splanchnic": "내장의(splanchnic). = visceral. 내장 순환계를 가리킴.",
+      "atheroembolic": "죽종색전의(atheroembolic). 콜레스테롤이나 그 에스터, 또는 죽종판 조각으로 이루어진 색전으로, 보통 작은 동맥에 박힌다.",
+      "predisposed regions": "취약 부위(predisposed region). 위험요인이 있어 질환이 발생하기 쉬운 부위.",
+      "predilection": "호발부위(predilection). 특정 부위를 선호하는 경향.",
+      "occlusive": "폐색성의(occlusive). 혈관을 막는 성질의.",
+      "preferentially": "선호하여(preferentially). 특정 부위를 우선적으로 침범하는 양상을 나타낼 때 사용.",
+      "carotid bifurcation": "목동맥 갈림(carotid bifurcation). 경동맥이 내외경동맥으로 분지하는 지점 — 동맥경화 호발부위."
+    },
+    "summary": {
+      "sections": [
+        {
+          "type": "narrative",
+          "heading": "개요 — 부위에 따라 다른 임상양상",
+          "html": "<p>동맥경화증은 선진국 사망·장애의 주된 원인이며, 전신적 위험요인이 있어도 <strong>특정 순환 부위를 선택적으로(preferentially)</strong> 침범해 부위마다 다른 임상양상을 보인다.</p>"
+        },
+        {
+          "type": "table",
+          "heading": "침범 부위별 임상 양상",
+          "columns": [
+            "침범 혈관",
+            "임상 양상"
+          ],
+          "rows": [
+            [
+              "관상동맥 (coronary)",
+              "심근경색(myocardial infarction), 협심증(angina pectoris)"
+            ],
+            [
+              "중추신경계 공급 동맥",
+              "뇌졸중(stroke), 일시적 뇌허혈(transient cerebral ischemia)"
+            ],
+            [
+              "말초순환 (peripheral)",
+              "간헐적 <span class=\"term\" data-term=\"claudication\">claudication</span>(파행), 괴사(gangrene) → 사지 생존 위협"
+            ],
+            [
+              "<span class=\"term\" data-term=\"splanchnic\">Splanchnic</span> (내장) 순환",
+              "장간막 허혈(mesenteric ischemia)"
+            ],
+            [
+              "신장 (kidney)",
+              "직접: 신동맥 협착(renal artery stenosis) / 간접: <span class=\"term\" data-term=\"atheroembolic\">atheroembolic</span> disease 호발부위"
+            ]
+          ]
+        },
+        {
+          "type": "narrative",
+          "heading": "공간적 국소성 (Focal in Space)",
+          "html": "<p>같은 동맥 내에서도 동맥경화는 특정 <span class=\"term\" data-term=\"predisposed regions\">predisposed region</span>에 국소적으로 발생한다. 관상동맥에서는 좌전하행지 근위부가 <span class=\"term\" data-term=\"predilection\">predilection</span>(호발부위)을 보이고, 신동맥 근위부와 <span class=\"term\" data-term=\"carotid bifurcation\">carotid bifurcation</span>(목동맥 갈림)도 <span class=\"term\" data-term=\"preferentially\">preferentially</span> 침범된다. 병변은 혈류가 흐트러지는 동맥 분지점에서 잘 생긴다. 단, 대동맥에서는 <span class=\"term\" data-term=\"occlusive\">occlusive</span>(협착성) 질환이 아니라 확장(ectasia)·동맥류로 나타나기도 한다.</p>"
+        },
+        {
+          "type": "narrative",
+          "heading": "시간적 국소성 (Focal in Time)",
+          "html": "<p>동맥경화 발생(atherogenesis)은 수십 년에 걸쳐 일어나며, plaque 성장은 선형이 아니라 정체기와 급속진행기가 번갈아 나타나는 비연속적 양상이다. 긴 무증상기 이후 다음 세 가지 중 하나로 임상 발현된다.</p>"
+        },
+        {
+          "type": "list",
+          "heading": "동맥경화의 세 가지 임상 발현 양상",
+          "items": [
+            "<strong>만성형</strong>: 안정적이고 운동으로 유발되는 협심증, 예측 가능하고 재현되는 간헐적 파행(<span class=\"term\" data-term=\"claudication\">claudication</span>)",
+            "<strong>급성형</strong>: 심근경색, 뇌졸중(cerebrovascular accident), 급사(sudden cardiac death)가 동맥경화의 존재를 처음으로 알림",
+            "<strong>무증상형</strong>: 평생 임상 증상 없이 지내다가 부검(postmortem)에서 광범위한 동맥경화가 발견되는 경우"
+          ]
+        }
+      ],
+      "terms": {
+        "claudication": "운동 시 근육 혈류 부족으로 생기는 통증. 걸으면 악화, 쉬면 호전. 주로 종아리에 발생(간헐적 파행).",
+        "splanchnic": "내장(visceral) 순환계에 관련된.",
+        "atheroembolic": "콜레스테롤·죽종판 조각으로 이루어진 색전이 작은 동맥에 박히는 질환.",
+        "predisposed regions": "위험요인으로 인해 병이 발생하기 쉬운 취약 부위.",
+        "predilection": "특정 부위를 선호하여 발생하는 경향(호발부위).",
+        "occlusive": "혈관을 막는 폐색성의 성질.",
+        "preferentially": "다른 부위보다 우선적으로, 선호하여.",
+        "carotid bifurcation": "경동맥이 내·외경동맥으로 갈라지는 지점. 동맥경화 호발부위."
+      }
+    }
+  }
+}
