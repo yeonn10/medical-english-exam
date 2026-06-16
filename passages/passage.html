@@ -20,6 +20,8 @@
 </header>
 
 <main>
+  <div class="passage-switcher" id="passage-switcher"></div>
+
   <div class="eyebrow" id="passage-eyebrow">PASSAGE</div>
   <h1 class="page-title" id="passage-title">불러오는 중…</h1>
   <p class="page-subtitle" id="passage-authors"></p>
@@ -41,6 +43,18 @@
 <footer class="site-footer">의학영어 시험대비 자료 · 개인 학습용</footer>
 
 <script src="../assets/app.js"></script>
+<script>
+  // 본문 전환 탭바 렌더링 (페이지 어디서나 다른 본문으로 즉시 이동)
+  (function () {
+    const currentId = getPassageId();
+    const switcher = document.getElementById("passage-switcher");
+    switcher.innerHTML = PASSAGE_META.map((p) => `
+      <a class="switcher-tab ${p.id === currentId ? "active" : ""}" href="passage.html?id=${p.id}">
+        <span class="switcher-num">${p.num}</span>${p.title}
+      </a>
+    `).join("");
+  })();
+</script>
 <script src="../assets/passage-view.js"></script>
 </body>
 </html>

@@ -267,6 +267,50 @@ main {
   margin-bottom: 22px;
 }
 
+/* ---------- 본문 전환 탭바 ---------- */
+
+.passage-switcher {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-bottom: 22px;
+  padding-bottom: 4px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.passage-switcher::-webkit-scrollbar { display: none; }
+
+.switcher-tab {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  padding: 7px 13px;
+  border: 1px solid var(--color-rule);
+  border-radius: 14px;
+  background: var(--color-paper-raised);
+  color: var(--color-ink-soft);
+  white-space: nowrap;
+}
+
+.switcher-tab:hover { border-color: var(--color-ink-soft); text-decoration: none; }
+
+.switcher-tab.active {
+  background: var(--color-ink);
+  border-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+.switcher-num {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  opacity: 0.6;
+}
+
 .passage-body {
   font-family: var(--font-serif);
 }
@@ -354,7 +398,7 @@ main {
   position: relative;
 }
 
-.fn:hover, .fn.open { background: var(--color-highlight); }
+.fn:hover, .fn.fn-active { background: var(--color-highlight); }
 
 .fn-sup {
   font-size: 10px;
@@ -363,23 +407,35 @@ main {
   margin-left: 1px;
 }
 
-.fn-popover {
-  display: none;
-  position: relative;
-  margin: 6px 0 14px;
+/* ---------- 떠다니는 말풍선 (각주 + 핵심단어 정의 공통) ---------- */
+
+.float-popover {
+  position: fixed;
+  z-index: 100;
+  max-width: 300px;
+  min-width: 160px;
   background: var(--color-note);
-  border-left: 2px solid var(--color-note-border);
-  border-radius: 0;
+  border-left: 3px solid var(--color-note-border);
+  border-radius: 2px;
   padding: 10px 14px;
   font-family: var(--font-sans);
   font-size: 12.5px;
-  line-height: 1.65;
+  line-height: 1.6;
   color: var(--color-note-ink);
+  box-shadow: 0 6px 20px rgba(31, 36, 33, 0.18);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  pointer-events: none;
 }
 
-.fn-popover.show { display: block; }
+.float-popover.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
 
-.fn-popover .fn-label {
+.float-popover .fn-label {
   font-family: var(--font-mono);
   font-size: 10.5px;
   text-transform: uppercase;
@@ -387,6 +443,40 @@ main {
   opacity: 0.7;
   display: block;
   margin-bottom: 3px;
+}
+
+/* 핵심 단어 정의용 말풍선은 강조색(accent) 계열로 */
+.float-popover.term-style {
+  background: var(--color-tag-bg);
+  border-left: 3px solid var(--color-ink-faint);
+  color: var(--color-ink-soft);
+}
+
+/* 말풍선 꼬리 */
+.float-popover::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: inherit;
+  border-left: inherit;
+  transform: rotate(45deg);
+}
+
+.float-popover[data-tail="top"]::after {
+  top: -6px;
+  left: 16px;
+  border-left: none;
+  border-top: 3px solid var(--color-note-border);
+}
+
+.float-popover.term-style[data-tail="top"]::after {
+  border-top-color: var(--color-ink-faint);
+}
+
+.float-popover[data-tail="bottom"]::after {
+  bottom: -6px;
+  left: 16px;
 }
 
 /* ---------- 요약 모드 ---------- */
@@ -477,20 +567,7 @@ main {
   white-space: nowrap;
 }
 
-.term:hover { background: var(--color-highlight-border); color: var(--color-highlight-ink); }
-
-.term-def {
-  display: none;
-  margin-top: 4px;
-  background: var(--color-tag-bg);
-  border-left: 2px solid var(--color-ink-faint);
-  padding: 8px 12px;
-  font-size: 12px;
-  color: var(--color-ink-soft);
-  line-height: 1.6;
-}
-
-.term-def.show { display: block; }
+.term:hover, .term.term-active { background: var(--color-highlight-border); color: var(--color-highlight-ink); }
 
 /* 카테고리 칩 */
 .chip {

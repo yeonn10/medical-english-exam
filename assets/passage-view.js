@@ -41,6 +41,7 @@
   const viewSummary = document.getElementById("view-summary");
 
   btnOriginal.addEventListener("click", () => {
+    FloatPopover.close();
     btnOriginal.classList.add("active");
     btnSummary.classList.remove("active");
     viewOriginal.style.display = "";
@@ -48,6 +49,7 @@
   });
 
   btnSummary.addEventListener("click", () => {
+    FloatPopover.close();
     btnSummary.classList.add("active");
     btnOriginal.classList.remove("active");
     viewSummary.style.display = "";
@@ -58,25 +60,17 @@
   function renderOriginal(data) {
     const container = document.getElementById("view-original");
     const footnotes = data.footnotes || {};
+    const fnTermByKey = {}; // data-fn-key -> term 텍스트 매핑
     let html = "";
 
     data.paragraphs.forEach((para, idx) => {
       const fnKeys = [];
       const enHtml = renderEnglishWithFootnotes(para.en, fnKeys, idx);
+      fnKeys.forEach(({ key, term }) => (fnTermByKey[key] = term));
 
       html += `<div class="paragraph-block">`;
       html += `<span class="para-num">¶ ${idx + 1}</span>`;
       html += `<p class="para-en">${enHtml}</p>`;
-
-      // 각주 팝오버 (단어별)
-      fnKeys.forEach(({ key, term }) => {
-        const def = footnotes[term];
-        if (def) {
-          html += `<div class="fn-popover" data-fn-target="${key}">
-            <span class="fn-label">${escapeAttr(term)}</span>${def}
-          </div>`;
-        }
-      });
 
       if (para.kr) {
         html += `<button class="toggle-kr" data-idx="${idx}">한글 해석 보기</button>`;
@@ -92,17 +86,17 @@
 
     container.innerHTML = html;
 
-    // 각주 클릭 토글
+    // 각주 클릭 → 단어 근처에 말풍선 표시
     container.querySelectorAll(".fn").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const key = btn.getAttribute("data-fn-key");
-        const popover = container.querySelector(`.fn-popover[data-fn-target="${key}"]`);
-        if (!popover) return;
-        const isOpen = popover.classList.contains("show");
-
-        // 같은 단락 내 다른 팝오버는 닫지 않고, 클릭한 것만 토글 (여러 개 동시에 봐도 무방)
-        popover.classList.toggle("show");
-        btn.classList.toggle("open", !isOpen);
+      const key = btn.getAttribute("data-fn-key");
+      const term = fnTermByKey[key];
+      const def = term && footnotes[term];
+      if (!def) return;
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        FloatPopover.open(btn, `<span class="fn-label">${escapeAttr(term)}</span>${def}`, {
+          activeClass: "fn-active",
+        });
       });
     });
 
@@ -156,25 +150,15 @@
 
     container.innerHTML = html;
 
-    // 핵심 단어 클릭 → 정의 토글 (정의 박스를 해당 span 바로 뒤에 삽입)
+    // 핵심 단어 클릭 → 단어 근처에 말풍선으로 정의 표시
     const terms = summary.terms || {};
     container.querySelectorAll(".term").forEach((span) => {
-      span.addEventListener("click", () => {
-        const key = span.getAttribute("data-term");
-        const def = terms[key];
-        if (!def) return;
-
-        // 이미 열려있는 정의가 바로 다음 형제면 토글, 아니면 생성
-        let next = span.nextElementSibling;
-        if (next && next.classList.contains("term-def") && next.getAttribute("data-for") === key) {
-          next.classList.toggle("show");
-          return;
-        }
-        const box = document.createElement("div");
-        box.className = "term-def show";
-        box.setAttribute("data-for", key);
-        box.textContent = def;
-        span.insertAdjacentElement("afterend", box);
+      const key = span.getAttribute("data-term");
+      const def = terms[key];
+      if (!def) return;
+      span.addEventListener("click", (e) => {
+        e.stopPropagation();
+        FloatPopover.open(span, def, { styleClass: "term-style", activeClass: "term-active" });
       });
     });
   }
