@@ -618,6 +618,19 @@ main {
 
 /* ---------- 퀴즈 ---------- */
 
+.quiz-setup-section {
+  margin-bottom: 26px;
+}
+
+.quiz-setup-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+  margin-bottom: 10px;
+}
+
 .quiz-progress {
   font-family: var(--font-mono);
   font-size: 12px;
@@ -699,6 +712,46 @@ main {
 .choice-btn.correct { border-color: var(--color-accent); background: var(--color-accent-soft); color: var(--color-accent-ink); }
 .choice-btn.wrong { border-color: var(--color-note-border); background: var(--color-note); color: var(--color-note-ink); }
 .choice-btn:disabled { cursor: default; }
+
+/* 보기가 많은 매칭형 문제(예: 35개) — 라디오버튼이 쌓인 스크롤 가능한 줄글 리스트 */
+.quiz-choices.many {
+  max-height: 360px;
+  overflow-y: auto;
+  gap: 0;
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius);
+  padding: 4px;
+}
+
+.choice-radio-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 9px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+.choice-radio-row:hover { background: var(--color-tag-bg); }
+.choice-radio-row input[type="radio"] { margin-top: 3px; flex-shrink: 0; accent-color: var(--color-ink); }
+.choice-radio-row.correct { background: var(--color-accent-soft); color: var(--color-accent-ink); }
+.choice-radio-row.wrong { background: var(--color-note); color: var(--color-note-ink); }
+.choice-radio-row .choice-count {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--color-ink-faint);
+  flex-shrink: 0;
+}
+
+.quiz-many-hint {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-ink-faint);
+  margin-bottom: 8px;
+}
 
 .quiz-input-row {
   display: flex;

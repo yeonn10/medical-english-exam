@@ -22,16 +22,66 @@
 <main>
   <div class="eyebrow">QUIZ</div>
   <h1 class="page-title">문제 학습</h1>
-  <p class="page-subtitle">기출문제 데이터를 정리 중입니다. 준비되는 대로 본문별 · 유형별 퀴즈가 추가될 예정입니다.</p>
+  <p class="page-subtitle">역대 기출문제를 본문별로 골라 풀어볼 수 있습니다.</p>
 
-  <div class="quiz-card-box" style="text-align:center; padding: 48px 20px; color: var(--color-ink-soft);">
-    <p style="margin:0 0 16px; font-family: var(--font-serif); font-size:17px; color: var(--color-ink);">곧 추가됩니다 🚧</p>
-    <p style="margin:0; font-size:13px;">그동안 본문 학습 페이지에서 각 본문의 요약 모드 핵심 단어 정의를 익혀두시면<br>실제 기출문제 형태와 비슷한 표현으로 대비할 수 있습니다.</p>
-    <a href="../passages/index.html" class="btn" style="margin-top:20px; display:inline-block;">본문 학습으로 이동 →</a>
+  <!-- ===== 설정 화면 ===== -->
+  <div id="view-setup">
+    <div class="quiz-setup-section">
+      <div class="quiz-setup-label">본문 선택</div>
+      <div class="quiz-filterbar" id="passage-filterbar"></div>
+    </div>
+
+    <div class="quiz-setup-section">
+      <div class="quiz-setup-label">문제 유형</div>
+      <div class="mode-toggle" id="mode-toggle">
+        <button id="mode-mc" class="active">객관식</button>
+        <button id="mode-sa">주관식</button>
+      </div>
+    </div>
+
+    <p id="setup-count" style="font-size:13px; color: var(--color-ink-soft); margin-bottom:20px;"></p>
+
+    <button id="start-btn" class="btn">시작하기 →</button>
+  </div>
+
+  <!-- ===== 퀴즈 진행 화면 ===== -->
+  <div id="view-quiz" style="display:none;">
+    <div class="quiz-progress" id="quiz-progress"></div>
+
+    <div class="quiz-card-box">
+      <div class="quiz-source" id="quiz-source"></div>
+      <p class="quiz-question" id="quiz-question"></p>
+
+      <div id="quiz-answer-area"></div>
+
+      <div class="quiz-feedback" id="quiz-feedback">
+        <div class="answer-line" id="feedback-answer-line"></div>
+        <div id="feedback-explanation"></div>
+      </div>
+
+      <div class="quiz-nav">
+        <button class="btn" id="quiz-quit-btn">중단하고 나가기</button>
+        <button class="btn" id="quiz-next-btn" disabled>다음 문제 →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 결과 화면 ===== -->
+  <div id="view-result" style="display:none;">
+    <div class="quiz-card-box quiz-summary-box">
+      <div class="big-num" id="result-score"></div>
+      <p style="font-size:14px; color: var(--color-ink-soft); margin: 6px 0 24px;" id="result-detail"></p>
+      <div style="display:flex; gap:10px; justify-content:center;">
+        <button class="btn" id="retry-btn">다시 풀기</button>
+        <button class="btn" id="review-wrong-btn">틀린 문제만 다시</button>
+      </div>
+    </div>
   </div>
 </main>
 
 <footer class="site-footer">의학영어 시험대비 자료 · 개인 학습용</footer>
 
+<script src="../assets/app.js"></script>
+<script src="../assets/quiz.js"></script>
 </body>
 </html>
