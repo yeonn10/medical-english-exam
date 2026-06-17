@@ -117,7 +117,7 @@
         {
           "type": "narrative",
           "heading": "체온조절 기전",
-          "html": "<p>체온은 <span class=\"term\" data-term=\"hypothalamus\">hypothalamus</span>가 두 입력 신호(말초 온도수용체, 혈액 온도)를 통합해 조절한다. 정상 범위에서는 대사로 생긴 과잉 열과 피부·폐를 통한 열 방출이 균형을 이룬다. 정상 구강체온은 평균 36.8±0.4°C이며 오전 6시에 가장 낮고 오후 4~6시에 가장 높은 일중 변동을 보인다.</p>"
+          "html": "<p>체온은 <strong>hypothalamus</strong>가 두 입력 신호(말초 온도수용체, 혈액 온도)를 통합해 조절한다. 정상 범위에서는 대사로 생긴 과잉 열과 피부·폐를 통한 열 방출이 균형을 이룬다. 정상 구강체온은 평균 36.8±0.4°C이며 오전 6시에 가장 낮고 오후 4~6시에 가장 높은 일중 변동을 보인다.</p>"
         },
         {
           "type": "table",
@@ -135,7 +135,7 @@
             ],
             [
               "열 보존",
-              "<span class=\"term\" data-term=\"vasoconstriction\">vasoconstriction</span> 시작 (손발에서 먼저 느껴짐)",
+              "<strong>vasoconstriction</strong> 시작 (손발에서 먼저 느껴짐)",
               "피부 열손실 감소, 추위 느낌"
             ],
             [
@@ -150,7 +150,7 @@
             ],
             [
               "해열",
-              "<span class=\"term\" data-term=\"pyrogens\">pyrogen</span> 감소 또는 <span class=\"term\" data-term=\"antipyretics\">antipyretics</span> 사용 → set point 하강",
+              "<strong>pyrogen</strong> 감소 또는 <strong>antipyretics</strong> 사용 → set point 하강",
               "혈관확장 + 발한으로 열 방출"
             ]
           ]
@@ -165,119 +165,199 @@
           ],
           "rows": [
             [
-              "<span class=\"term\" data-term=\"Exogenous\">Exogenous</span> pyrogen",
+              "<strong>Exogenous</strong> pyrogen",
               "환자 외부 (미생물)",
-              "그람음성균의 <span class=\"term\" data-term=\"endotoxin\">endotoxin</span>(LPS), 그람양성균의 peptidoglycan/연쇄구균 독소"
+              "그람음성균의 <strong>endotoxin</strong>(LPS), 그람양성균의 peptidoglycan/연쇄구균 독소"
             ],
             [
-              "<span class=\"term\" data-term=\"endogenous pyrogens\">Endogenous pyrogen</span>",
+              "<strong>Endogenous pyrogen</strong>",
               "환자 내부 (백혈구 산물)",
-              "<span class=\"term\" data-term=\"Cytokines\">pyrogenic cytokine</span>: IL-1, TNF-α, IFN-α/β"
+              "<strong>pyrogenic cytokine</strong>: IL-1, TNF-α, IFN-α/β"
             ]
           ]
         },
         {
           "type": "narrative",
           "heading": "고열 (hyperpyrexia)",
-          "html": "<p><span class=\"term\" data-term=\"hyperpyrexia\">Hyperpyrexia</span>는 41.5°C를 초과하는 발열로, 중증 감염보다 <strong>CNS 출혈</strong> 환자에서 더 흔하게 나타난다는 점이 시험에 자주 나오는 포인트다.</p>"
+          "html": "<p><strong>Hyperpyrexia</strong>는 41.5°C를 초과하는 발열로, 중증 감염보다 <strong>CNS 출혈</strong> 환자에서 더 흔하게 나타난다는 점이 시험에 자주 나오는 포인트다.</p>"
         },
         {
           "type": "table",
           "heading": "피부 병변 분류 (Fever and Rash)",
           "columns": [
             "병변",
-            "정의",
-            "크기/특징"
+            "정의"
           ],
           "rows": [
             [
-              "<span class=\"term\" data-term=\"Macules\">Macule</span> (반점)",
-              "색이 변한 평평한 병변 (erythema)",
-              "—"
+              "Macules (반점)",
+              "flat lesions defined by an area of changed color"
             ],
             [
-              "<span class=\"term\" data-term=\"Papules\">Papule</span> (구진)",
-              "솟아오른 단단한 병변",
-              "&lt;5mm"
+              "Papules (구진)",
+              "raised, solid lesions &lt;5mm in diameter"
             ],
             [
-              "<span class=\"term\" data-term=\"plaques\">Plaque</span> (판)",
-              "평평한 고원형 융기 병변",
-              "&gt;5mm"
+              "Plaques (판)",
+              "lesions &gt;5mm, flat plateau-like surface"
             ],
             [
-              "Nodule (결절)",
-              "둥근 융기 병변",
-              "&gt;5mm"
+              "Nodules (결절)",
+              "lesions &gt;5mm, more rounded configuration"
             ],
             [
-              "<span class=\"term\" data-term=\"Wheals\">Wheal</span> (팽진/두드러기)",
-              "옅은 분홍색 구진·판, 환형으로 커짐",
-              "일시적, 24~48시간"
+              "Wheals (팽진/두드러기)",
+              "pale pink papules/plaques, annular as they enlarge; urticaria, hives"
             ],
             [
-              "<span class=\"term\" data-term=\"Vesicles\">Vesicle</span> (소수포)",
-              "액체를 포함한 융기 병변",
-              "&lt;5mm"
+              "Vesicles (소수포)",
+              "circumscribed elevated lesions &lt;5mm containing fluid"
             ],
             [
-              "<span class=\"term\" data-term=\"bullae\">Bulla</span> (대수포)",
-              "액체를 포함한 융기 병변",
-              "&gt;5mm"
+              "Bullae (대수포)",
+              "circumscribed elevated lesions &gt;5mm containing fluid"
             ],
             [
-              "<span class=\"term\" data-term=\"Pustules\">Pustule</span> (농포)",
-              "<span class=\"term\" data-term=\"purulent\">purulent</span> <span class=\"term\" data-term=\"exudate\">exudate</span> 포함 융기 병변",
-              "수두·단순포진이 진행되어 발생 가능"
+              "Pustules (농포)",
+              "raised lesions containing purulent exudate"
             ],
             [
-              "<span class=\"term\" data-term=\"petechiae\">Petechiae</span> (점상출혈)",
-              "비촉지성 <span class=\"term\" data-term=\"purpura\">purpura</span>",
-              "&lt;3mm"
+              "Purpura (자색반)",
+              "a flat lesion due to bleeding into the skin (nonpalpable)"
             ],
             [
-              "<span class=\"term\" data-term=\"ecchymoses\">Ecchymoses</span> (반상출혈)",
-              "비촉지성 purpura",
-              "&gt;3mm"
+              "Petechiae (점상출혈)",
+              "purpura &lt;3mm in diameter"
             ],
             [
-              "<span class=\"term\" data-term=\"ulcer\">Ulcer</span> (궤양)",
-              "진피 상층까지 이르는 결손",
-              "—"
+              "Ecchymoses (반상출혈)",
+              "a flat lesion &gt;3mm in diameter due to bleeding into the skin"
             ],
             [
-              "<span class=\"term\" data-term=\"eschar\">Eschar</span> (가피)",
-              "검은 딱지로 덮인 괴사성 병변",
-              "—"
+              "Ulcer (궤양)",
+              "lesion from sloughing of inflammatory necrotic tissue (perforated ___)"
+            ],
+            [
+              "Eschar (가피)",
+              "a necrotic lesion covered with a black crust"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "핵심 단어 (26개)",
+          "columns": [
+            "단어",
+            "설명"
+          ],
+          "rows": [
+            [
+              "hypothalamus",
+              "시상하부. 체온조절중추가 위치한 뇌 영역. (강의자료에 뇌 구조 단면도 첨부 — 대뇌/시상하부/뇌하수체/소뇌/뇌간/척수 위치)"
+            ],
+            [
+              "preoptic anterior hypothalamus",
+              "전시각 시상하부. 시각교차전구역은 열 발산을 담당하고, 후방영역은 열 보존을 담당한다. (강의자료에 시상하부 단면도 첨부)"
+            ],
+            [
+              "vasoconstriction",
+              "혈관수축. set point가 올라가면 가장 먼저 일어나는 반응으로, 손발에서 먼저 느껴진다."
+            ],
+            [
+              "pyrogens",
+              "발열원(pyrogen). 발열을 유발하는 물질. Substance or agent that produces fever."
+            ],
+            [
+              "antipyretics",
+              "해열제(antipyretic). Any medicine that lowers body temperature."
+            ],
+            [
+              "hyperpyrexia",
+              "초고열(hyperpyrexia). Extremely high fever, 41.5°C 초과."
+            ],
+            [
+              "pyrogen",
+              "발열원. Substance or agent that produces fever."
+            ],
+            [
+              "Exogenous",
+              "외인성(exogenous). 환자 외부에서 유래한 발열원."
+            ],
+            [
+              "endotoxin",
+              "내독소. 그람음성균이 생성하는 LPS. 발열물질이자 병리적 변화 유도 물질."
+            ],
+            [
+              "Cytokines",
+              "사이토카인. 면역/염증/혈액생성 과정을 조절하는 작은 단백질."
+            ],
+            [
+              "endogenous pyrogens",
+              "내인성 발열물질. IL-1, TNF-α, IFN-α/β 등 발열성 사이토카인을 지칭."
+            ],
+            [
+              "prosthetic",
+              "보철, 인공의. Prosthetic valve(인공판막), Prosthetic foot(의족) 등으로 활용."
+            ],
+            [
+              "Macules",
+              "반점(macule). 색 변화로 정의되는 평평한 병변."
+            ],
+            [
+              "Papules",
+              "구진(papule). 직경 5mm 미만의 솟아오른 단단한 병변."
+            ],
+            [
+              "plaques",
+              "판(plaque). 직경 5mm 초과, 평평한 고원형 표면의 병변."
+            ],
+            [
+              "Wheals",
+              "팽진(wheal, 두드러기/hives). 옅은 분홍색, 일시적(24-48시간)인 구진/판."
+            ],
+            [
+              "Vesicles",
+              "소수포(vesicle). 5mm 미만, 액체를 포함한 경계가 분명한 융기 병변."
+            ],
+            [
+              "bullae",
+              "대수포(bulla). 5mm 초과, 액체를 포함한 융기 병변."
+            ],
+            [
+              "Pustules",
+              "농포(pustule). 화농성 삼출물을 포함한 솟아오른 병변."
+            ],
+            [
+              "purulent",
+              "화농성의(purulent). 고름을 포함하는. = suppurative."
+            ],
+            [
+              "exudate",
+              "삼출물(exudate). 염증 조직에서 혈관으로부터 서서히 배출되는 액체/세포 성분."
+            ],
+            [
+              "purpura",
+              "자반(purpura). 피부 내 출혈로 인한 자홍색/적갈색 병변."
+            ],
+            [
+              "petechiae",
+              "점상출혈(petechiae). 자반 중 직경 3mm 미만."
+            ],
+            [
+              "ecchymoses",
+              "반상출혈(ecchymoses). 자반 중 직경 3mm 초과."
+            ],
+            [
+              "ulcer",
+              "궤양(ulcer). 진피 상층까지 이르는 피부 결손."
+            ],
+            [
+              "eschar",
+              "가피(eschar). 검은 딱지로 덮인 괴사성 병변."
             ]
           ]
         }
-      ],
-      "terms": {
-        "hypothalamus": "체온조절중추가 있는 뇌 영역. 말초 온도신호 + 혈액온도 신호를 통합한다.",
-        "vasoconstriction": "혈관수축. set point 상승 시 가장 먼저 일어나는 열 보존 반응.",
-        "pyrogens": "발열을 일으키는 모든 물질을 가리키는 용어.",
-        "antipyretics": "체온을 낮추는 약물. 해열제.",
-        "hyperpyrexia": "41.5°C를 초과하는 극도의 고열. 가장 흔한 원인은 CNS 출혈.",
-        "Exogenous": "환자 외부에서 유래한 (발열원의 경우 미생물 유래).",
-        "endotoxin": "그람음성균이 생성하는 LPS. 강력한 발열원이자 병리 유도 물질.",
-        "endogenous pyrogens": "체내에서 생성되는 발열성 사이토카인(IL-1, TNF-α, IFN 등)의 총칭.",
-        "Cytokines": "면역·염증·혈액생성을 조절하는 작은 단백질. 일부는 발열을 유발(pyrogenic cytokine).",
-        "Macules": "색 변화로 정의되는 평평한 병변(반점).",
-        "Papules": "5mm 미만의 솟아오른 단단한 병변(구진).",
-        "plaques": "5mm를 초과하는 평평한 고원형 병변(판).",
-        "Wheals": "일시적인(24~48시간) 분홍색 두드러기성 병변(팽진).",
-        "Vesicles": "5mm 미만, 액체를 포함한 병변(소수포).",
-        "bullae": "5mm 초과, 액체를 포함한 병변(대수포).",
-        "Pustules": "고름을 포함한 솟아오른 병변(농포).",
-        "purulent": "고름(pus)을 포함하는 성질.",
-        "exudate": "염증 조직에서 혈관으로부터 배출되는 액체·세포 성분(삼출물).",
-        "purpura": "피부 내 출혈로 인한 자홍색 병변(자반).",
-        "petechiae": "3mm 미만의 점상출혈.",
-        "ecchymoses": "3mm 초과의 반상출혈.",
-        "ulcer": "진피 상층까지 이르는 피부 결손(궤양).",
-        "eschar": "검은 딱지로 덮인 괴사성 병변(가피)."
-      }
+      ]
     }
   },
   "acute_abdomen": {
@@ -425,7 +505,7 @@
         {
           "type": "narrative",
           "heading": "병력 청취의 두 가지 틀: PQRST vs 저자 권장 순서",
-          "html": "<p>고전적인 PQRST 기억법(P³-자세/완화/유발, Q-성질, R³-부위/방사/연관통, S-중증도, T³-시간요소)은 철저하지만 면담 흐름을 끊는다. 저자들은 실제로는 <strong>위치 → 성질 → 발병(<span class=\"term\" data-term=\"onset\">onset</span>) → 강도 → 방사 → 악화/완화요인 → 경과 → 과거경험</strong> 순으로 자유롭게 묻는 방식을 선호한다.</p>"
+          "html": "<p>고전적인 PQRST 기억법(P³-자세/완화/유발, Q-성질, R³-부위/방사/연관통, S-중증도, T³-시간요소)은 철저하지만 면담 흐름을 끊는다. 저자들은 실제로는 <strong>위치 → 성질 → 발병(<strong>onset</strong>) → 강도 → 방사 → 악화/완화요인 → 경과 → 과거경험</strong> 순으로 자유롭게 묻는 방식을 선호한다.</p>"
         },
         {
           "type": "table",
@@ -439,10 +519,10 @@
             [
               "Foregut",
               "위, 췌장, 간, 담도계, 근위 십이지장",
-              "<span class=\"term\" data-term=\"epigastric\">상복부 (epigastric)</span>"
+              "<strong>상복부 (epigastric)</strong>"
             ],
             [
-              "<span class=\"term\" data-term=\"midgut\">Midgut</span>",
+              "<strong>Midgut</strong>",
               "소장 나머지, 결장 근위 1/3, 충수",
               "배꼽 주위 (periumbilical)"
             ],
@@ -452,7 +532,7 @@
               "치골 상부 (suprapubic)"
             ],
             [
-              "<span class=\"term\" data-term=\"retroperitoneal\">Retroperitoneal</span>",
+              "<strong>Retroperitoneal</strong>",
               "대동맥, 신장",
               "등 (back)"
             ]
@@ -469,20 +549,20 @@
           "rows": [
             [
               "내장통 (visceral)",
-              "둔하고 국소화 안 됨 — <span class=\"term\" data-term=\"aching\">aching</span>, <span class=\"term\" data-term=\"gnawing\">gnawing</span>",
+              "둔하고 국소화 안 됨 — <strong>aching</strong>, <strong>gnawing</strong>",
               "내장 신경 지배 기관"
             ],
             [
-              "<span class=\"term\" data-term=\"somatic pain\">체성통 (somatic)</span>",
-              "날카로움(sharp), <span class=\"term\" data-term=\"defined\">defined</span> + <span class=\"term\" data-term=\"localized\">localized</span>",
-              "<span class=\"term\" data-term=\"parietal peritoneum\">parietal peritoneum</span> 또는 <span class=\"term\" data-term=\"mesodermal\">mesodermal</span> 구조물 자극"
+              "<strong>체성통 (somatic)</strong>",
+              "날카로움(sharp), <strong>defined</strong> + <strong>localized</strong>",
+              "<strong>parietal peritoneum</strong> 또는 <strong>mesodermal</strong> 구조물 자극"
             ]
           ]
         },
         {
           "type": "narrative",
           "heading": "발병 양상 (Onset)",
-          "html": "<p>급성 발병, 특히 심한 경우 혈관 응급(AAA 파열, 대동맥 <span class=\"term\" data-term=\"dissection\">dissection</span>)을 최우선으로 고려한다. 단, 천공성 궤양(노인의 47%만 급성 발병 보고), <span class=\"term\" data-term=\"volvulus\">volvulus</span>, 장간막 허혈은 <strong>점진적 발병</strong>으로도 나타날 수 있다는 함정에 주의. 수면 중 통증으로 깨는 경우는 항상 심각하게 간주한다.</p>"
+          "html": "<p>급성 발병, 특히 심한 경우 혈관 응급(AAA 파열, 대동맥 <strong>dissection</strong>)을 최우선으로 고려한다. 단, 천공성 궤양(노인의 47%만 급성 발병 보고), <strong>volvulus</strong>, 장간막 허혈은 <strong>점진적 발병</strong>으로도 나타날 수 있다는 함정에 주의. 수면 중 통증으로 깨는 경우는 항상 심각하게 간주한다.</p>"
         },
         {
           "type": "table",
@@ -496,19 +576,19 @@
             [
               "Referred pain (연관통)",
               "통증이 관련 장기에서 떨어진 곳/인접한 곳에서 느껴짐",
-              "Kehr's sign(횡격막자극→어깨통증), <span class=\"term\" data-term=\"myocardial infarction\">심근경색</span>의 턱/왼팔 통증, 담도질환의 <span class=\"term\" data-term=\"ipsilateral\">동측</span> 견갑골 통증"
+              "Kehr's sign(횡격막자극→어깨통증), <strong>심근경색</strong>의 턱/왼팔 통증, 담도질환의 <strong>동측</strong> 견갑골 통증"
             ],
             [
               "Radiating pain (방사통)",
               "한 부위에서 시작해 특정 신경 경로를 따라 이동",
-              "허리→다리, 목→팔/손, <span class=\"term\" data-term=\"ureteral\">요관</span> 결석 이동"
+              "허리→다리, 목→팔/손, <strong>요관</strong> 결석 이동"
             ]
           ]
         },
         {
           "type": "narrative",
           "heading": "경과와 진행 (Duration and Progression)",
-          "html": "<p>충수염(<span class=\"term\" data-term=\"appendicitis\">appendicitis</span>)의 통증 이동(periumbilical 내장통 → RLQ 체성통)이 진행 양상의 대표 예다. 담낭통은 \"<span class=\"term\" data-term=\"colic\">colic</span>\"이라 불리지만 실제로는 <span class=\"term\" data-term=\"paroxysmal\">paroxysmal</span>하지 않으며 평균 5~16시간 지속된다. 소장폐색은 간헐적(colicky) 통증에서 시작해 팽창과 함께 지속통으로 진행하며, <span class=\"term\" data-term=\"transmural\">transmural</span> 허혈/천공에 의한 체성통은 경과 후반부에만 나타난다.</p>"
+          "html": "<p>충수염(<strong>appendicitis</strong>)의 통증 이동(periumbilical 내장통 → RLQ 체성통)이 진행 양상의 대표 예다. 담낭통은 \"<strong>colic</strong>\"이라 불리지만 실제로는 <strong>paroxysmal</strong>하지 않으며 평균 5~16시간 지속된다. 소장폐색은 간헐적(colicky) 통증에서 시작해 팽창과 함께 지속통으로 진행하며, <strong>transmural</strong> 허혈/천공에 의한 체성통은 경과 후반부에만 나타난다.</p>"
         },
         {
           "type": "table",
@@ -520,7 +600,7 @@
           "rows": [
             [
               "기침/보행 시 악화",
-              "복막 <span class=\"term\" data-term=\"irritation\">irritation</span> 시사 (복막염 환자는 차량 요철에 통증 악화)"
+              "복막 <strong>irritation</strong> 시사 (복막염 환자는 차량 요철에 통증 악화)"
             ],
             [
               "식사 — 위궤양",
@@ -535,31 +615,134 @@
               "장간막 허혈, 간헐적 담석통 유발 가능"
             ]
           ]
+        },
+        {
+          "type": "table",
+          "heading": "핵심 단어 (29개)",
+          "columns": [
+            "단어",
+            "설명"
+          ],
+          "rows": [
+            [
+              "laparoscopy",
+              "복강경검사(laparoscopy). 작은 절개를 통해 소형 스코프를 복부에 삽입하는 수술. laparo-(복부) + -scope(보는 기구)."
+            ],
+            [
+              "onset",
+              "발병(onset). 질병의 징후/증상이 처음 나타나는 시점. 시작."
+            ],
+            [
+              "Embryology",
+              "발생학(embryology). 배아 및 태아 시기 장기 발생을 연구하는 학문. foregut/midgut/hindgut 구분의 근거가 됨."
+            ],
+            [
+              "visceral",
+              "내장의(visceral). 체내 3대 공간(특히 복부)에 있는 큰 내부 장기를 가리킴."
+            ],
+            [
+              "afferent",
+              "구심성(afferent). 말초에서 중추(심장/뇌)로 전도되는 방향. 반대말은 efferent(원심성)."
+            ],
+            [
+              "nociceptors",
+              "통각 수용기(nociceptor). 통증성 자극을 감지하는 감각 수용체."
+            ],
+            [
+              "ischemia",
+              "허혈(ischemia). 동맥혈 공급 장애 또는 혈류 부족으로 조직이 저산소 상태가 되는 것."
+            ],
+            [
+              "epigastric",
+              "상복부(epigastric region). 늑골연 사이, 최하단 늑골연을 가로지르는 선 위쪽의 복부 중앙 영역."
+            ],
+            [
+              "midgut",
+              "중장(midgut). 위에서 대장까지 이어지는 위장관의 중간 부분."
+            ],
+            [
+              "retroperitoneal",
+              "후복막의(retroperitoneal). 복막 뒤쪽/후방에 위치한."
+            ],
+            [
+              "aching",
+              "둔통(aching). 둔하고 지속적인 통증을 유발하는 성질."
+            ],
+            [
+              "gnawing",
+              "쓰라린 통증(gnawing). 둔하고 지속적인 통증의 감각."
+            ],
+            [
+              "defined",
+              "경계가 분명한(defined). 윤곽이나 경계가 명확하게 드러나는."
+            ],
+            [
+              "localized",
+              "국소의(localized). 전신성(generalized)과 대조되는 개념."
+            ],
+            [
+              "somatic pain",
+              "체성 통증(somatic pain). 피부, 조직, 근육 통증을 포함하는 통각수용 통증의 한 유형."
+            ],
+            [
+              "parietal peritoneum",
+              "벽쪽 복막(parietal peritoneum). 복부/골반 벽의 내면을 덮는 복막. parietal = 벽(wall)."
+            ],
+            [
+              "mesodermal",
+              "중배엽의(mesodermal). 3대 배엽 중 중간층으로, 근골격계·혈액·혈관·비뇨생식기계·결합조직(피부 진피 포함) 등을 만든다."
+            ],
+            [
+              "dissection",
+              "박리(dissection). 대동맥의 경우 내벽이 찢어지는 것(aortic dissection)."
+            ],
+            [
+              "volvulus",
+              "장염전(volvulus). 위장이나 장이 뒤틀려 생기는 폐색."
+            ],
+            [
+              "ipsilateral",
+              "동측의(ipsilateral). 신체의 같은 쪽에 관련된."
+            ],
+            [
+              "ureteral",
+              "요관의(ureteral). 신장에서 방광으로 소변을 운반하는 관(ureter)에 관련된 형용사."
+            ],
+            [
+              "free",
+              "유리된(free). 여기서는 'free intraperitoneal blood' = 복강 내에 고여있지 않고 자유롭게 퍼진 혈액."
+            ],
+            [
+              "sclerotomes",
+              "뼈분절(sclerotome). 뼈, 인대, 관절 등 깊은 구조에서 오는 통증의 연관 영역."
+            ],
+            [
+              "myocardial infarction",
+              "심근경색(myocardial infarction). 심장 근육의 비가역적 손상."
+            ],
+            [
+              "appendicitis",
+              "충수염(appendicitis). 충수돌기의 염증. periumbilical→RLQ 통증 이동이 특징."
+            ],
+            [
+              "colic",
+              "산통(colic). 급격한 발생과 소실을 특징으로 하는 간헐적 복통을 보이는 임상 증후군. 1.급통증 2.결장이라는 중의적 의미도 있음."
+            ],
+            [
+              "paroxysmal",
+              "발작성의(paroxysmal). 갑작스럽고 통제할 수 없는 발작."
+            ],
+            [
+              "transmural",
+              "전벽층의(transmural). 신체나 낭, 또는 모든 중공구조의 벽을 관통하는."
+            ],
+            [
+              "irritation",
+              "자극(irritation). 비정상적이고 문제를 일으키는 자극."
+            ]
+          ]
         }
-      ],
-      "terms": {
-        "onset": "통증이 시작된 시점과 양상.",
-        "epigastric": "상복부 영역. foregut 장기(위·췌장·간·담도·근위십이지장) 통증의 위치.",
-        "midgut": "위장관 중간 부분(소장 나머지, 결장 근위 1/3, 충수). 통증은 배꼽 주위에서 느껴짐.",
-        "retroperitoneal": "복막 뒤쪽에 위치. 대동맥·신장 통증은 등에서 느껴짐.",
-        "aching": "둔하고 지속적인 통증.",
-        "gnawing": "쓰라리고 둔한 통증 감각.",
-        "somatic pain": "날카롭고 국소화가 잘 되는 통증. 벽쪽 복막 자극이 원인.",
-        "defined": "경계가 분명한, 명확한.",
-        "localized": "국소화된. 전신성(generalized)과 대조.",
-        "parietal peritoneum": "벽쪽 복막. 체성통 발생의 주요 부위.",
-        "mesodermal": "중배엽 기원의 구조물(근골격계 등).",
-        "dissection": "대동맥 내벽이 찢어지는 것. 혈관 응급의 대표 예.",
-        "volvulus": "위장/장의 뒤틀림에 의한 폐색. 점진적 발병 가능.",
-        "myocardial infarction": "심근경색. referred pain의 대표 예(턱/왼팔 통증).",
-        "ipsilateral": "신체의 같은 쪽. 담도질환의 견갑골 통증 위치 설명에 사용.",
-        "ureteral": "요관에 관련된. 결석 이동 시 방사통 발생.",
-        "appendicitis": "충수염. periumbilical에서 RLQ로 통증이 이동하는 대표 예.",
-        "colic": "간헐적 복통을 특징으로 하는 임상 증후군. 담낭통은 이름과 달리 paroxysmal하지 않음.",
-        "paroxysmal": "갑작스럽고 통제 불가능한 발작성의.",
-        "transmural": "벽을 관통하는. 전층 허혈/천공의 통증은 경과 후반부에 발생.",
-        "irritation": "자극. 기침/보행 시 통증 악화는 복막 자극을 시사."
-      }
+      ]
     }
   },
   "abdominal_pain": {
@@ -750,7 +933,7 @@
         {
           "type": "narrative",
           "heading": "복통의 시간경과 분류",
-          "html": "<p>복통은 위치·양상보다 <strong>시간적 경과(time course)</strong>로 분류하는 것이 원인 파악에 더 유용하다. <span class=\"term\" data-term=\"acute\">Acute</span>(급성), <span class=\"term\" data-term=\"chronic\">Chronic</span>(만성, intermittent/<span class=\"term\" data-term=\"episodic\">episodic</span>), <span class=\"term\" data-term=\"progressive\">Progressive</span>(진행성) 세 가지로 나뉜다.</p>"
+          "html": "<p>복통은 위치·양상보다 <strong>시간적 경과(time course)</strong>로 분류하는 것이 원인 파악에 더 유용하다. <strong>Acute</strong>(급성), <strong>Chronic</strong>(만성, intermittent/<strong>episodic</strong>), <strong>Progressive</strong>(진행성) 세 가지로 나뉜다.</p>"
         },
         {
           "type": "table",
@@ -763,17 +946,17 @@
           "rows": [
             [
               "<span class=\"chip acute\">Acute</span>",
-              "<span class=\"term\" data-term=\"acute\">having a short and relatively severe course</span>",
+              "<strong>having a short and relatively severe course</strong>",
               "수 시간 ~ 수 일, 대개 해소됨"
             ],
             [
               "<span class=\"chip chronic\">Chronic</span>",
-              "<span class=\"term\" data-term=\"chronic\">persisting over a long period of time</span> — 간헐적/삽화적",
+              "<strong>persisting over a long period of time</strong> — 간헐적/삽화적",
               "수 주 ~ 수 년"
             ],
             [
               "<span class=\"chip progressive\">Progressive</span>",
-              "<span class=\"term\" data-term=\"progressive\">advancing, going from bad to worse</span>",
+              "<strong>advancing, going from bad to worse</strong>",
               "시간이 갈수록 꾸준히 악화"
             ]
           ]
@@ -781,170 +964,425 @@
         {
           "type": "narrative",
           "heading": "응급 신호 (Worrisome Signs)",
-          "html": "<p>severe pain, fever, bloody stools, persistent <span class=\"term\" data-term=\"nausea\">nausea</span> & <span class=\"term\" data-term=\"vomiting\">vomiting</span>, weight loss, jaundice, 복부 <span class=\"term\" data-term=\"tenderness\">tenderness</span>, swelling 동반 시 즉시 의료 도움이 필요하다.</p>"
+          "html": "<p>severe pain, fever, bloody stools, persistent <strong>nausea</strong> & <strong>vomiting</strong>, weight loss, jaundice, 복부 <strong>tenderness</strong>, swelling 동반 시 즉시 의료 도움이 필요하다.</p>"
         },
         {
           "type": "table",
-          "heading": "Acute 원인 — 용어 정의 매칭",
+          "heading": "Acute 원인 (35개)",
           "columns": [
             "질환",
-            "정의/핵심 어근"
+            "정의"
           ],
           "rows": [
             [
-              "<span class=\"term\" data-term=\"aneurysm\">Aneurysm</span>",
-              "동맥·정맥·심장 벽의 dilatation으로 형성된 주머니"
+              "Aneurysm",
+              "<span class=\"csv-source\">a sac formed by the dilatation of the wall of an artery, vein, or heart</span>"
             ],
             [
-              "<span class=\"term\" data-term=\"Cystitis\">Cystitis</span>",
-              "urinary bladder inflammation (방광염)"
+              "Appendicitis",
+              "inflammation of the appendix"
             ],
             [
-              "<span class=\"term\" data-term=\"Cholecystitis\">Cholecystitis</span>",
-              "gallbladder inflammation (담낭염)"
+              "Cholangitis",
+              "<span class=\"csv-source\">bile duct inflammation</span>"
             ],
             [
-              "<span class=\"term\" data-term=\"Cholangitis\">Cholangitis</span>",
-              "bile duct inflammation (담관염)"
+              "Cholecystitis",
+              "<span class=\"csv-source\">gallbladder inflammation</span>"
             ],
             [
-              "<span class=\"term\" data-term=\"Diverticulitis\">Diverticulitis</span>",
-              "장벽 돌출 주머니(diverticulum)의 염증. S자결장 호발"
+              "Cystitis",
+              "<span class=\"csv-source\">urinary bladder inflammation</span>"
+            ],
+            [
+              "Diabetic ketoacidosis",
+              "<span class=\"csv-source\">high levels of blood acids called ketones</span>"
+            ],
+            [
+              "Diverticulitis",
+              "<span class=\"csv-source\">inflammation of a small bulging sac pushing outward from the intestine wall</span>"
+            ],
+            [
+              "Duodenitis",
+              "<span class=\"csv-source\">inflammation in the first part of the small intestine</span>"
+            ],
+            [
+              "Ectopic pregnancy",
+              "implantation of a fertilized egg outside the uterine cavity, most often in a fallopian tube"
+            ],
+            [
+              "Fecal impaction",
+              "<span class=\"csv-source\">hardened stool that can't be eliminated</span>"
+            ],
+            [
+              "Heart attack",
+              "death of heart muscle due to sudden loss of blood supply (myocardial infarction)"
+            ],
+            [
+              "Injury",
+              "damage to the body caused by an external physical force"
+            ],
+            [
+              "Intestinal obstruction",
+              "partial or complete blockage of the small or large intestine"
             ],
             [
               "Intussusception",
-              "장의 한 부분이 다른 부분 속으로 telescoping. 거의 소아에서만"
+              "<span class=\"csv-source\">a telescoping of one portion of the intestine into another</span>"
             ],
             [
-              "<span class=\"term\" data-term=\"Ectopic\">Ectopic</span> pregnancy",
-              "자궁 외 비정상 위치에 착상"
+              "Kidney infection",
+              "bacterial infection of one or both kidneys, usually spreading from the bladder"
             ],
             [
-              "<span class=\"term\" data-term=\"Mesenteric\">Mesenteric</span> ischemia",
-              "decreased blood flow to the intestines"
+              "Kidney stones",
+              "hard deposits of minerals and salts that form inside the kidneys"
             ],
             [
-              "Mesenteric <span class=\"term\" data-term=\"thrombosis\">thrombosis</span>",
-              "장 정맥의 blood clot"
+              "Liver abscess",
+              "<span class=\"csv-source\">pus-filled pocket in the liver</span>"
             ],
             [
-              "Pericarditis / Peritonitis / Pleurisy",
-              "심장 주변 / 복강 내막 / 폐 주변막의 염증 (혼동 주의)"
+              "Mesenteric ischemia",
+              "<span class=\"csv-source\">decreased blood flow to the intestines</span>"
             ],
             [
-              "<span class=\"term\" data-term=\"Salpingitis\">Salpingitis</span>",
-              "inflammation of the fallopian tubes (난관염)"
+              "Mesenteric lymphadenitis",
+              "<span class=\"csv-source\">swollen lymph nodes in the folds of membrane that hold the abdominal organs in place</span>"
             ],
             [
-              "<span class=\"term\" data-term=\"Shingles\">Shingles</span>",
-              "= herpes zoster (대상포진)"
+              "Mesenteric thrombosis",
+              "<span class=\"csv-source\">blood clot in a vein carrying blood away from your intestines</span>"
+            ],
+            [
+              "Pancreatitis",
+              "<span class=\"csv-source\">pancreas inflammation</span>"
+            ],
+            [
+              "Pericarditis",
+              "<span class=\"csv-source\">inflammation of the tissue around the heart</span>"
+            ],
+            [
+              "Peritonitis",
+              "<span class=\"csv-source\">infection of the abdominal lining</span>"
+            ],
+            [
+              "Pleurisy",
+              "<span class=\"csv-source\">inflammation of the membrane surrounding the lungs</span>"
+            ],
+            [
+              "Pneumonia",
+              "infection that inflames the air sacs in one or both lungs"
+            ],
+            [
+              "Pulmonary infarction",
+              "<span class=\"csv-source\">loss of blood flow to the lungs</span>"
+            ],
+            [
+              "Ruptured spleen",
+              "a tear in the spleen, often from trauma, that can cause life-threatening internal bleeding"
+            ],
+            [
+              "Salpingitis",
+              "<span class=\"csv-source\">inflammation of the fallopian tubes</span>"
+            ],
+            [
+              "Sclerosing mesenteritis",
+              "rare inflammatory disease causing thickening and scarring of the mesentery"
+            ],
+            [
+              "Shingles",
+              "<span class=\"csv-source\">herpes zoster infection</span>"
+            ],
+            [
+              "Spleen infection",
+              "infection involving the spleen, often secondary to a systemic or abdominal infection"
+            ],
+            [
+              "Splenic abscess",
+              "<span class=\"csv-source\">pus-filled pocket in the spleen</span>"
+            ],
+            [
+              "Torn colon",
+              "a tear in the wall of the colon, which can lead to leakage of bowel contents"
+            ],
+            [
+              "Urinary tract infection (UTI)",
+              "infection of any part of the urinary system, most often the bladder"
+            ],
+            [
+              "Viral gastroenteritis",
+              "<span class=\"csv-source\">stomach flu</span>"
             ]
           ]
         },
         {
           "type": "table",
-          "heading": "Chronic 원인 — 용어 정의 매칭",
+          "heading": "Chronic 원인 (16개)",
           "columns": [
             "질환",
-            "정의/핵심 어근"
+            "정의"
           ],
           "rows": [
             [
-              "<span class=\"term\" data-term=\"Angina\">Angina pectoris</span>",
-              "chest pain secondary to reduced blood flow to the heart (협심증)"
+              "Angina",
+              "<span class=\"csv-source\">chest pain that occurs secondary to the reduced blood flow to the heart</span>"
             ],
             [
-              "<span class=\"term\" data-term=\"Celiac disease\">Celiac disease</span>",
-              "chronic disorder, inability to tolerate gluten"
+              "Celiac disease",
+              "<span class=\"csv-source\">chronic disorder of digestive tract, inability to tolerate gluten</span>"
             ],
             [
-              "<span class=\"term\" data-term=\"Endometriosis\">Endometriosis</span>",
-              "functional endometrial tissue outside the uterus"
+              "Endometriosis",
+              "<span class=\"csv-source\">functional endometrial tissue present outside the uterus</span>"
             ],
             [
-              "<span class=\"term\" data-term=\"Hiatal\">Hiatal</span> hernia",
-              "조직/장기가 횡격막 열공(hiatus)을 통해 비정상 탈출"
+              "Gallstones",
+              "hardened deposits of bile that form in the gallbladder"
             ],
             [
-              "Irritable bowel <span class=\"term\" data-term=\"syndrome\">syndrome</span>",
-              "과민성 대장 증후군"
+              "Gastritis",
+              "<span class=\"csv-source\">inflammation of the stomach lining</span>"
             ],
             [
-              "PID",
-              "infection of the female reproductive organs"
+              "Gastroesophageal reflux disease (GERD)",
+              "chronic backflow of stomach acid into the esophagus"
             ],
             [
-              "<span class=\"term\" data-term=\"Peptic\">Peptic</span> ulcer",
-              "위산 등 소화액 작용과 관련된 궤양"
+              "Hernia",
+              "<span class=\"csv-source\">abnormal exit of tissue/organ through the wall of the cavity it normally resides in</span>"
+            ],
+            [
+              "Irritable bowel syndrome",
+              "chronic disorder of the large intestine with abdominal pain and altered bowel habits, without structural disease"
+            ],
+            [
+              "Mittelschmerz",
+              "<span class=\"csv-source\">pain associated with ovulation</span>"
+            ],
+            [
+              "Nonulcer stomach pain",
+              "chronic stomach discomfort with no identifiable ulcer or structural cause (functional dyspepsia)"
+            ],
+            [
+              "Ovarian cysts",
+              "fluid-filled sacs that form on or within an ovary"
+            ],
+            [
+              "Pelvic inflammatory disease (PID)",
+              "<span class=\"csv-source\">infection of the female reproductive organs</span>"
+            ],
+            [
+              "Peptic ulcer",
+              "an open sore in the lining of the stomach or duodenum"
+            ],
+            [
+              "Sickle cell anemia",
+              "inherited disorder causing red blood cells to become rigid, sickle-shaped, and prone to blocking blood flow"
+            ],
+            [
+              "Strained or pulled abdominal muscle",
+              "overstretching or tearing of an abdominal wall muscle"
             ],
             [
               "Ulcerative colitis",
-              "염증성 장질환(IBD)의 일종 — chronic 분류"
+              "<span class=\"csv-source\">a type of inflammatory bowel disease</span>"
             ]
           ]
         },
         {
           "type": "table",
-          "heading": "Progressive 원인 — 용어 정의 매칭",
+          "heading": "Progressive 원인 (13개)",
           "columns": [
             "질환",
-            "정의/핵심 어근"
+            "정의"
           ],
           "rows": [
             [
-              "<span class=\"term\" data-term=\"Hepatitis\">Hepatitis</span>",
-              "liver inflammation (간염)"
-            ],
-            [
-              "<span class=\"term\" data-term=\"Uremia\">Uremia</span>",
-              "retention/buildup of renal waste products in the blood (요독증)"
-            ],
-            [
-              "Non-Hodgkin's lymphoma",
-              "malignant tumor of the lymphatic system"
+              "Cancer",
+              "uncontrolled growth and spread of abnormal cells"
             ],
             [
               "Crohn's disease",
-              "염증성 장질환(IBD)의 일종 — progressive 분류 (cf. ulcerative colitis는 chronic)"
+              "<span class=\"csv-source\">a type of inflammatory bowel disease</span>"
             ],
             [
-              "Splenomegaly",
-              "비장 비대 (enlarged spleen)"
+              "Enlarged spleen",
+              "<span class=\"csv-source\">splenomegaly</span>"
+            ],
+            [
+              "Gallbladder cancer",
+              "malignant tumor arising in the gallbladder"
+            ],
+            [
+              "Hepatitis",
+              "<span class=\"csv-source\">liver inflammation</span>"
+            ],
+            [
+              "Kidney cancer",
+              "malignant tumor arising in the kidney"
+            ],
+            [
+              "Lead poisoning",
+              "toxic accumulation of lead in the body, affecting multiple organ systems"
+            ],
+            [
+              "Liver cancer",
+              "malignant tumor arising in the liver"
+            ],
+            [
+              "Non-Hodgkin's lymphoma",
+              "<span class=\"csv-source\">malignant tumor(cancer) of the lymphatic system</span>"
+            ],
+            [
+              "Pancreatic cancer",
+              "malignant tumor arising in the pancreas"
+            ],
+            [
+              "Stomach cancer",
+              "malignant tumor arising in the lining of the stomach"
             ],
             [
               "Tubo-ovarian abscess",
-              "난관과 난소를 포함하는 pus-filled pocket"
+              "<span class=\"csv-source\">pus-filled pocket involving a fallopian tube and an ovary</span>"
+            ],
+            [
+              "Uremia",
+              "<span class=\"csv-source\">retention or buildup of renal waste products in your blood</span>"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "핵심 단어 (30개)",
+          "columns": [
+            "단어",
+            "설명"
+          ],
+          "rows": [
+            [
+              "acute",
+              "급성(acute). Having a short and relatively severe course. 짧고 비교적 심한 경과."
+            ],
+            [
+              "chronic",
+              "만성(chronic). Persisting over a long period of time. 장기간 지속되는."
+            ],
+            [
+              "nausea",
+              "구역, 오심(nausea). The subjective feeling of a need to vomit. 토하고 싶은 주관적 느낌."
+            ],
+            [
+              "vomiting",
+              "구토(vomiting). The oral expulsion of gastrointestinal contents due to gut and thoracoabdominal wall contractions."
+            ],
+            [
+              "tenderness",
+              "압통(tenderness). The development of pain with the application of light touch (palpation) to a specific area."
+            ],
+            [
+              "indigestion",
+              "소화불량(indigestion). 오심, 구토, 속쓰림, 역류, dyspepsia를 포괄하는 비특이적 상복부 불편감 용어."
+            ],
+            [
+              "episodic",
+              "간헐적인(episodic). 불규칙한 간격으로 발생하거나 나타나는."
+            ],
+            [
+              "progressive",
+              "진행성(progressive). Advancing, going from bad to worse, increasing in scope or severity."
+            ],
+            [
+              "aneurysm",
+              "동맥류(aneurysm). A sac formed by the dilatation of the wall of an artery, a vein or the heart."
+            ],
+            [
+              "Cholangitis",
+              "담관염(cholangitis). chol/e(담즙) + angi/o(관) + -itis(염증) = 쓸개관의 염증."
+            ],
+            [
+              "Cholecystitis",
+              "담낭염(cholecystitis). cholecyst(담낭) + -itis(염증) = 쓸개주머니의 염증."
+            ],
+            [
+              "Cystitis",
+              "방광염(cystitis). 요방광의 염증."
+            ],
+            [
+              "ketones",
+              "케톤체(ketones). 지방 대사의 부산물. 혈중 과다 축적 시 당뇨병성 케톤산증을 유발."
+            ],
+            [
+              "Diverticulitis",
+              "게실염(diverticulitis). 장벽 바깥으로 돌출된 게실(diverticulum)에 염증이 생긴 상태. S자 결장에 호발."
+            ],
+            [
+              "Ectopic",
+              "딴곳의, 위치이상의(ectopic). 정상 위치가 아닌 곳에 존재하는. Ectopic pregnancy=자궁외임신."
+            ],
+            [
+              "Mesenteric",
+              "장간막의(mesenteric). 장과 그 부속물을 후복벽에 연결하는 막(mesentery)에 관련된."
+            ],
+            [
+              "thrombosis",
+              "혈전증(thrombosis). 혈관(주로 정맥) 내 혈전 형성."
+            ],
+            [
+              "infarction",
+              "경색(infarction). 국소적 산소 결핍으로 인한 조직 괴사 영역의 형성."
+            ],
+            [
+              "Salpingitis",
+              "난관염(salpingitis). Salpinx(난관)의 염증."
+            ],
+            [
+              "Sclerosing",
+              "경화성의(sclerosing). Sclero-(경화, hardness)에서 유래."
+            ],
+            [
+              "Shingles",
+              "대상포진(shingles). = herpes zoster."
+            ],
+            [
+              "Angina",
+              "협심증(angina pectoris). 심장동맥의 부분 폐쇄로 운동/흥분 시 발생하는 흉통."
+            ],
+            [
+              "Celiac disease",
+              "셀리악병(celiac disease). 글루텐 불내성을 특징으로 하는 만성 소화기 질환."
+            ],
+            [
+              "Endometriosis",
+              "자궁내막증(endometriosis). 기능성 자궁내막 조직이 자궁 외부에 존재하는 상태."
+            ],
+            [
+              "Hiatal",
+              "열공의(hiatal). Hiatus(틈새, 구멍)에서 유래. Hiatal hernia=열공탈장."
+            ],
+            [
+              "syndrome",
+              "증후군(syndrome). 함께 발생하여 하나의 질환/상태를 가리키는 징후·증상의 집합."
+            ],
+            [
+              "Peptic",
+              "소화성의(peptic). Pepsin 또는 소화 작용과 관련된. Peptic ulcer=소화성 궤양."
+            ],
+            [
+              "Strained",
+              "긴장된, 과도긴장된(strained). 근육에 외력이 가해져 손상된 상태(=muscle strain)."
+            ],
+            [
+              "Hepatitis",
+              "간염(hepatitis). 간의 염증."
+            ],
+            [
+              "Uremia",
+              "요독증(uremia). 신장 노폐물이 혈중에 축적된 상태."
             ]
           ]
         }
-      ],
-      "terms": {
-        "acute": "짧고 비교적 심한 경과를 가지는 (having a short and relatively severe course).",
-        "chronic": "장기간 지속되는 (persisting over a long period of time).",
-        "episodic": "불규칙한 간격으로 나타나는, 간헐적인.",
-        "progressive": "시간이 지날수록 악화되는, 진행성의.",
-        "nausea": "토하고 싶은 주관적 느낌(구역, 오심).",
-        "vomiting": "위장관 내용물의 구강 배출(구토).",
-        "tenderness": "촉진 시 통증이 발생하는 것(압통).",
-        "aneurysm": "동맥·정맥·심장 벽의 확장으로 생긴 주머니 모양 구조.",
-        "Cystitis": "요방광의 염증.",
-        "Cholecystitis": "담낭(쓸개주머니)의 염증.",
-        "Cholangitis": "담관(쓸개관)의 염증.",
-        "Diverticulitis": "게실(장벽 돌출 주머니)의 염증.",
-        "Ectopic": "정상 위치가 아닌 곳에 위치한.",
-        "Mesenteric": "장간막에 관련된.",
-        "thrombosis": "혈관 내 혈전 형성.",
-        "Salpingitis": "난관(나팔관)의 염증.",
-        "Shingles": "대상포진(herpes zoster).",
-        "Angina": "심장 혈류 감소로 인한 흉통.",
-        "Celiac disease": "글루텐 불내성을 특징으로 하는 만성 소화기 질환.",
-        "Endometriosis": "기능성 자궁내막 조직이 자궁 외부에 존재하는 상태.",
-        "Hiatal": "횡격막의 열공(틈새)에 관련된.",
-        "syndrome": "함께 나타나는 징후·증상의 집합.",
-        "Peptic": "위산/소화 작용과 관련된.",
-        "Hepatitis": "간의 염증.",
-        "Uremia": "신장 노폐물이 혈중에 축적된 상태."
-      }
+      ]
     }
   },
   "atherosclerosis": {
@@ -954,7 +1392,7 @@
     "summaryHint": "동맥경화의 공간적·시간적 국소성과 부위별 임상 양상",
     "paragraphs": [
       {
-        "en": "Atherosclerosis is the leading cause of death and disability in the developed world. Despite our familiarity with this disease, some of its fundamental characteristics remain poorly recognized and understood. Although many generalized or systemic risk factors predispose to its development, atherosclerosis affects various regions of the circulation preferentially and yields distinct clinical manifestations depending on the particular circulatory bed affected. Atherosclerosis of the coronary arteries commonly causes myocardial infarction and angina pectoris. Atherosclerosis of the arteries supplying the central nervous system frequently provokes strokes and transient cerebral ischemia. In the peripheral circulation, atherosclerosis causes intermittent {{claudication}} and gangrene and can jeopardize limb viability. Involvement of the {{splanchnic}} circulation can cause mesenteric ischemia. Atherosclerosis can affect the kidneys either directly (e.g., renal artery stenosis) or as a frequent site of {{atheroembolic}} disease.",
+        "en": "Atherosclerosis is the leading cause of death and disability in the developed world. Despite our familiarity with this disease, some of its fundamental characteristics remain poorly recognized and understood. Although many generalized or systemic risk factors predispose to its development, atherosclerosis affects various regions of the circulation preferentially and yields distinct clinical manifestations depending on the particular circulatory bed affected. Atherosclerosis of the {{coronary}} arteries commonly causes myocardial infarction and angina pectoris. Atherosclerosis of the arteries supplying the central nervous system frequently provokes {{strokes}} and transient cerebral ischemia. In the peripheral circulation, atherosclerosis causes intermittent {{claudication}} and {{gangrene}} and can jeopardize limb viability. Involvement of the {{splanchnic}} circulation can cause mesenteric ischemia. Atherosclerosis can affect the kidneys either directly (e.g., renal artery {{stenosis}}) or as a frequent site of {{atheroembolic}} disease.",
         "kr": "동맥경화증(atherosclerosis)은 선진국에서 사망과 장애의 가장 주된 원인이다. 이 질환에 대한 익숙함에도 불구하고, 그 근본적인 특성 중 일부는 여전히 제대로 인식되거나 이해되지 못하고 있다. 발병을 유발하는 전신적 위험 요인이 많지만, 동맥경화증은 순환계의 특정 부위를 선택적으로 침범하며 침범된 혈관 부위에 따라 서로 다른 임상 양상을 나타낸다. 관상동맥의 동맥경화증은 흔히 심근경색과 협심증을 유발한다. 중추신경계에 혈액을 공급하는 동맥의 동맥경화증은 흔히 뇌졸중과 일시적인 뇌허혈을 일으킨다. 말초 순환계에서는 동맥경화증이 간헐적 파행(intermittent claudication)과 괴사(gangrene)를 유발하여 사지의 생존을 위협할 수 있다. 내장(splanchnic) 순환계의 침범은 장간막 허혈을 일으킬 수 있다. 동맥경화증은 신장에 직접적으로(예: 신동맥 협착) 영향을 미치거나, 죽종색전증(atheroembolic disease)이 흔히 발생하는 부위가 되기도 한다.",
         "note": "부위별 동맥경화 임상양상 매칭이 핵심: 관상동맥→MI/angina, 뇌혈관→stroke/일시적 뇌허혈, 말초→intermittent claudication/gangrene, splanchnic→mesenteric ischemia, 신장→renal artery stenosis 또는 atheroembolic disease.",
         "sectionTitle": null
@@ -980,7 +1418,11 @@
       "predilection": "호발부위(predilection). 특정 부위를 선호하는 경향.",
       "occlusive": "폐색성의(occlusive). 혈관을 막는 성질의.",
       "preferentially": "선호하여(preferentially). 특정 부위를 우선적으로 침범하는 양상을 나타낼 때 사용.",
-      "carotid bifurcation": "목동맥 갈림(carotid bifurcation). 경동맥이 내외경동맥으로 분지하는 지점 — 동맥경화 호발부위."
+      "carotid bifurcation": "목동맥 갈림(carotid bifurcation). 경동맥이 내외경동맥으로 분지하는 지점 — 동맥경화 호발부위.",
+      "coronary": "관상동맥(coronary). 심장에 혈액을 공급하는 혈관.",
+      "strokes": "stroke(뇌졸중). CNS 공급 동맥의 동맥경화로 흔히 발생하는 임상 양상.",
+      "gangrene": "gangrene(괴저). 혈관 공급 후 세균 침범이 동반된 조직 괴사. 말초순환 동맥경화의 대표 합병증.",
+      "stenosis": "stenosis(협착). 관/도관의 좁아짐. 신동맥 협착(renal artery stenosis)은 동맥경화가 신장에 직접 영향을 주는 예."
     },
     "summary": {
       "sections": [
@@ -1007,22 +1449,22 @@
             ],
             [
               "말초순환 (peripheral)",
-              "간헐적 <span class=\"term\" data-term=\"claudication\">claudication</span>(파행), 괴사(gangrene) → 사지 생존 위협"
+              "간헐적 <strong>claudication</strong>(파행), 괴사(gangrene) → 사지 생존 위협"
             ],
             [
-              "<span class=\"term\" data-term=\"splanchnic\">Splanchnic</span> (내장) 순환",
+              "<strong>Splanchnic</strong> (내장) 순환",
               "장간막 허혈(mesenteric ischemia)"
             ],
             [
               "신장 (kidney)",
-              "직접: 신동맥 협착(renal artery stenosis) / 간접: <span class=\"term\" data-term=\"atheroembolic\">atheroembolic</span> disease 호발부위"
+              "직접: 신동맥 협착(renal artery stenosis) / 간접: <strong>atheroembolic</strong> disease 호발부위"
             ]
           ]
         },
         {
           "type": "narrative",
           "heading": "공간적 국소성 (Focal in Space)",
-          "html": "<p>같은 동맥 내에서도 동맥경화는 특정 <span class=\"term\" data-term=\"predisposed regions\">predisposed region</span>에 국소적으로 발생한다. 관상동맥에서는 좌전하행지 근위부가 <span class=\"term\" data-term=\"predilection\">predilection</span>(호발부위)을 보이고, 신동맥 근위부와 <span class=\"term\" data-term=\"carotid bifurcation\">carotid bifurcation</span>(목동맥 갈림)도 <span class=\"term\" data-term=\"preferentially\">preferentially</span> 침범된다. 병변은 혈류가 흐트러지는 동맥 분지점에서 잘 생긴다. 단, 대동맥에서는 <span class=\"term\" data-term=\"occlusive\">occlusive</span>(협착성) 질환이 아니라 확장(ectasia)·동맥류로 나타나기도 한다.</p>"
+          "html": "<p>같은 동맥 내에서도 동맥경화는 특정 <strong>predisposed region</strong>에 국소적으로 발생한다. 관상동맥에서는 좌전하행지 근위부가 <strong>predilection</strong>(호발부위)을 보이고, 신동맥 근위부와 <strong>carotid bifurcation</strong>(목동맥 갈림)도 <strong>preferentially</strong> 침범된다. 병변은 혈류가 흐트러지는 동맥 분지점에서 잘 생긴다. 단, 대동맥에서는 <strong>occlusive</strong>(협착성) 질환이 아니라 확장(ectasia)·동맥류로 나타나기도 한다.</p>"
         },
         {
           "type": "narrative",
@@ -1033,22 +1475,70 @@
           "type": "list",
           "heading": "동맥경화의 세 가지 임상 발현 양상",
           "items": [
-            "<strong>만성형</strong>: 안정적이고 운동으로 유발되는 협심증, 예측 가능하고 재현되는 간헐적 파행(<span class=\"term\" data-term=\"claudication\">claudication</span>)",
+            "<strong>만성형</strong>: 안정적이고 운동으로 유발되는 협심증, 예측 가능하고 재현되는 간헐적 파행(<strong>claudication</strong>)",
             "<strong>급성형</strong>: 심근경색, 뇌졸중(cerebrovascular accident), 급사(sudden cardiac death)가 동맥경화의 존재를 처음으로 알림",
             "<strong>무증상형</strong>: 평생 임상 증상 없이 지내다가 부검(postmortem)에서 광범위한 동맥경화가 발견되는 경우"
           ]
+        },
+        {
+          "type": "table",
+          "heading": "핵심 단어 (12개)",
+          "columns": [
+            "단어",
+            "설명"
+          ],
+          "rows": [
+            [
+              "claudication",
+              "파행(claudication). 절뚝거림. 간헐적 파행(intermittent claudication)=운동 시 근육의 혈액 공급 부족으로 생기는 통증/불편감. 걷다가 아프고 쉬면 호전. 원인은 말초동맥질환(PAD). 주로 종아리(calf)에 발생."
+            ],
+            [
+              "splanchnic",
+              "내장의(splanchnic). = visceral. 내장 순환계를 가리킴."
+            ],
+            [
+              "atheroembolic",
+              "죽종색전의(atheroembolic). 콜레스테롤이나 그 에스터, 또는 죽종판 조각으로 이루어진 색전으로, 보통 작은 동맥에 박힌다."
+            ],
+            [
+              "predisposed regions",
+              "취약 부위(predisposed region). 위험요인이 있어 질환이 발생하기 쉬운 부위."
+            ],
+            [
+              "predilection",
+              "호발부위(predilection). 특정 부위를 선호하는 경향."
+            ],
+            [
+              "occlusive",
+              "폐색성의(occlusive). 혈관을 막는 성질의."
+            ],
+            [
+              "preferentially",
+              "선호하여(preferentially). 특정 부위를 우선적으로 침범하는 양상을 나타낼 때 사용."
+            ],
+            [
+              "carotid bifurcation",
+              "목동맥 갈림(carotid bifurcation). 경동맥이 내외경동맥으로 분지하는 지점 — 동맥경화 호발부위."
+            ],
+            [
+              "coronary",
+              "관상동맥(coronary). 심장에 혈액을 공급하는 혈관."
+            ],
+            [
+              "strokes",
+              "stroke(뇌졸중). CNS 공급 동맥의 동맥경화로 흔히 발생하는 임상 양상."
+            ],
+            [
+              "gangrene",
+              "gangrene(괴저). 혈관 공급 후 세균 침범이 동반된 조직 괴사. 말초순환 동맥경화의 대표 합병증."
+            ],
+            [
+              "stenosis",
+              "stenosis(협착). 관/도관의 좁아짐. 신동맥 협착(renal artery stenosis)은 동맥경화가 신장에 직접 영향을 주는 예."
+            ]
+          ]
         }
-      ],
-      "terms": {
-        "claudication": "운동 시 근육 혈류 부족으로 생기는 통증. 걸으면 악화, 쉬면 호전. 주로 종아리에 발생(간헐적 파행).",
-        "splanchnic": "내장(visceral) 순환계에 관련된.",
-        "atheroembolic": "콜레스테롤·죽종판 조각으로 이루어진 색전이 작은 동맥에 박히는 질환.",
-        "predisposed regions": "위험요인으로 인해 병이 발생하기 쉬운 취약 부위.",
-        "predilection": "특정 부위를 선호하여 발생하는 경향(호발부위).",
-        "occlusive": "혈관을 막는 폐색성의 성질.",
-        "preferentially": "다른 부위보다 우선적으로, 선호하여.",
-        "carotid bifurcation": "경동맥이 내·외경동맥으로 갈라지는 지점. 동맥경화 호발부위."
-      }
+      ]
     }
   }
 }

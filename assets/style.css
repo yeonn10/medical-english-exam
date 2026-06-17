@@ -504,13 +504,6 @@ main {
   margin-bottom: 3px;
 }
 
-/* 핵심 단어 정의용 박스는 중성색 계열로 */
-.float-popover.term-style {
-  background: var(--color-tag-bg);
-  border: 1px solid var(--color-rule);
-  color: var(--color-ink-soft);
-}
-
 /* ---------- 요약 모드 ---------- */
 
 .summary-body { font-family: var(--font-sans); }
@@ -587,19 +580,27 @@ main {
 
 .summary-table tr:last-child td { border-bottom: none; }
 
-/* 핵심 단어 (요약 모드 클릭형 용어) */
-.term {
-  background: var(--color-highlight);
-  color: var(--color-highlight-ink);
-  border-bottom: 1px solid var(--color-highlight-border);
+/* 원문/기출에 실제로 등장한 표현(CSV 원본 출처) 강조 */
+.csv-source {
+  background: var(--color-accent-soft);
+  color: var(--color-accent-ink);
   border-radius: 2px;
   padding: 1px 4px;
-  cursor: pointer;
-  font-weight: 500;
-  white-space: nowrap;
+  box-decoration-break: clone;
 }
 
-.term:hover, .term.term-active { background: var(--color-highlight-border); color: var(--color-highlight-ink); }
+.summary-table-legend {
+  font-size: 11.5px;
+  color: var(--color-ink-faint);
+  margin: -4px 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.summary-table-legend .csv-source {
+  padding: 1px 6px;
+}
 
 /* 카테고리 칩 */
 .chip {

@@ -169,6 +169,10 @@
       if (sec.type === "narrative") {
         html += sec.html;
       } else if (sec.type === "table") {
+        const hasSourceMark = sec.rows.some((row) => row.some((cell) => cell.includes("csv-source")));
+        if (hasSourceMark) {
+          html += `<div class="summary-table-legend"><span class="csv-source">표시</span>는 수업자료·기출문제에 실제로 등장한 표현</div>`;
+        }
         html += `<table class="summary-table"><thead><tr>`;
         sec.columns.forEach((c) => (html += `<th>${c}</th>`));
         html += `</tr></thead><tbody>`;
@@ -190,17 +194,5 @@
     });
 
     container.innerHTML = html;
-
-    // 핵심 단어 클릭 → 단어 근처에 말풍선으로 정의 표시
-    const terms = summary.terms || {};
-    container.querySelectorAll(".term").forEach((span) => {
-      const key = span.getAttribute("data-term");
-      const def = terms[key];
-      if (!def) return;
-      span.addEventListener("click", (e) => {
-        e.stopPropagation();
-        FloatPopover.open(span, def, { styleClass: "term-style", activeClass: "term-active" });
-      });
-    });
   }
 })();

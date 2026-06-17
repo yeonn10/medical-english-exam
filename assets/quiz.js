@@ -125,7 +125,7 @@
     const meta = passageMetaOf(q.passageId);
 
     document.getElementById("quiz-progress").textContent = `${state.currentIndex + 1} / ${state.questions.length}`;
-    document.getElementById("quiz-source").textContent = `${meta ? meta.title : q.passageId} · 출처: ${q.years.map((y) => y + "학번").join(", ")}`;
+    document.getElementById("quiz-source").textContent = `${meta ? meta.title : q.passageId} · 출처: ${q.years.join(", ")}`;
 
     // 문제(stem) / 지문(passage) 분리 렌더링
     document.getElementById("quiz-question").textContent = q.stem;
@@ -257,7 +257,10 @@
         if (radio) radio.disabled = true;
       });
       const confirmBtn = document.getElementById("quiz-confirm-btn");
-      if (confirmBtn) confirmBtn.disabled = true;
+      if (confirmBtn) {
+        const confirmRow = confirmBtn.closest(".quiz-confirm-row");
+        if (confirmRow) confirmRow.style.display = "none";
+      }
     }
 
     const feedback = document.getElementById("quiz-feedback");
