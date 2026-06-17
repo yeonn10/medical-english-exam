@@ -690,6 +690,21 @@ main {
   text-align: center;
 }
 
+/* 문제(stem)와 별도로 주어지는 지문(passage) — 본문 인용/정의 등.
+   질문과 시각적으로 구분되도록 세리프체 + 좌측 굵은 라인으로 처리 */
+.quiz-passage {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--color-ink-soft);
+  background: var(--color-tag-bg);
+  border-left: 3px solid var(--color-rule-strong);
+  border-radius: 0;
+  padding: 12px 16px;
+  margin: 0 0 18px;
+  white-space: pre-wrap;
+}
+
 .quiz-choices {
   display: flex;
   flex-direction: column;
@@ -736,6 +751,7 @@ main {
 
 .choice-radio-row:hover { background: var(--color-tag-bg); }
 .choice-radio-row input[type="radio"] { margin-top: 3px; flex-shrink: 0; accent-color: var(--color-ink); }
+.choice-radio-row.selected { background: var(--color-accent-soft); border: 1px solid var(--color-accent); }
 .choice-radio-row.correct { background: var(--color-accent-soft); color: var(--color-accent-ink); }
 .choice-radio-row.wrong { background: var(--color-note); color: var(--color-note-ink); }
 .choice-radio-row .choice-count {
@@ -744,6 +760,16 @@ main {
   font-size: 10.5px;
   color: var(--color-ink-faint);
   flex-shrink: 0;
+}
+
+/* 라디오로 고른 뒤 누르는 확인 버튼 — 누르기 전까지는 정답 판정이 일어나지 않음 */
+.quiz-confirm-row {
+  margin-bottom: 18px;
+}
+
+.quiz-confirm-row .btn {
+  width: 100%;
+  justify-content: center;
 }
 
 .quiz-many-hint {

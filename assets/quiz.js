@@ -1,9 +1,18 @@
 // ===========================================================
 // 퀴즈 페이지 — 본문 선택 + 객관식/주관식 모드 + 진행 + 결과
 // ===========================================================
+//
+// 데이터 구조(questions.json) 안내:
+// - stem            : 순수 질문 문장
+// - passage         : (있으면) 인용된 영문 지문. 빈칸은 ___ 로 표시됨
+// - choiceSourceType: "given" | "open"
+//     - "given": 문제/지문이 선택지 후보를 직접 한정한 경우 → choiceSourceOptions만 보기로 사용
+//     - "open" : 일반적인 빈칸 채우기 등, 정답+오답을 별도로 구성한 경우 → choices 사용
+// - choices / choiceSourceOptions : 둘 중 하나만 존재 (choiceSourceType에 따라)
+// - answer, explanation, years는 기존과 동일
 
 (function () {
-  const FEW_CHOICES_THRESHOLD = 6; // 이 개수 이하면 버튼형, 초과하면 스크롤 라디오리스트형
+  const FEW_CHOICES_THRESHOLD = 6; // 이 개수 초과 시 스크롤 가능한 보기 박스로 감쌈
 
   const state = {
     selectedPassages: new Set(["all"]), // "all" 또는 본문 id들의 집합
@@ -12,7 +21,8 @@
     currentIndex: 0,
     score: 0,
     wrongQuestions: [], // 틀린 문제 객체 저장 (다시 풀기용)
-    answeredCurrent: false,
+    answeredCurrent: false, // "확인" 버튼으로 채점이 끝났는지 여부
+    pendingChoice: null, // 라디오로 골랐지만 아직 "확인"을 누르기 전인 값
   };
 
   let ALL_QUESTIONS = [];
@@ -28,6 +38,11 @@
 
   function passageMetaOf(id) {
     return PASSAGE_META.find((p) => p.id === id);
+  }
+
+  // 문제별로 실제 사용할 보기 배열을 반환 (given이면 choiceSourceOptions, open이면 choices)
+  function getChoicesOf(q) {
+    return q.choiceSourceType === "given" ? q.choiceSourceOptions : q.choices;
   }
 
   // ---------- 설정 화면 ----------
@@ -104,13 +119,24 @@
   function renderCurrentQuestion() {
     FloatPopover && FloatPopover.close && FloatPopover.close();
     state.answeredCurrent = false;
+    state.pendingChoice = null;
 
     const q = state.questions[state.currentIndex];
     const meta = passageMetaOf(q.passageId);
 
     document.getElementById("quiz-progress").textContent = `${state.currentIndex + 1} / ${state.questions.length}`;
     document.getElementById("quiz-source").textContent = `${meta ? meta.title : q.passageId} · 출처: ${q.years.map((y) => y + "학번").join(", ")}`;
-    document.getElementById("quiz-question").textContent = q.question;
+
+    // 문제(stem) / 지문(passage) 분리 렌더링
+    document.getElementById("quiz-question").textContent = q.stem;
+    const passageEl = document.getElementById("quiz-passage");
+    if (q.passage) {
+      passageEl.textContent = q.passage;
+      passageEl.style.display = "";
+    } else {
+      passageEl.textContent = "";
+      passageEl.style.display = "none";
+    }
 
     const feedback = document.getElementById("quiz-feedback");
     feedback.classList.remove("show", "correct", "wrong");
@@ -126,44 +152,54 @@
     }
   }
 
+  // 모든 객관식은 라디오버튼으로 통일. 보기 개수가 많으면 스크롤 박스로 감싼다.
   function renderMultipleChoice(area, q) {
-    const isMany = q.choices.length > FEW_CHOICES_THRESHOLD;
+    const choices = getChoicesOf(q);
+    const isMany = choices.length > FEW_CHOICES_THRESHOLD;
+
     const wrapper = document.createElement("div");
     wrapper.className = `quiz-choices ${isMany ? "many" : ""}`;
 
     if (isMany) {
-      wrapper.innerHTML = q.choices
-        .map(
-          (c, i) => `
-        <label class="choice-radio-row" data-choice="${escapeAttr(c)}">
-          <input type="radio" name="quiz-choice" value="${escapeAttr(c)}">
-          <span>${c}</span>
-        </label>`
-        )
-        .join("");
-      area.appendChild(wrapper);
-
-      wrapper.querySelectorAll(".choice-radio-row").forEach((row) => {
-        row.addEventListener("click", () => {
-          if (state.answeredCurrent) return;
-          const choice = row.getAttribute("data-choice");
-          submitAnswer(q, choice, wrapper);
-        });
-      });
-    } else {
-      wrapper.innerHTML = q.choices
-        .map((c) => `<button class="choice-btn" data-choice="${escapeAttr(c)}">${c}</button>`)
-        .join("");
-      area.appendChild(wrapper);
-
-      wrapper.querySelectorAll(".choice-btn").forEach((btn) => {
-        btn.addEventListener("click", () => {
-          if (state.answeredCurrent) return;
-          const choice = btn.getAttribute("data-choice");
-          submitAnswer(q, choice, wrapper);
-        });
-      });
+      const hint = document.createElement("div");
+      hint.className = "quiz-many-hint";
+      hint.textContent = `보기 ${choices.length}개 · 스크롤하여 확인하세요`;
+      area.appendChild(hint);
     }
+
+    wrapper.innerHTML = choices
+      .map(
+        (c) => `
+      <label class="choice-radio-row" data-choice="${escapeAttr(c)}">
+        <input type="radio" name="quiz-choice" value="${escapeAttr(c)}">
+        <span>${c}</span>
+      </label>`
+      )
+      .join("");
+    area.appendChild(wrapper);
+
+    // 라디오 선택 시: 바로 채점하지 않고 선택 상태만 표시 + 확인 버튼 활성화
+    wrapper.querySelectorAll(".choice-radio-row").forEach((row) => {
+      row.addEventListener("click", () => {
+        if (state.answeredCurrent) return;
+        const choice = row.getAttribute("data-choice");
+        state.pendingChoice = choice;
+        wrapper.querySelectorAll(".choice-radio-row").forEach((r) => r.classList.remove("selected"));
+        row.classList.add("selected");
+        document.getElementById("quiz-confirm-btn").disabled = false;
+      });
+    });
+
+    // 확인 버튼: 실제 채점은 여기서 일어남
+    const confirmArea = document.createElement("div");
+    confirmArea.className = "quiz-confirm-row";
+    confirmArea.innerHTML = `<button class="btn" id="quiz-confirm-btn" disabled>확인</button>`;
+    area.appendChild(confirmArea);
+
+    document.getElementById("quiz-confirm-btn").addEventListener("click", () => {
+      if (state.answeredCurrent || state.pendingChoice === null) return;
+      submitAnswer(q, state.pendingChoice, wrapper);
+    });
   }
 
   function renderShortAnswerInput(area, q) {
@@ -209,16 +245,17 @@
       if (input) input.disabled = true;
       if (submitBtn) submitBtn.disabled = true;
     } else {
-      // 버튼형: 선택한 것 + 정답 표시
-      areaEl.querySelectorAll(".choice-btn, .choice-radio-row").forEach((el) => {
-        const c = el.getAttribute("data-choice");
-        el.classList.remove("correct", "wrong");
-        if (c === q.answer) el.classList.add("correct");
-        else if (c === userChoice && !isCorrect) el.classList.add("wrong");
-        if (el.tagName === "BUTTON") el.disabled = true;
-        const radio = el.querySelector('input[type="radio"]');
+      // 라디오 행: 정답/오답 표시 + 더 이상 선택 불가
+      areaEl.querySelectorAll(".choice-radio-row").forEach((row) => {
+        const c = row.getAttribute("data-choice");
+        row.classList.remove("selected");
+        if (c === q.answer) row.classList.add("correct");
+        else if (c === userChoice && !isCorrect) row.classList.add("wrong");
+        const radio = row.querySelector('input[type="radio"]');
         if (radio) radio.disabled = true;
       });
+      const confirmBtn = document.getElementById("quiz-confirm-btn");
+      if (confirmBtn) confirmBtn.disabled = true;
     }
 
     const feedback = document.getElementById("quiz-feedback");

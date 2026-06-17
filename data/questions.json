@@ -3,7 +3,9 @@
     "id": "q001",
     "passageId": "abdominal_pain",
     "type": "fill_blank",
-    "question": "'having a short and relatively severe course'를 뜻하며, 다음 빈칸에 들어갈 용어는?\n\n\"Abdominal pain can be... short-lived (___) or occur over weeks, months or years (chronic).\"",
+    "stem": "'having a short and relatively severe course'를 뜻하며, 다음 빈칸에 들어갈 용어는?",
+    "passage": "\"Abdominal pain can be... short-lived (___) or occur over weeks, months or years (chronic).\"",
+    "choiceSourceType": "open",
     "choices": [
       "acute",
       "chronic",
@@ -13,17 +15,19 @@
     "answer": "acute",
     "explanation": "acute(급성) = 짧고 비교적 심한 경과를 가지는 것. chronic(만성)과 대조되는 개념.",
     "years": [
-      19,
-      20,
+      23,
       22,
-      23
+      20,
+      19
     ]
   },
   {
     "id": "q002",
     "passageId": "abdominal_pain",
     "type": "fill_blank",
-    "question": "'persisting over a long period of time'을 뜻하며, 다음 빈칸에 들어갈 용어는?\n\n\"Abdominal pain can be... short-lived (acute) or occur over weeks, months or years (___).\"",
+    "stem": "'persisting over a long period of time'을 뜻하며, 다음 빈칸에 들어갈 용어는?",
+    "passage": "\"Abdominal pain can be... short-lived (acute) or occur over weeks, months or years (___).\"",
+    "choiceSourceType": "open",
     "choices": [
       "acute",
       "chronic",
@@ -33,15 +37,17 @@
     "answer": "chronic",
     "explanation": "chronic(만성) = 장기간 지속되는 것. 수 주~수 년에 걸쳐 나타날 수 있다.",
     "years": [
-      19,
-      21
+      21,
+      19
     ]
   },
   {
     "id": "q003",
     "passageId": "abdominal_pain",
     "type": "fill_blank",
-    "question": "'advancing, going from bad to worse, increasing in scope or severity'를 뜻하며, 다음 빈칸에 들어갈 용어는?\n\n\"Some conditions cause ___ pain, which steadily gets worse over time.\"",
+    "stem": "'advancing, going from bad to worse, increasing in scope or severity'를 뜻하며, 다음 빈칸에 들어갈 용어는?",
+    "passage": "\"Some conditions cause ___ pain, which steadily gets worse over time.\"",
+    "choiceSourceType": "open",
     "choices": [
       "acute",
       "chronic",
@@ -51,15 +57,17 @@
     "answer": "progressive",
     "explanation": "progressive(진행성) = 시간이 지날수록 꾸준히 악화되는 것.",
     "years": [
-      21,
-      22
+      22,
+      21
     ]
   },
   {
     "id": "q004",
     "passageId": "abdominal_pain",
     "type": "fill_blank",
-    "question": "'the subjective feeling of a need to vomit'을 뜻하며, 다음 빈칸에 들어갈 용어는?\n\n\"...severe pain, fever, bloody stools, persistent ___ and vomiting, weight loss...\"",
+    "stem": "'the subjective feeling of a need to vomit'을 뜻하며, 다음 빈칸에 들어갈 용어는?",
+    "passage": "\"...severe pain, fever, bloody stools, persistent ___ and vomiting, weight loss...\"",
+    "choiceSourceType": "open",
     "choices": [
       "nausea",
       "tenderness",
@@ -69,16 +77,18 @@
     "answer": "nausea",
     "explanation": "nausea(구역, 오심) = 토하고 싶은 주관적 느낌. vomiting(구토)은 실제로 배출하는 행위.",
     "years": [
-      19,
+      22,
       20,
-      22
+      19
     ]
   },
   {
     "id": "q005",
     "passageId": "abdominal_pain",
     "type": "fill_blank",
-    "question": "light touch(palpation)에 의해 통증이 유발되는 신체검진 소견을 뜻하며, 다음 빈칸에 들어갈 용어는?\n\n\"...severe ___ when you touch your abdomen, or swelling of the abdomen.\"",
+    "stem": "light touch(palpation)에 의해 통증이 유발되는 신체검진 소견을 뜻하며, 다음 빈칸에 들어갈 용어는?",
+    "passage": "\"...severe ___ when you touch your abdomen, or swelling of the abdomen.\"",
+    "choiceSourceType": "open",
     "choices": [
       "tenderness",
       "nausea",
@@ -88,18 +98,20 @@
     "answer": "tenderness",
     "explanation": "tenderness(압통) = 만지면(촉진) 통증이 발생하는 것.",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q006",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"urinary bladder inflammation\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"urinary bladder inflammation\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -139,18 +151,20 @@
     "answer": "Cystitis (bladder inflammation)",
     "explanation": "'urinary bladder inflammation' → Cystitis (bladder inflammation). (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
+      23,
       21,
-      23
+      20,
+      19
     ]
   },
   {
     "id": "q007",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"inflammation of a small bulging sac pushing outward from the intestine wall\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"inflammation of a small bulging sac pushing outward from the intestine wall\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -190,19 +204,21 @@
     "answer": "Diverticulitis",
     "explanation": "'inflammation of a small bulging sac pushing outward from the intestine wall' → Diverticulitis. (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
-      21,
+      23,
       22,
-      23
+      21,
+      20,
+      19
     ]
   },
   {
     "id": "q008",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"inflammation of the tissue around the heart\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"inflammation of the tissue around the heart\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -242,18 +258,20 @@
     "answer": "Pericarditis",
     "explanation": "'inflammation of the tissue around the heart' → Pericarditis. (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q009",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"infection of the abdominal lining\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"infection of the abdominal lining\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -293,18 +311,20 @@
     "answer": "Peritonitis",
     "explanation": "'infection of the abdominal lining' → Peritonitis. (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q010",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"inflammation of the fallopian tubes\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"inflammation of the fallopian tubes\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -344,18 +364,20 @@
     "answer": "Salpingitis",
     "explanation": "'inflammation of the fallopian tubes' → Salpingitis. (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q011",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"inflammation of the membrane surrounding the lungs\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"inflammation of the membrane surrounding the lungs\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -395,18 +417,20 @@
     "answer": "Pleurisy",
     "explanation": "'inflammation of the membrane surrounding the lungs' → Pleurisy. (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q012",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"gallbladder inflammation\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"gallbladder inflammation\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -446,18 +470,20 @@
     "answer": "Cholecystitis (gallbladder inflammation)",
     "explanation": "'gallbladder inflammation' → Cholecystitis (gallbladder inflammation). (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q013",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"bile duct inflammation\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"bile duct inflammation\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -497,16 +523,18 @@
     "answer": "Cholangitis (bile duct inflammation)",
     "explanation": "'bile duct inflammation' → Cholangitis (bile duct inflammation). (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20
+      20,
+      19
     ]
   },
   {
     "id": "q014",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"a telescoping of one portion of the intestine into another (거의 소아에서만 발생)\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"a telescoping of one portion of the intestine into another (거의 소아에서만 발생)\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -546,18 +574,20 @@
     "answer": "Intussusception (in children)",
     "explanation": "'a telescoping of one portion of the intestine into another (거의 소아에서만 발생)' → Intussusception (in children). (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q015",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"a sac formed by the dilatation of the wall of an artery, vein, or heart\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"a sac formed by the dilatation of the wall of an artery, vein, or heart\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -597,18 +627,20 @@
     "answer": "Abdominal aortic aneurysm",
     "explanation": "'a sac formed by the dilatation of the wall of an artery, vein, or heart' → Abdominal aortic aneurysm. (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q016",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"decreased blood flow to the intestine\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"decreased blood flow to the intestine\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -648,16 +680,18 @@
     "answer": "Mesenteric ischemia",
     "explanation": "'decreased blood flow to the intestine' → Mesenteric ischemia. (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20
+      20,
+      19
     ]
   },
   {
     "id": "q017",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"pus-filled pocket in the liver\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"pus-filled pocket in the liver\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -697,17 +731,19 @@
     "answer": "Liver abscess",
     "explanation": "'pus-filled pocket in the liver' → Liver abscess. (Acute causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q018",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Acute(급성) 복통 원인은?\n\n\"of an organ positioned abnormally within the body\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Acute(급성) 복통 원인은?",
+    "passage": "\"of an organ positioned abnormally within the body\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Abdominal aortic aneurysm",
       "Appendicitis",
       "Cholangitis (bile duct inflammation)",
@@ -754,8 +790,10 @@
     "id": "q019",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?\n\n\"chest pain secondary to reduced blood flow to the heart\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?",
+    "passage": "\"chest pain secondary to reduced blood flow to the heart\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Angina (pectoris)",
       "Celiac disease",
       "Endometriosis",
@@ -777,19 +815,21 @@
     "answer": "Angina (pectoris)",
     "explanation": "'chest pain secondary to reduced blood flow to the heart' → Angina (pectoris). (Chronic causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
-      21,
+      23,
       22,
-      23
+      21,
+      20,
+      19
     ]
   },
   {
     "id": "q020",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?\n\n\"chronic disorder of digestive tract, inability to tolerate gluten\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?",
+    "passage": "\"chronic disorder of digestive tract, inability to tolerate gluten\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Angina (pectoris)",
       "Celiac disease",
       "Endometriosis",
@@ -811,16 +851,18 @@
     "answer": "Celiac disease",
     "explanation": "'chronic disorder of digestive tract, inability to tolerate gluten' → Celiac disease. (Chronic causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      20,
-      22
+      22,
+      20
     ]
   },
   {
     "id": "q021",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?\n\n\"infection of the female reproductive organs\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?",
+    "passage": "\"infection of the female reproductive organs\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Angina (pectoris)",
       "Celiac disease",
       "Endometriosis",
@@ -842,18 +884,20 @@
     "answer": "Pelvic inflammatory disease (PID)",
     "explanation": "'infection of the female reproductive organs' → Pelvic inflammatory disease (PID). (Chronic causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q022",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?\n\n\"abnormal exit of tissue/organ through the wall of the cavity it normally resides in\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?",
+    "passage": "\"abnormal exit of tissue/organ through the wall of the cavity it normally resides in\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Angina (pectoris)",
       "Celiac disease",
       "Endometriosis",
@@ -875,17 +919,19 @@
     "answer": "Hiatal hernia",
     "explanation": "'abnormal exit of tissue/organ through the wall of the cavity it normally resides in' → Hiatal hernia. (Chronic causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q023",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?\n\n\"a type of inflammatory bowel disease (chronic 항목)\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?",
+    "passage": "\"a type of inflammatory bowel disease (chronic 항목)\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Angina (pectoris)",
       "Celiac disease",
       "Endometriosis",
@@ -907,17 +953,19 @@
     "answer": "Ulcerative colitis",
     "explanation": "'a type of inflammatory bowel disease (chronic 항목)' → Ulcerative colitis. (Chronic causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
+      22,
       20,
-      22
+      19
     ]
   },
   {
     "id": "q024",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?\n\n\"functional endometrial tissue present outside the uterus\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?",
+    "passage": "\"functional endometrial tissue present outside the uterus\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Angina (pectoris)",
       "Celiac disease",
       "Endometriosis",
@@ -946,8 +994,10 @@
     "id": "q025",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?\n\n\"'위식도역류'를 뜻하는 용어\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Chronic(만성) 복통 원인은?",
+    "passage": "\"'위식도역류'를 뜻하는 용어\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Angina (pectoris)",
       "Celiac disease",
       "Endometriosis",
@@ -976,8 +1026,10 @@
     "id": "q026",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Progressive(진행성) 복통 원인은?\n\n\"liver inflammation\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Progressive(진행성) 복통 원인은?",
+    "passage": "\"liver inflammation\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Cancer",
       "Crohn's disease",
       "Enlarged spleen (splenomegaly)",
@@ -995,17 +1047,19 @@
     "answer": "Hepatitis",
     "explanation": "'liver inflammation' → Hepatitis. (Progressive causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q027",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Progressive(진행성) 복통 원인은?\n\n\"retention or buildup of renal waste products in the blood\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Progressive(진행성) 복통 원인은?",
+    "passage": "\"retention or buildup of renal waste products in the blood\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Cancer",
       "Crohn's disease",
       "Enlarged spleen (splenomegaly)",
@@ -1023,18 +1077,20 @@
     "answer": "Uremia",
     "explanation": "'retention or buildup of renal waste products in the blood' → Uremia. (Progressive causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q028",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Progressive(진행성) 복통 원인은?\n\n\"malignant tumor(cancer) of the lymphatic system\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Progressive(진행성) 복통 원인은?",
+    "passage": "\"malignant tumor(cancer) of the lymphatic system\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Cancer",
       "Crohn's disease",
       "Enlarged spleen (splenomegaly)",
@@ -1052,17 +1108,19 @@
     "answer": "Non-Hodgkin's lymphoma",
     "explanation": "'malignant tumor(cancer) of the lymphatic system' → Non-Hodgkin's lymphoma. (Progressive causes 보기 전체에서 매칭하는 문제)",
     "years": [
-      19,
+      22,
       20,
-      22
+      19
     ]
   },
   {
     "id": "q029",
     "passageId": "abdominal_pain",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 Progressive(진행성) 복통 원인은?\n\n\"a type of inflammatory bowel disease (progressive 항목)\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 Progressive(진행성) 복통 원인은?",
+    "passage": "\"a type of inflammatory bowel disease (progressive 항목)\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Cancer",
       "Crohn's disease",
       "Enlarged spleen (splenomegaly)",
@@ -1087,7 +1145,8 @@
     "id": "q030",
     "passageId": "abdominal_pain",
     "type": "fill_blank",
-    "question": "대장(Large intestine)의 6개 구획 — caecum, ascending ___, transverse ___, descending ___, sigmoid ___, rectum — 공통으로 들어갈 단어는?",
+    "stem": "대장(Large intestine)의 6개 구획 — caecum, ascending ___, transverse ___, descending ___, sigmoid ___, rectum — 공통으로 들어갈 단어는?",
+    "choiceSourceType": "open",
     "choices": [
       "colon",
       "intestine",
@@ -1097,15 +1156,16 @@
     "answer": "colon",
     "explanation": "대장(colon)은 ascending colon, transverse colon, descending colon, sigmoid colon, caecum, rectum의 6개 구획으로 나뉜다.",
     "years": [
-      21,
-      22
+      22,
+      21
     ]
   },
   {
     "id": "q031",
     "passageId": "abdominal_pain",
     "type": "fill_blank",
-    "question": "'the membrane(s) connecting the intestine and its appendages with the dorsal wall of the abdominal cavity'를 뜻하는 단어는?",
+    "stem": "'the membrane(s) connecting the intestine and its appendages with the dorsal wall of the abdominal cavity'를 뜻하는 단어는?",
+    "choiceSourceType": "open",
     "choices": [
       "mesentery",
       "peritoneum",
@@ -1122,7 +1182,8 @@
     "id": "q032",
     "passageId": "abdominal_pain",
     "type": "fill_blank",
-    "question": "'formation of blood clot in a vein; 혈전증'을 뜻하는 단어는?",
+    "stem": "'formation of blood clot in a vein; 혈전증'을 뜻하는 단어는?",
+    "choiceSourceType": "open",
     "choices": [
       "thrombosis",
       "embolism",
@@ -1132,15 +1193,17 @@
     "answer": "thrombosis",
     "explanation": "thrombosis(혈전증) = 혈관(주로 정맥) 내 혈전 형성.",
     "years": [
-      21,
-      22
+      22,
+      21
     ]
   },
   {
     "id": "q033",
     "passageId": "fever",
     "type": "fill_blank",
-    "question": "다음 빈칸에 들어갈 단어는?\n\n\"___ is an elevation of body temperature that exceeds the normal daily variation and occurs in conjunction with an increase in the hypothalamic set point — for example, from 37℃ to 39℃.\"",
+    "stem": "다음 빈칸에 들어갈 단어는?",
+    "passage": "\"___ is an elevation of body temperature that exceeds the normal daily variation and occurs in conjunction with an increase in the hypothalamic set point — for example, from 37℃ to 39℃.\"",
+    "choiceSourceType": "open",
     "choices": [
       "Fever",
       "Hyperpyrexia",
@@ -1150,16 +1213,18 @@
     "answer": "Fever",
     "explanation": "Fever(발열) = 시상하부 set point의 상승과 함께 발생하는, 정상 일일 변동을 초과하는 체온 상승.",
     "years": [
-      20,
+      22,
       21,
-      22
+      20
     ]
   },
   {
     "id": "q034",
     "passageId": "fever",
     "type": "fill_blank",
-    "question": "다음 빈칸에 들어갈 단어는?\n\n\"A fever of >41.5℃ is called ___.\"",
+    "stem": "다음 빈칸에 들어갈 단어는?",
+    "passage": "\"A fever of >41.5℃ is called ___.\"",
+    "choiceSourceType": "open",
     "choices": [
       "hyperpyrexia",
       "fever",
@@ -1169,16 +1234,18 @@
     "answer": "hyperpyrexia",
     "explanation": "hyperpyrexia(고열) = 41.5°C를 초과하는 극도의 발열. 가장 흔한 원인은 CNS 출혈.",
     "years": [
-      20,
+      22,
       21,
-      22
+      20
     ]
   },
   {
     "id": "q035",
     "passageId": "fever",
     "type": "fill_blank",
-    "question": "'혈관수축'을 의미하는 의학용어는?\n\n\"Once the hypothalamic set point is raised, neurons in the vasomotor center are activated and ___ commences.\"",
+    "stem": "'혈관수축'을 의미하는 의학용어는?",
+    "passage": "\"Once the hypothalamic set point is raised, neurons in the vasomotor center are activated and ___ commences.\"",
+    "choiceSourceType": "open",
     "choices": [
       "vasoconstriction",
       "vasodilation",
@@ -1188,16 +1255,18 @@
     "answer": "vasoconstriction",
     "explanation": "vasoconstriction(혈관수축) = set point 상승 시 가장 먼저 일어나는 열 보존 반응. 손발에서 먼저 느껴진다.",
     "years": [
-      19,
+      22,
       20,
-      22
+      19
     ]
   },
   {
     "id": "q036",
     "passageId": "fever",
     "type": "fill_blank",
-    "question": "다음 빈칸에 들어갈 단어는?\n\n\"The term ___ is used to describe any substance that causes fever.\"",
+    "stem": "다음 빈칸에 들어갈 단어는?",
+    "passage": "\"The term ___ is used to describe any substance that causes fever.\"",
+    "choiceSourceType": "open",
     "choices": [
       "pyrogen",
       "cytokine",
@@ -1207,16 +1276,18 @@
     "answer": "pyrogen",
     "explanation": "pyrogen(발열원) = 발열을 일으키는 모든 물질을 가리키는 용어.",
     "years": [
-      19,
+      22,
       20,
-      22
+      19
     ]
   },
   {
     "id": "q037",
     "passageId": "fever",
     "type": "fill_blank",
-    "question": "'외인성'을 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"___ pyrogens are derived from outside the patient; most are microbial products, microbial toxins, or whole microorganisms.\"",
+    "stem": "'외인성'을 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"___ pyrogens are derived from outside the patient; most are microbial products, microbial toxins, or whole microorganisms.\"",
+    "choiceSourceType": "open",
     "choices": [
       "Exogenous",
       "Endogenous",
@@ -1226,15 +1297,17 @@
     "answer": "Exogenous",
     "explanation": "Exogenous(외인성) = 환자 외부에서 유래한 발열원. 대표적으로 그람음성균의 LPS endotoxin.",
     "years": [
-      20,
-      22
+      22,
+      20
     ]
   },
   {
     "id": "q038",
     "passageId": "fever",
     "type": "fill_blank",
-    "question": "그람음성균이 생산하는 '내독소'를 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"___ are potent not only as a fever-causing substance but also as inducers of various pathologic changes in gram-negative infections.\"",
+    "stem": "그람음성균이 생산하는 '내독소'를 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"___ are potent not only as a fever-causing substance but also as inducers of various pathologic changes in gram-negative infections.\"",
+    "choiceSourceType": "open",
     "choices": [
       "Endotoxins",
       "Exotoxins",
@@ -1244,17 +1317,19 @@
     "answer": "Endotoxins",
     "explanation": "Endotoxin(내독소) = 그람음성균이 생성하는 LPS. 강력한 발열원이자 병리적 변화 유도 물질.",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q039",
     "passageId": "fever",
     "type": "fill_blank",
-    "question": "내인성 발열원(두 단어)을 뜻하며, 다음 빈칸에 들어갈 표현은?\n\n\"The fever-producing cytokines, such as IL-1, IL-6, and TNF were called ___.\"",
+    "stem": "내인성 발열원(두 단어)을 뜻하며, 다음 빈칸에 들어갈 표현은?",
+    "passage": "\"The fever-producing cytokines, such as IL-1, IL-6, and TNF were called ___.\"",
+    "choiceSourceType": "open",
     "choices": [
       "endogenous pyrogens",
       "exogenous pyrogens",
@@ -1264,17 +1339,19 @@
     "answer": "endogenous pyrogens",
     "explanation": "endogenous pyrogens(내인성 발열물질) = IL-1, TNF-α, IFN 등 발열성 사이토카인의 총칭.",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q040",
     "passageId": "fever",
     "type": "fill_blank",
-    "question": "다음 빈칸에 들어갈 단어는?\n\n\"___ are small proteins that regulate immune, inflammatory, and hematopoietic processes.\"",
+    "stem": "다음 빈칸에 들어갈 단어는?",
+    "passage": "\"___ are small proteins that regulate immune, inflammatory, and hematopoietic processes.\"",
+    "choiceSourceType": "open",
     "choices": [
       "Cytokines",
       "Pyrogens",
@@ -1291,7 +1368,9 @@
     "id": "q041",
     "passageId": "fever",
     "type": "fill_blank",
-    "question": "'인공의, 보철/보형의(artificial implant)'를 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"...presence of ___ material, recent exposure to ill individuals...\"",
+    "stem": "'인공의, 보철/보형의(artificial implant)'를 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"...presence of ___ material, recent exposure to ill individuals...\"",
+    "choiceSourceType": "open",
     "choices": [
       "prosthetic",
       "synthetic",
@@ -1301,18 +1380,20 @@
     "answer": "prosthetic",
     "explanation": "prosthetic(보철의, 인공의) = Prosthetic valve(인공판막) 등으로 활용되는 단어.",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q042",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"flat lesions defined by an area of changed color\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"flat lesions defined by an area of changed color\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1330,18 +1411,20 @@
     "answer": "Macules",
     "explanation": "'flat lesions defined by an area of changed color' → Macules.",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q043",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"raised, solid lesions <5mm in diameter\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"raised, solid lesions <5mm in diameter\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1359,16 +1442,18 @@
     "answer": "Papules",
     "explanation": "'raised, solid lesions <5mm in diameter' → Papules.",
     "years": [
-      19,
-      22
+      22,
+      19
     ]
   },
   {
     "id": "q044",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"lesions >5mm, flat plateau-like surface\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"lesions >5mm, flat plateau-like surface\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1393,8 +1478,10 @@
     "id": "q045",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"lesions >5mm, more rounded configuration\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"lesions >5mm, more rounded configuration\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1419,8 +1506,10 @@
     "id": "q046",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"pale pink papules/plaques, annular as they enlarge; urticaria, hives\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"pale pink papules/plaques, annular as they enlarge; urticaria, hives\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1438,17 +1527,19 @@
     "answer": "Wheals",
     "explanation": "'pale pink papules/plaques, annular as they enlarge; urticaria, hives' → Wheals.",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q047",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"circumscribed elevated lesions <5mm containing fluid\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"circumscribed elevated lesions <5mm containing fluid\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1466,16 +1557,18 @@
     "answer": "Vesicles",
     "explanation": "'circumscribed elevated lesions <5mm containing fluid' → Vesicles.",
     "years": [
-      19,
-      22
+      22,
+      19
     ]
   },
   {
     "id": "q048",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"circumscribed elevated lesions >5mm containing fluid\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"circumscribed elevated lesions >5mm containing fluid\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1500,8 +1593,10 @@
     "id": "q049",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"raised lesions containing purulent exudate\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"raised lesions containing purulent exudate\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1519,17 +1614,19 @@
     "answer": "Pustules",
     "explanation": "'raised lesions containing purulent exudate' → Pustules.",
     "years": [
-      19,
+      22,
       20,
-      22
+      19
     ]
   },
   {
     "id": "q050",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"a flat lesion due to bleeding into the skin (nonpalpable)\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"a flat lesion due to bleeding into the skin (nonpalpable)\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1547,17 +1644,19 @@
     "answer": "Purpura",
     "explanation": "'a flat lesion due to bleeding into the skin (nonpalpable)' → Purpura.",
     "years": [
-      19,
+      22,
       20,
-      22
+      19
     ]
   },
   {
     "id": "q051",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"purpura <3mm in diameter\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"purpura <3mm in diameter\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1582,8 +1681,10 @@
     "id": "q052",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"a flat lesion >3mm in diameter due to bleeding into the skin\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"a flat lesion >3mm in diameter due to bleeding into the skin\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1608,8 +1709,10 @@
     "id": "q053",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"a necrotic lesion covered with a black crust\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"a necrotic lesion covered with a black crust\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1634,8 +1737,10 @@
     "id": "q054",
     "passageId": "fever",
     "type": "term_match",
-    "question": "다음 정의에 해당하는 피부 병변 명칭은?\n\n\"lesion from sloughing of inflammatory necrotic tissue (perforated ___)\"",
-    "choices": [
+    "stem": "다음 정의에 해당하는 피부 병변 명칭은?",
+    "passage": "\"lesion from sloughing of inflammatory necrotic tissue (perforated ___)\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Macules",
       "Papules",
       "Plaques",
@@ -1653,16 +1758,18 @@
     "answer": "Ulcer",
     "explanation": "'lesion from sloughing of inflammatory necrotic tissue (perforated ___)' → Ulcer.",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q055",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "Pain from foregut structures (stomach, pancreas, liver, biliary system, proximal duodenum)이 국소화되는 부위를 뜻하는 단어는?\n\n\"...will be typically localized to the ___ region.\"",
+    "stem": "Pain from foregut structures (stomach, pancreas, liver, biliary system, proximal duodenum)이 국소화되는 부위를 뜻하는 단어는?",
+    "passage": "\"...will be typically localized to the ___ region.\"",
+    "choiceSourceType": "open",
     "choices": [
       "epigastric",
       "periumbilical",
@@ -1672,18 +1779,19 @@
     "answer": "epigastric",
     "explanation": "foregut(위·췌장·간·담도·근위 십이지장) 통증은 상복부(epigastric region)에 국소화된다. 'the upper central region of the abdomen between the costal margins'으로도 정의 출제됨.",
     "years": [
-      17,
-      18,
-      19,
+      22,
       20,
-      22
+      19,
+      18,
+      17
     ]
   },
   {
     "id": "q056",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "Midgut structures (rest of small bowel, proximal 1/3 of colon incl. appendix)의 통증이 느껴지는 부위는?",
+    "stem": "Midgut structures (rest of small bowel, proximal 1/3 of colon incl. appendix)의 통증이 느껴지는 부위는?",
+    "choiceSourceType": "open",
     "choices": [
       "periumbilical region",
       "epigastric region",
@@ -1693,15 +1801,16 @@
     "answer": "periumbilical region",
     "explanation": "midgut(소장 나머지+결장 근위 1/3+충수) 통증은 배꼽 주위(periumbilical region)에서 느껴진다.",
     "years": [
-      17,
-      18
+      18,
+      17
     ]
   },
   {
     "id": "q057",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "Hindgut structures (bladder, distal 2/3 colon, pelvic GU organs)의 통증이 느껴지는 부위는?",
+    "stem": "Hindgut structures (bladder, distal 2/3 colon, pelvic GU organs)의 통증이 느껴지는 부위는?",
+    "choiceSourceType": "open",
     "choices": [
       "suprapubic region",
       "epigastric region",
@@ -1711,59 +1820,61 @@
     "answer": "suprapubic region",
     "explanation": "hindgut(방광+결장 원위 2/3+골반장기) 통증은 치골 상부(suprapubic region, = hypogastric region)에서 느껴진다.",
     "years": [
-      17,
-      18
+      18,
+      17
     ]
   },
   {
     "id": "q058",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "다음 빈칸에 들어갈 단어는? (보기: radiating / referred)\n\n\"The ___ pain is when the pain is located away from or adjacent to the organ involved.\"",
-    "choices": [
+    "stem": "다음 빈칸에 들어갈 단어는?",
+    "passage": "\"The ___ pain is when the pain is located away from or adjacent to the organ involved.\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Referred",
-      "Radiating",
-      "Visceral",
-      "Somatic"
+      "Radiating"
     ],
     "answer": "Referred",
     "explanation": "Referred pain(연관통) = 통증이 관련 장기에서 떨어진 곳/인접한 곳에서 느껴지는 것. 예: 심근경색의 턱/왼팔 통증.",
     "years": [
-      17,
-      18,
-      19,
-      20,
+      23,
       21,
-      23
+      20,
+      19,
+      18,
+      17
     ]
   },
   {
     "id": "q059",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "다음 빈칸에 들어갈 단어는? (보기: radiating / referred)\n\n\"If you have ___ pain, your pain begins in one place and travels to another location along the path of a nerve.\"",
-    "choices": [
-      "Radiating",
+    "stem": "다음 빈칸에 들어갈 단어는?",
+    "passage": "\"If you have ___ pain, your pain begins in one place and travels to another location along the path of a nerve.\"",
+    "choiceSourceType": "given",
+    "choiceSourceOptions": [
       "Referred",
-      "Visceral",
-      "Somatic"
+      "Radiating"
     ],
     "answer": "Radiating",
     "explanation": "Radiating pain(방사통) = 한 부위에서 시작해 특정 신경 경로를 따라 이동하는 통증.",
     "years": [
-      17,
-      18,
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19,
+      18,
+      17
     ]
   },
   {
     "id": "q060",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'moved or conducted from a peripheral part toward a center; 구심(성)'을 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"...because ___ impulses from visceral organs are poorly localized.\"",
+    "stem": "'moved or conducted from a peripheral part toward a center; 구심(성)'을 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"...because ___ impulses from visceral organs are poorly localized.\"",
+    "choiceSourceType": "open",
     "choices": [
       "afferent",
       "efferent",
@@ -1780,7 +1891,9 @@
     "id": "q061",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'a low oxygen state due to obstruction of arterial blood supply'를 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"Visceral nociceptors can be stimulated by distention, stretch, vigorous contraction, and ___.\"",
+    "stem": "'a low oxygen state due to obstruction of arterial blood supply'를 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"Visceral nociceptors can be stimulated by distention, stretch, vigorous contraction, and ___.\"",
+    "choiceSourceType": "open",
     "choices": [
       "ischemia",
       "infarction",
@@ -1790,17 +1903,19 @@
     "answer": "ischemia",
     "explanation": "ischemia(허혈) = 동맥혈 공급 장애로 조직이 저산소 상태가 되는 것.",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q062",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'an obstruction caused by twisting of the stomach or intestine'를 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"Other considerations for pain of acute onset include a perforated ulcer, ___, mesenteric ischemia, and torsion.\"",
+    "stem": "'an obstruction caused by twisting of the stomach or intestine'를 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"Other considerations for pain of acute onset include a perforated ulcer, ___, mesenteric ischemia, and torsion.\"",
+    "choiceSourceType": "open",
     "choices": [
       "volvulus",
       "intussusception",
@@ -1810,16 +1925,18 @@
     "answer": "volvulus",
     "explanation": "volvulus(장염전) = 위장이나 장이 뒤틀려 생기는 폐색. S자 결장에서 점진적 발병으로도 나타날 수 있다.",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q063",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'on or relating to the same side of the body'를 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"Another well described example is ___ scapula pain caused by biliary disease.\"",
+    "stem": "'on or relating to the same side of the body'를 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"Another well described example is ___ scapula pain caused by biliary disease.\"",
+    "choiceSourceType": "open",
     "choices": [
       "ipsilateral",
       "contralateral",
@@ -1829,16 +1946,18 @@
     "answer": "ipsilateral",
     "explanation": "ipsilateral(동측) = 신체의 같은 쪽에 관련된. 담도질환의 동측 견갑골 통증이 대표적 연관통 예시.",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q064",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'of the tube passing from each kidney to the bladder'를 뜻하며, 다음 빈칸(형용사)에 들어갈 단어는?\n\n\"...such as with ongoing passage of a(n) ___ stone.\"",
+    "stem": "'of the tube passing from each kidney to the bladder'를 뜻하며, 다음 빈칸(형용사)에 들어갈 단어는?",
+    "passage": "\"...such as with ongoing passage of a(n) ___ stone.\"",
+    "choiceSourceType": "open",
     "choices": [
       "ureteral",
       "renal",
@@ -1848,16 +1967,18 @@
     "answer": "ureteral",
     "explanation": "ureteral(요관의) = 신장에서 방광으로 소변을 운반하는 관(ureter)에 관련된 형용사. 결석 이동 시 방사통 발생.",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q065",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'released'의 의미를 가지며, 다음 빈칸에 들어갈 단어는?\n\n\"Kehr's sign... diaphragmatic irritation, usually from ___ intraperitoneal blood, causes shoulder pain.\"",
+    "stem": "'released'의 의미를 가지며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"Kehr's sign... diaphragmatic irritation, usually from ___ intraperitoneal blood, causes shoulder pain.\"",
+    "choiceSourceType": "open",
     "choices": [
       "free",
       "clotted",
@@ -1867,16 +1988,18 @@
     "answer": "free",
     "explanation": "free intraperitoneal blood = 복강 내에 고여있지 않고 자유롭게 퍼진 혈액. 횡격막 자극→어깨통증(Kehr's sign)의 원인.",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q066",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'tearing of the inner layer of the aorta'를 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"...a vascular emergency such as a ruptured AAA or aortic ___.\"",
+    "stem": "'tearing of the inner layer of the aorta'를 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"...a vascular emergency such as a ruptured AAA or aortic ___.\"",
+    "choiceSourceType": "open",
     "choices": [
       "dissection",
       "aneurysm",
@@ -1886,16 +2009,18 @@
     "answer": "dissection",
     "explanation": "aortic dissection(대동맥 박리) = 대동맥 내벽이 찢어지는 것. 급성 발병 통증 시 최우선으로 의심하는 혈관 응급.",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q067",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'through any wall, as of the body or of a cyst or hollow structure'를 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"One would only expect somatic pain (arising from ___ ischemia or perforation contiguous to the parietal peritoneum)...\"",
+    "stem": "'through any wall, as of the body or of a cyst or hollow structure'를 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"One would only expect somatic pain (arising from ___ ischemia or perforation contiguous to the parietal peritoneum)...\"",
+    "choiceSourceType": "open",
     "choices": [
       "transmural",
       "visceral",
@@ -1905,15 +2030,17 @@
     "answer": "transmural",
     "explanation": "transmural(전벽층의) = 벽을 관통하는. 전층 허혈/천공에 의한 체성통은 장폐색 경과 후반부에만 발생.",
     "years": [
-      19,
-      22
+      22,
+      19
     ]
   },
   {
     "id": "q068",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'a clinical syndrome with intermittent abdominal pain characterized by sudden onset and cessation'을 뜻하며, 다음 빈칸(가)에 들어갈 단어는?\n\n\"Although labeled '___', gallbladder pain is generally not (paroxysmal)...\"",
+    "stem": "'a clinical syndrome with intermittent abdominal pain characterized by sudden onset and cessation'을 뜻하며, 다음 빈칸(가)에 들어갈 단어는?",
+    "passage": "\"Although labeled '___(가)', gallbladder pain is generally not ___(나)...\"",
+    "choiceSourceType": "open",
     "choices": [
       "colic",
       "spasm",
@@ -1923,16 +2050,17 @@
     "answer": "colic",
     "explanation": "colic(산통) = 간헐적 복통을 특징으로 하는 임상 증후군. 담낭통은 이름과 달리 실제로는 paroxysmal하지 않다는 함정.",
     "years": [
-      19,
+      22,
       21,
-      22
+      19
     ]
   },
   {
     "id": "q069",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'of a sudden uncontrollable attack'을 뜻하며, 위 지문의 빈칸(나, paroxysmal 자리)에 해당하는 단어는?",
+    "stem": "'of a sudden uncontrollable attack'을 뜻하며, 위 지문의 빈칸(나, paroxysmal 자리)에 해당하는 단어는?",
+    "choiceSourceType": "open",
     "choices": [
       "paroxysmal",
       "transmural",
@@ -1942,15 +2070,18 @@
     "answer": "paroxysmal",
     "explanation": "paroxysmal(발작성의) = 갑작스럽고 통제할 수 없는 발작.",
     "years": [
-      19,
-      22
-    ]
+      22,
+      19
+    ],
+    "passage": "\"Although labeled '___(가)', gallbladder pain is generally not ___(나)...\""
   },
   {
     "id": "q070",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "(두 단어) (가) of heart muscle / (나) formation of tissue death from local lack of oxygen — 다음 빈칸에 들어갈 표현은?\n\n\"A person with a (가)(나) has pain only in their jaw or left arm, but not in the chest.\"",
+    "stem": "(두 단어) (가) of heart muscle / (나) formation of tissue death from local lack of oxygen — 다음 빈칸에 들어갈 표현은?",
+    "passage": "\"A person with a (가)(나) has pain only in their jaw or left arm, but not in the chest.\"",
+    "choiceSourceType": "open",
     "choices": [
       "myocardial infarction",
       "cardiac arrest",
@@ -1960,18 +2091,20 @@
     "answer": "myocardial infarction",
     "explanation": "myocardial infarction(심근경색) = referred pain의 대표 예. 턱이나 왼팔에서만 통증을 느끼는 경우가 있다.",
     "years": [
-      19,
-      20,
-      21,
+      23,
       22,
-      23
+      21,
+      20,
+      19
     ]
   },
   {
     "id": "q071",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'a surgical procedure in which a tiny scope is inserted into the abdomen through a small incision'을 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"...despite diagnostic and therapeutic advances (CT, ultrasonography, and ___)...\"",
+    "stem": "'a surgical procedure in which a tiny scope is inserted into the abdomen through a small incision'을 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"...despite diagnostic and therapeutic advances (CT, ultrasonography, and ___)...\"",
+    "choiceSourceType": "open",
     "choices": [
       "laparoscopy",
       "endoscopy",
@@ -1981,17 +2114,19 @@
     "answer": "laparoscopy",
     "explanation": "laparoscopy(복강경검사) = 작은 절개를 통해 소형 스코프를 복부에 삽입하는 수술.",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q072",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'the first appearance of the signs or symptoms of an illness'를 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"...what kind of pain it is (character), when and how it began (___)...\"",
+    "stem": "'the first appearance of the signs or symptoms of an illness'를 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"...what kind of pain it is (character), when and how it began (___)...\"",
+    "choiceSourceType": "open",
     "choices": [
       "onset",
       "duration",
@@ -2001,17 +2136,18 @@
     "answer": "onset",
     "explanation": "onset(발병) = 질병의 징후/증상이 처음 나타나는 시점.",
     "years": [
-      19,
-      20,
+      22,
       21,
-      22
+      20,
+      19
     ]
   },
   {
     "id": "q073",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'behind or posterior to the peritoneum'을 의미하는 단어는?",
+    "stem": "'behind or posterior to the peritoneum'을 의미하는 단어는?",
+    "choiceSourceType": "open",
     "choices": [
       "retroperitoneal",
       "intraperitoneal",
@@ -2028,7 +2164,9 @@
     "id": "q074",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "'an abnormal and troubling stimulation'을 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"...jarring motions such as coughing or walking exacerbate the pain, suggesting peritoneal ___.\"",
+    "stem": "'an abnormal and troubling stimulation'을 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"...jarring motions such as coughing or walking exacerbate the pain, suggesting peritoneal ___.\"",
+    "choiceSourceType": "open",
     "choices": [
       "irritation",
       "inflammation",
@@ -2045,7 +2183,8 @@
     "id": "q075",
     "passageId": "acute_abdomen",
     "type": "fill_blank",
-    "question": "충수염(appendicitis)에서 통증이 periumbilical에서 RLQ로 이동하는 migration 패턴 — 질병명을 쓰시오.",
+    "stem": "충수염(appendicitis)에서 통증이 periumbilical에서 RLQ로 이동하는 migration 패턴 — 질병명을 쓰시오.",
+    "choiceSourceType": "open",
     "choices": [
       "appendicitis",
       "diverticulitis",
@@ -2062,7 +2201,9 @@
     "id": "q076",
     "passageId": "atherosclerosis",
     "type": "fill_blank",
-    "question": "'협착(narrowing or stricture of a duct or canal)'을 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"Atherosclerosis can affect the kidneys either directly (e.g., renal artery ___)...\"",
+    "stem": "'협착(narrowing or stricture of a duct or canal)'을 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"Atherosclerosis can affect the kidneys either directly (e.g., renal artery ___)...\"",
+    "choiceSourceType": "open",
     "choices": [
       "stenosis",
       "occlusion",
@@ -2079,7 +2220,9 @@
     "id": "q077",
     "passageId": "atherosclerosis",
     "type": "fill_blank",
-    "question": "'뇌졸중'을 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"Atherosclerosis of the arteries supplying the central nervous system frequently provokes ___ and transient cerebral ischemia.\"",
+    "stem": "'뇌졸중'을 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"Atherosclerosis of the arteries supplying the central nervous system frequently provokes ___ and transient cerebral ischemia.\"",
+    "choiceSourceType": "open",
     "choices": [
       "strokes",
       "seizures",
@@ -2096,7 +2239,9 @@
     "id": "q078",
     "passageId": "atherosclerosis",
     "type": "fill_blank",
-    "question": "관상동맥을 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"Atherosclerosis of the ___ arteries commonly causes myocardial infarction and angina pectoris.\"",
+    "stem": "관상동맥을 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"Atherosclerosis of the ___ arteries commonly causes myocardial infarction and angina pectoris.\"",
+    "choiceSourceType": "open",
     "choices": [
       "coronary",
       "carotid",
@@ -2106,15 +2251,17 @@
     "answer": "coronary",
     "explanation": "coronary artery(관상동맥)의 동맥경화는 심근경색과 협심증을 흔히 유발한다.",
     "years": [
-      21,
-      22
+      22,
+      21
     ]
   },
   {
     "id": "q079",
     "passageId": "atherosclerosis",
     "type": "fill_blank",
-    "question": "(두 단어 빈칸) 첫 빈칸 = 발현/증상/소견(m으로 시작), 둘째 빈칸 = 사후(p로 시작)\n\n\"Other individuals may never experience clinical _____ of arterial disease despite the presence of widespread atherosclerosis demonstrated _____.\"",
+    "stem": "(두 단어 빈칸) 첫 빈칸 = 발현/증상/소견(m으로 시작), 둘째 빈칸 = 사후(p로 시작)",
+    "passage": "\"Other individuals may never experience clinical _____ of arterial disease despite the presence of widespread atherosclerosis demonstrated _____.\"",
+    "choiceSourceType": "open",
     "choices": [
       "manifestations / postmortem",
       "symptoms / preoperatively",
@@ -2131,7 +2278,9 @@
     "id": "q080",
     "passageId": "atherosclerosis",
     "type": "fill_blank",
-    "question": "'death of tissue, usually associated with loss of vascular supply, followed by bacterial invasion' (= 괴저)를 뜻하며, 다음 빈칸에 들어갈 단어는?\n\n\"In the peripheral circulation, atherosclerosis causes intermittent claudication and ___ and can jeopardize limb viability.\"",
+    "stem": "'death of tissue, usually associated with loss of vascular supply, followed by bacterial invasion' (= 괴저)를 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"In the peripheral circulation, atherosclerosis causes intermittent claudication and ___ and can jeopardize limb viability.\"",
+    "choiceSourceType": "open",
     "choices": [
       "gangrene",
       "infarction",
