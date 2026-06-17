@@ -976,7 +976,7 @@
           "rows": [
             [
               "Aneurysm",
-              "<span class=\"csv-source\">a sac formed by the dilatation of the wall of an artery, vein, or heart</span>"
+              "a sac formed by the dilatation of the wall of an artery, vein, or heart<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Appendicitis",
@@ -984,27 +984,27 @@
             ],
             [
               "Cholangitis",
-              "<span class=\"csv-source\">bile duct inflammation</span>"
+              "bile duct inflammation<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Cholecystitis",
-              "<span class=\"csv-source\">gallbladder inflammation</span>"
+              "gallbladder inflammation<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Cystitis",
-              "<span class=\"csv-source\">urinary bladder inflammation</span>"
+              "urinary bladder inflammation<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Diabetic ketoacidosis",
-              "<span class=\"csv-source\">high levels of blood acids called ketones</span>"
+              "high levels of blood acids called ketones<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Diverticulitis",
-              "<span class=\"csv-source\">inflammation of a small bulging sac pushing outward from the intestine wall</span>"
+              "inflammation of a small bulging sac pushing outward from the intestine wall<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Duodenitis",
-              "<span class=\"csv-source\">inflammation in the first part of the small intestine</span>"
+              "inflammation in the first part of the small intestine<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Ectopic pregnancy",
@@ -1012,7 +1012,7 @@
             ],
             [
               "Fecal impaction",
-              "<span class=\"csv-source\">hardened stool that can't be eliminated</span>"
+              "hardened stool that can't be eliminated<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Heart attack",
@@ -1028,7 +1028,7 @@
             ],
             [
               "Intussusception",
-              "<span class=\"csv-source\">a telescoping of one portion of the intestine into another</span>"
+              "a telescoping of one portion of the intestine into another<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Kidney infection",
@@ -1040,35 +1040,35 @@
             ],
             [
               "Liver abscess",
-              "<span class=\"csv-source\">pus-filled pocket in the liver</span>"
+              "pus-filled pocket in the liver<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Mesenteric ischemia",
-              "<span class=\"csv-source\">decreased blood flow to the intestines</span>"
+              "decreased blood flow to the intestines<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Mesenteric lymphadenitis",
-              "<span class=\"csv-source\">swollen lymph nodes in the folds of membrane that hold the abdominal organs in place</span>"
+              "swollen lymph nodes in the folds of membrane that hold the abdominal organs in place<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Mesenteric thrombosis",
-              "<span class=\"csv-source\">blood clot in a vein carrying blood away from your intestines</span>"
+              "blood clot in a vein carrying blood away from your intestines<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Pancreatitis",
-              "<span class=\"csv-source\">pancreas inflammation</span>"
+              "pancreas inflammation<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Pericarditis",
-              "<span class=\"csv-source\">inflammation of the tissue around the heart</span>"
+              "inflammation of the tissue around the heart<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Peritonitis",
-              "<span class=\"csv-source\">infection of the abdominal lining</span>"
+              "infection of the abdominal lining<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Pleurisy",
-              "<span class=\"csv-source\">inflammation of the membrane surrounding the lungs</span>"
+              "inflammation of the membrane surrounding the lungs<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Pneumonia",
@@ -1076,7 +1076,7 @@
             ],
             [
               "Pulmonary infarction",
-              "<span class=\"csv-source\">loss of blood flow to the lungs</span>"
+              "loss of blood flow to the lungs<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Ruptured spleen",
@@ -1084,7 +1084,7 @@
             ],
             [
               "Salpingitis",
-              "<span class=\"csv-source\">inflammation of the fallopian tubes</span>"
+              "inflammation of the fallopian tubes<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Sclerosing mesenteritis",
@@ -1092,7 +1092,7 @@
             ],
             [
               "Shingles",
-              "<span class=\"csv-source\">herpes zoster infection</span>"
+              "herpes zoster infection<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Spleen infection",
@@ -1100,7 +1100,7 @@
             ],
             [
               "Splenic abscess",
-              "<span class=\"csv-source\">pus-filled pocket in the spleen</span>"
+              "pus-filled pocket in the spleen<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Torn colon",
@@ -1112,7 +1112,7 @@
             ],
             [
               "Viral gastroenteritis",
-              "<span class=\"csv-source\">stomach flu</span>"
+              "stomach flu<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ]
           ]
         },
@@ -1126,15 +1126,15 @@
           "rows": [
             [
               "Angina",
-              "<span class=\"csv-source\">chest pain that occurs secondary to the reduced blood flow to the heart</span>"
+              "chest pain that occurs secondary to the reduced blood flow to the heart<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Celiac disease",
-              "<span class=\"csv-source\">chronic disorder of digestive tract, inability to tolerate gluten</span>"
+              "chronic disorder of digestive tract, inability to tolerate gluten<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Endometriosis",
-              "<span class=\"csv-source\">functional endometrial tissue present outside the uterus</span>"
+              "functional endometrial tissue present outside the uterus<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Gallstones",
@@ -1142,7 +1142,7 @@
             ],
             [
               "Gastritis",
-              "<span class=\"csv-source\">inflammation of the stomach lining</span>"
+              "inflammation of the stomach lining<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Gastroesophageal reflux disease (GERD)",
@@ -1150,7 +1150,7 @@
             ],
             [
               "Hernia",
-              "<span class=\"csv-source\">abnormal exit of tissue/organ through the wall of the cavity it normally resides in</span>"
+              "abnormal exit of tissue/organ through the wall of the cavity it normally resides in<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Irritable bowel syndrome",
@@ -1158,7 +1158,7 @@
             ],
             [
               "Mittelschmerz",
-              "<span class=\"csv-source\">pain associated with ovulation</span>"
+              "pain associated with ovulation<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Nonulcer stomach pain",
@@ -1170,7 +1170,7 @@
             ],
             [
               "Pelvic inflammatory disease (PID)",
-              "<span class=\"csv-source\">infection of the female reproductive organs</span>"
+              "infection of the female reproductive organs<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Peptic ulcer",
@@ -1186,7 +1186,7 @@
             ],
             [
               "Ulcerative colitis",
-              "<span class=\"csv-source\">a type of inflammatory bowel disease</span>"
+              "a type of inflammatory bowel disease<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ]
           ]
         },
@@ -1204,11 +1204,11 @@
             ],
             [
               "Crohn's disease",
-              "<span class=\"csv-source\">a type of inflammatory bowel disease</span>"
+              "a type of inflammatory bowel disease<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Enlarged spleen",
-              "<span class=\"csv-source\">splenomegaly</span>"
+              "splenomegaly<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Gallbladder cancer",
@@ -1216,7 +1216,7 @@
             ],
             [
               "Hepatitis",
-              "<span class=\"csv-source\">liver inflammation</span>"
+              "liver inflammation<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Kidney cancer",
@@ -1232,7 +1232,7 @@
             ],
             [
               "Non-Hodgkin's lymphoma",
-              "<span class=\"csv-source\">malignant tumor(cancer) of the lymphatic system</span>"
+              "malignant tumor(cancer) of the lymphatic system<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Pancreatic cancer",
@@ -1244,11 +1244,11 @@
             ],
             [
               "Tubo-ovarian abscess",
-              "<span class=\"csv-source\">pus-filled pocket involving a fallopian tube and an ovary</span>"
+              "pus-filled pocket involving a fallopian tube and an ovary<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ],
             [
               "Uremia",
-              "<span class=\"csv-source\">retention or buildup of renal waste products in your blood</span>"
+              "retention or buildup of renal waste products in your blood<span class=\"src-mark\" title=\"수업자료·기출문제에 등장한 표현\"></span>"
             ]
           ]
         },

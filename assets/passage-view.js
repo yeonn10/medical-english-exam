@@ -169,12 +169,14 @@
       if (sec.type === "narrative") {
         html += sec.html;
       } else if (sec.type === "table") {
-        const hasSourceMark = sec.rows.some((row) => row.some((cell) => cell.includes("csv-source")));
+        const hasSourceMark = sec.rows.some((row) => row.some((cell) => cell.includes("src-mark")));
         if (hasSourceMark) {
-          html += `<div class="summary-table-legend"><span class="csv-source">표시</span>는 수업자료·기출문제에 실제로 등장한 표현</div>`;
+          html += `<div class="summary-table-legend">표현 뒤 동그라미(<span class="src-mark-demo"></span>)는 수업자료·기출문제에 실제로 등장한 표현</div>`;
         }
         const isKeywordTable = sec.heading && sec.heading.startsWith("핵심 단어");
-        html += `<table class="summary-table${isKeywordTable ? " keyword-table" : ""}"><thead><tr>`;
+        const isCauseTable = sec.heading && sec.heading.includes("원인");
+        const tableClass = isKeywordTable ? " keyword-table" : isCauseTable ? " cause-table" : "";
+        html += `<table class="summary-table${tableClass}"><thead><tr>`;
         sec.columns.forEach((c) => (html += `<th>${c}</th>`));
         html += `</tr></thead><tbody>`;
         sec.rows.forEach((row) => {

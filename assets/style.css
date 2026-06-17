@@ -585,13 +585,29 @@ main {
   white-space: nowrap;
 }
 
-/* 원문/기출에 실제로 등장한 표현(CSV 원본 출처) 강조 */
-.csv-source {
-  background: var(--color-accent-soft);
-  color: var(--color-accent-ink);
-  border-radius: 2px;
-  padding: 1px 4px;
-  box-decoration-break: clone;
+.cause-table td:first-child {
+  font-weight: 500;
+}
+
+/* 원문/기출에 실제로 등장한 표현 — 원문 모드 각주 마커(●)와 같은 모양이지만
+   클릭 반응이나 밑줄 없는 순수 표시용 마커 */
+.src-mark::after {
+  content: "●";
+  font-size: 10px;
+  vertical-align: super;
+  color: var(--color-highlight-ink);
+  margin-left: 3px;
+}
+
+.src-mark-demo {
+  display: inline-block;
+}
+
+.src-mark-demo::after {
+  content: "●";
+  font-size: 10px;
+  vertical-align: super;
+  color: var(--color-highlight-ink);
 }
 
 .summary-table-legend {
@@ -601,10 +617,6 @@ main {
   display: flex;
   align-items: center;
   gap: 6px;
-}
-
-.summary-table-legend .csv-source {
-  padding: 1px 6px;
 }
 
 /* 카테고리 칩 */
@@ -793,12 +805,17 @@ main {
 
 .quiz-input-row input {
   flex: 1;
+  min-width: 0;
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 16px;
   padding: 10px 14px;
   border: 1px solid var(--color-rule);
   border-radius: var(--radius);
   background: var(--color-paper-raised);
+}
+
+.quiz-input-row .btn {
+  flex-shrink: 0;
 }
 
 .quiz-input-row input:focus { outline: none; border-color: var(--color-ink); }
