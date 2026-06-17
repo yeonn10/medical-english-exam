@@ -317,43 +317,61 @@ main {
 
 /* 원문 모드 — 섹션(소제목) 구분 */
 .orig-section-heading {
-  font-family: var(--font-sans);
-  font-size: 13px;
+  font-family: var(--font-serif);
+  font-size: 22px;
   font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--color-accent-ink);
-  background: var(--color-accent-soft);
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
   display: block;
-  width: fit-content;
-  padding: 5px 14px;
-  border-radius: 2px;
-  margin: 36px 0 18px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--color-ink);
+  margin: 44px 0 22px;
+}
+
+.passage-body > .orig-section-heading:first-child,
+.passage-body > div:first-child .orig-section-heading {
+  margin-top: 0;
 }
 
 .passage-body > .orig-section-heading:first-child {
   margin-top: 0;
 }
 
-/* 목록형 항목 (예: Acute causes 나열) — 일반 단락보다 좁은 여백 + 좌측 마커로 리스트처럼 표시 */
-.orig-item-list .paragraph-block {
+/* ---------- 불릿 목록 그룹 (Acute/Chronic/Progressive처럼 원문이 목록인 경우) ---------- */
+
+.bullet-group {
+  margin-bottom: 30px;
+  padding-bottom: 24px;
+  border-bottom: 1px dashed var(--color-rule);
+}
+
+.bullet-group:last-child { border-bottom: none; }
+
+.bullet-group > .para-en {
   margin-bottom: 14px;
-  padding-bottom: 12px;
 }
 
-.orig-item-list .list-item {
-  padding-left: 16px;
+.bullet-list {
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.bullet-list > li {
   position: relative;
+  padding-left: 18px;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: var(--color-ink);
+  margin-bottom: 7px;
 }
 
-.orig-item-list .list-item::before {
-  content: "";
+.bullet-list > li::before {
+  content: "•";
   position: absolute;
-  left: 0;
-  top: 10px;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--color-accent);
+  left: 2px;
+  color: var(--color-accent);
+  font-weight: 700;
 }
 
 .paragraph-block {

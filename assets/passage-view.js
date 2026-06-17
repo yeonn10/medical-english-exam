@@ -62,39 +62,55 @@
     const footnotes = data.footnotes || {};
     const fnTermByKey = {}; // data-fn-key -> term 텍스트 매핑
     let html = "";
-
-    let prevListGroup = null;
     let sectionParaCounter = 0; // 섹션 내 단락 번호 (소제목이 바뀌면 1로 리셋)
 
     data.paragraphs.forEach((para, idx) => {
+      if (para.sectionTitle) {
+        html += `<div class="orig-section-heading">${para.sectionTitle}</div>`;
+        sectionParaCounter = 0;
+      }
+
+      if (para.type === "bulletGroup") {
+        // 도입 문장의 각주 처리
+        const introKeys = [];
+        const introHtml = para.introEn
+          ? renderEnglishWithFootnotes(para.introEn, introKeys, `${idx}-intro`)
+          : "";
+        introKeys.forEach(({ key, term }) => (fnTermByKey[key] = term));
+
+        html += `<div class="bullet-group">`;
+        if (introHtml) html += `<p class="para-en">${introHtml}</p>`;
+
+        html += `<ul class="bullet-list">`;
+        para.items.forEach((itemEn, itemIdx) => {
+          const itemKeys = [];
+          const itemHtml = renderEnglishWithFootnotes(itemEn, itemKeys, `${idx}-item${itemIdx}`);
+          itemKeys.forEach(({ key, term }) => (fnTermByKey[key] = term));
+          html += `<li>${itemHtml}</li>`;
+        });
+        html += `</ul>`;
+
+        // 목록 덩어리 전체에 대한 한글 해석 + 해설 (항목별이 아님)
+        if (para.kr) {
+          html += `<button class="toggle-kr" data-idx="${idx}">한글 해석 보기</button>`;
+          html += `<p class="para-kr" data-idx="${idx}">${para.kr}</p>`;
+        }
+        if (para.note) {
+          html += `<div class="para-note"><span class="label">목록 해설</span>${para.note}</div>`;
+        }
+        html += `</div>`;
+        return;
+      }
+
+      // 일반 단락(type: "para")
       const fnKeys = [];
       const enHtml = renderEnglishWithFootnotes(para.en, fnKeys, idx);
       fnKeys.forEach(({ key, term }) => (fnTermByKey[key] = term));
 
-      const currentListGroup = para.listGroup || null;
-
-      // 소제목이 있으면 새 섹션 시작 — 이전 목록 그룹을 닫고 제목 박스 삽입
-      if (para.sectionTitle) {
-        if (prevListGroup) html += `</div>`;
-        html += `<div class="orig-section-heading">${para.sectionTitle}</div>`;
-        sectionParaCounter = 0;
-        prevListGroup = null;
-      }
-
-      // 목록 그룹 시작/종료 처리 (소제목 유무와 무관하게 listGroup 값 변화로 판단)
-      if (currentListGroup !== prevListGroup) {
-        if (prevListGroup) html += `</div>`;
-        if (currentListGroup) html += `<div class="orig-item-list">`;
-      }
-      prevListGroup = currentListGroup;
-
       sectionParaCounter++;
-      const isListItem = !!currentListGroup && !para.isIntro;
 
-      html += `<div class="paragraph-block${isListItem ? " list-item" : ""}">`;
-      if (!isListItem) {
-        html += `<span class="para-num">¶ ${sectionParaCounter}</span>`;
-      }
+      html += `<div class="paragraph-block">`;
+      html += `<span class="para-num">¶ ${sectionParaCounter}</span>`;
       html += `<p class="para-en">${enHtml}</p>`;
 
       if (para.kr) {
@@ -108,8 +124,6 @@
 
       html += `</div>`;
     });
-
-    if (prevListGroup) html += `</div>`;
 
     container.innerHTML = html;
 

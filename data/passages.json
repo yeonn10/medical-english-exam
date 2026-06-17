@@ -569,246 +569,148 @@
     "summaryHint": "복통의 시간경과(acute/chronic/progressive) 분류와 각 분류별 원인 질환",
     "paragraphs": [
       {
+        "type": "para",
         "sectionTitle": "Definition",
         "en": "Everyone experiences abdominal pain from time to time. Other terms used to describe abdominal pain are stomachache, tummy ache, gut ache and bellyache. Abdominal pain can be mild or severe. It may be continuous or come and go. Abdominal pain can be short-lived ({{acute}}) or occur over weeks, months or years ({{chronic}}).",
         "kr": "누구나 때때로 복통을 경험한다. 복통을 표현하는 다른 용어로는 stomachache(위장통), tummy ache(배앓이), gut ache(장통), bellyache(배탈) 등이 있다. 복통은 경미하거나 심할 수 있으며, 지속적으로 나타나거나 왔다 갔다 할 수 있다. 복통은 단기간에 끝나는 급성(acute)이거나, 몇 주·몇 달·수년에 걸쳐 나타나는 만성(chronic)일 수 있다.",
         "note": "acute(급성, short-lived) vs chronic(만성, 장기간 지속)의 정의가 기출 단골 — 'having a short and relatively severe course'=acute, 'persisting over a long period of time'=chronic."
       },
       {
+        "type": "para",
         "sectionTitle": null,
         "en": "Call your doctor right away if you have abdominal pain so severe that you can't move without causing more pain, or you can't sit still or find a comfortable position.",
         "kr": "움직일 때마다 통증이 악화되거나, 가만히 앉아 있지 못하거나 편한 자세를 찾을 수 없을 정도로 복통이 심하다면 즉시 의사에게 연락해야 한다.",
         "note": null
       },
       {
+        "type": "bulletGroup",
         "sectionTitle": null,
-        "en": "Seek immediate medical help if pain is accompanied by other worrisome signs and symptoms, including: severe pain, fever, bloody stools, persistent {{nausea}} and {{vomiting}}, weight loss, skin that appears yellow, severe {{tenderness}} when you touch your abdomen, or swelling of the abdomen.",
-        "kr": "다음과 같은 징후(sign)나 증상(symptom)이 복통과 함께 나타난다면 즉시 의료 도움을 받아야 한다: 극심한 통증, 발열, 혈변, 지속적인 구역(nausea)과 구토(vomiting), 체중 감소, 황달성 피부색, 복부 압통(tenderness), 복부 팽만.",
-        "note": "응급 신호 목록 중 nausea(구역 — 주관적 느낌), vomiting(구토 — 실제 배출), tenderness(압통 — 만지면 아픈 것)는 정의가 자주 출제됨."
+        "introEn": "Seek immediate medical help if pain is accompanied by other worrisome signs and symptoms, including:",
+        "items": [
+          "Severe pain",
+          "Fever",
+          "Bloody stools",
+          "Persistent {{nausea}} and {{vomiting}}",
+          "Weight loss",
+          "Skin that appears yellow",
+          "Severe {{tenderness}} when you touch your abdomen",
+          "Swelling of the abdomen"
+        ],
+        "kr": "다음과 같은 다른 우려스러운 징후나 증상이 통증과 함께 나타난다면 즉시 의료 도움을 받아야 한다: 심한 통증, 발열, 혈변, 지속적인 구역(nausea)과 구토(vomiting), 체중 감소, 황달성 피부색, 만지면 심한 압통(tenderness)이 느껴지는 복부, 복부 팽만.",
+        "note": "응급 신호 목록 — nausea(구역, 주관적 느낌) / vomiting(구토, 실제 배출) / tenderness(압통, 만지면 아픈 것)의 정의 구분이 자주 출제됨."
       },
       {
+        "type": "para",
         "sectionTitle": "Causes",
         "en": "Abdominal pain has many potential causes. The most common causes — such as gas pains, {{indigestion}} or a pulled muscle — usually aren't serious. Other conditions may require more-urgent medical attention.",
         "kr": "복통에는 다양한 잠재적 원인이 있다. 가장 흔한 원인인 가스통, 소화불량(indigestion), 근육 긴장(pulled muscle) 등은 대개 심각하지 않다. 하지만 일부 상태는 더 긴급한 의료적 처치가 필요하다.",
         "note": null
       },
       {
+        "type": "para",
         "sectionTitle": null,
         "en": "While the location and pattern of abdominal pain can provide important clues, its time course is particularly useful when determining its cause.",
         "kr": "복통의 위치와 양상이 중요한 단서를 제공하기도 하지만, 통증의 시간적 경과(time course)가 원인 파악에 특히 유용하다.",
         "note": "이 본문 전체의 핵심 분류 기준 = time course(시간적 경과): acute / chronic(intermittent, episodic) / progressive 세 가지로 나뉜다."
       },
       {
+        "type": "para",
         "sectionTitle": null,
         "en": "Acute abdominal pain develops, and often resolves, over a few hours to a few days. Chronic abdominal pain may be intermittent, or {{episodic}}, meaning it may come and go. This type of pain may be present for weeks to months, or even years. Some conditions cause {{progressive}} pain, which steadily gets worse over time.",
         "kr": "급성(acute) 복통은 수 시간에서 수 일에 걸쳐 발생하고 대개 그 안에 해결된다. 만성(chronic) 복통은 간헐적(intermittent) 또는 삽화성(episodic)으로 왔다 갔다 하는 양상을 보인다. 이 유형은 수 주에서 수 개월, 혹은 수 년간 지속될 수 있다. 일부 질환은 시간이 지남에 따라 지속적으로 악화되는 진행성(progressive) 통증을 유발한다.",
-        "note": "세 분류의 시간 기준: acute=수시간~수일(대개 해소됨) / chronic=수주~수년(간헐적·삽화적, 악화되지 않을 수 있음) / progressive=시간이 갈수록 꾸준히 악화."
+        "note": "세 분류의 시간 기준: acute=수시간~수일(대개 해소됨) / chronic=수주~수년(간헐적·삽화적) / progressive=시간이 갈수록 꾸준히 악화."
       },
       {
+        "type": "bulletGroup",
         "sectionTitle": "Acute",
-        "listGroup": "acute",
-        "en": "The various conditions that cause acute abdominal pain are usually accompanied by other symptoms and develop over hours to days. Causes can range from minor conditions that resolve without any treatment to serious medical emergencies, including:",
-        "kr": "급성 복통을 유발하는 다양한 질환들은 대개 다른 증상들을 동반하며 수 시간에서 수 일에 걸쳐 발생한다. 원인은 치료 없이 자연 소실되는 경미한 상태에서부터 심각한 응급 상황까지 다양하다.",
-        "note": null,
-        "isIntro": true
+        "introEn": "The various conditions that cause acute abdominal pain are usually accompanied by other symptoms and develop over hours to days. Causes can range from minor conditions that resolve without any treatment to serious medical emergencies, including:",
+        "items": [
+          "Abdominal aortic {{aneurysm}}",
+          "Appendicitis",
+          "{{Cholangitis}} (bile duct inflammation)",
+          "{{Cholecystitis}} (gallbladder inflammation)",
+          "{{Cystitis}} (bladder inflammation)",
+          "Diabetic ketoacidosis (high levels of blood acids called {{ketones}})",
+          "{{Diverticulitis}}",
+          "Duodenitis (inflammation in the first part of the small intestine)",
+          "{{Ectopic}} pregnancy",
+          "Fecal impaction (hardened stool that can't be eliminated)",
+          "Heart attack",
+          "Injury",
+          "Intestinal obstruction",
+          "Intussusception (in children)",
+          "Kidney infection (pyelonephritis)",
+          "Kidney stones",
+          "Liver abscess (pus-filled pocket in the liver)",
+          "{{Mesenteric}} ischemia (decreased blood flow to the intestines)",
+          "Mesenteric lymphadenitis (swollen lymph nodes in the folds of membrane that hold the abdominal organs in place)",
+          "Mesenteric {{thrombosis}} (blood clot in a vein carrying blood away from your intestines)",
+          "Pancreatitis (pancreas inflammation)",
+          "Pericarditis (inflammation of the tissue around the heart)",
+          "Peritonitis (infection of the abdominal lining)",
+          "Pleurisy (inflammation of the membrane surrounding the lungs)",
+          "Pneumonia",
+          "Pulmonary {{infarction}} (loss of blood flow to the lungs)",
+          "Ruptured spleen",
+          "{{Salpingitis}} (inflammation of the fallopian tubes)",
+          "{{Sclerosing}} mesenteritis",
+          "{{Shingles}} (herpes zoster infection)",
+          "Spleen infection",
+          "Splenic abscess (pus-filled pocket in the spleen)",
+          "Torn colon",
+          "Urinary tract infection (UTI)",
+          "Viral gastroenteritis (stomach flu)"
+        ],
+        "kr": "급성 복통의 원인: 복부 대동맥류, 충수염, 담관염(쓸개관 염증), 담낭염(쓸개주머니 염증), 방광염, 당뇨병성 케톤산증(케톤이라 불리는 혈중 산 수치 상승), 게실염, 십이지장염(소장 첫 부분의 염증), 자궁외임신, 분변매복(배출되지 않고 굳은 대변), 심장마비, 외상, 장폐색, 장중첩증(소아), 신우신염, 신장결석, 간농양(간 내 고름주머니), 장간막 허혈(장으로의 혈류 감소), 장간막 림프절염(복부 장기를 지지하는 막의 림프절 종창), 장간막 혈전증(장에서 나가는 정맥의 혈전), 췌장염, 심낭염(심장 주변 조직 염증), 복막염(복강 내막 감염), 흉막염(폐를 둘러싼 막의 염증), 폐렴, 폐경색(폐로의 혈류 차단), 비장 파열, 난관염(나팔관 염증), 경화성 장간막염, 대상포진, 비장 감염, 비장 농양(비장 내 고름주머니), 결장 파열, 요로감염, 바이러스성 위장염.",
+        "note": "급성 원인 중 정의형으로 자주 묻는 것: aneurysm(동맥류), cholangitis/cholecystitis(어근 chol/e=담즙, cholecyst=담낭 구분), ectopic pregnancy(비정상 위치 착상), mesenteric ischemia/thrombosis(허혈 vs 혈전 구분), salpingitis(난관염), shingles(=herpes zoster)."
       },
       {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "Abdominal {{aneurysm}} — a sac formed by the dilatation of the wall of an artery, vein, or heart. Physical signs include {{pulsating}} tumor formation and often a {{bruit}} heard over the swelling, sometimes with symptoms from pressure on contiguous parts.",
-        "kr": "복부 대동맥류(Abdominal aortic aneurysm) — 동맥·정맥·심장 벽의 확장으로 형성된 주머니 모양의 구조물이다. 신체 징후로는 박동성 종괴 형성과 팽창 부위에서 청취되는 잡음(bruit)이 있으며, 인접 구조물에 대한 압박 증상이 동반될 수 있다.",
-        "note": "aneurysm(동맥류)의 정의와 신체 징후(pulsating mass + bruit)는 정의형 기출로 자주 등장."
+        "type": "bulletGroup",
+        "sectionTitle": "Chronic (intermittent, or episodic)",
+        "introEn": "The specific cause of chronic abdominal pain is often difficult to determine. Symptoms may range from mild to severe, coming and going but not necessarily worsening over time. Conditions that may cause chronic abdominal pain include:",
+        "items": [
+          "{{Angina}} (Chest pain that occurs secondary to the reduced blood flow to the heart)",
+          "{{Celiac disease}}",
+          "{{Endometriosis}}",
+          "Gallstones",
+          "Gastritis (inflammation of the stomach lining)",
+          "Gastroesophageal reflux disease (GERD)",
+          "{{Hiatal}} hernia",
+          "Inguinal hernia",
+          "Irritable bowel {{syndrome}}",
+          "Mittelschmerz (pain associated with ovulation)",
+          "Nonulcer stomach pain",
+          "Ovarian cysts",
+          "Pelvic inflammatory disease (PID) — infection of the female reproductive organs",
+          "{{Peptic}} ulcer",
+          "Sickle cell anemia",
+          "{{Strained}} or pulled abdominal muscle",
+          "Ulcerative colitis (a type of inflammatory bowel disease [IBD])"
+        ],
+        "kr": "만성 복통의 원인: 협심증(심장 혈류 감소로 인한 흉통), 셀리악병, 자궁내막증, 담석증, 위염(위 점막 염증), 위식도역류질환(GERD), 열공 탈장, 서혜부 탈장, 과민성 대장 증후군, 중간통(배란 관련 통증), 비궤양성 위통, 난소 낭종, 골반 염증성 질환(여성 생식기관 감염), 소화성 궤양, 겸상 적혈구 빈혈, 복부 근육 긴장 또는 파열, 궤양성 대장염(염증성 장질환[IBD]의 일종).",
+        "note": "만성 원인 중 정의형 빈출: angina(협심증, 심장혈류감소 흉통), celiac disease(글루텐 불내성), endometriosis(자궁외 자궁내막조직), hiatal hernia(횡격막 열공을 통한 탈출), PID(여성생식기 감염), ulcerative colitis는 IBD의 일종으로 chronic 분류(cf. Crohn's는 progressive)."
       },
       {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "Appendicitis — inflammation of the appendix.",
-        "kr": "충수염(Appendicitis) — 충수돌기의 염증이다.",
-        "note": null
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "{{Cholangitis}} (bile duct inflammation) — chol/e = bile, angi/o = duct, -itis = inflammation.",
-        "kr": "담관염(Cholangitis) — 쓸개관의 염증이다. chol/e = 담즙, angi/o = 관, -itis = 염증.",
-        "note": "'~itis(염증)' 계열 어근 분해 — chol/e(담즙)+angi/o(관)+itis(염증)."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "{{Cholecystitis}} (gallbladder inflammation) — cholecyst = gallbladder.",
-        "kr": "담낭염(Cholecystitis) — 쓸개주머니의 염증이다. cholecyst = 쓸개주머니.",
-        "note": null
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "{{Cystitis}} — urinary bladder inflammation.",
-        "kr": "방광염(Cystitis) — 요방광의 염증이다.",
-        "note": null
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "{{Diabetic ketoacidosis}} — high levels of blood acids called {{ketones}}. Ketones are a byproduct of fat metabolism; an overabundance in the bloodstream leads to this severe metabolic derangement.",
-        "kr": "당뇨병성 케톤산증(Diabetic ketoacidosis) — 케톤이라 불리는 혈중 산이 과도하게 높아진 상태이다. 케톤은 지방 대사의 부산물로, 혈중 과다 축적 시 심각한 대사 이상을 초래한다.",
-        "note": null
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "{{Diverticulitis}} — a small bulging sac (diverticulum) pushing outward from the intestine wall that becomes inflamed. Diverticula can trap particles of food and become very inflamed and painful. They occur most commonly near the end of the left side of the colon (sigmoid colon).",
-        "kr": "게실염(Diverticulitis) — 장벽 바깥쪽으로 돌출된 작은 주머니(게실)가 염증을 일으킨 상태이다. 게실에 음식물이 끼어 심한 염증과 통증을 유발할 수 있으며, 대장의 왼쪽 끝(S자 결장)에 가장 흔히 발생한다.",
-        "note": "diverticulitis(게실염)는 S자 결장(sigmoid colon)에 가장 흔히 발생한다는 위치가 빈출."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "Duodenitis — inflammation in the first part of the small intestine.",
-        "kr": "십이지장염(Duodenitis) — 소장의 첫 번째 부분인 십이지장의 염증이다.",
-        "note": null
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "{{Ectopic}} pregnancy — implantation of a fertilized egg in an abnormal location outside the uterus.",
-        "kr": "자궁외임신(Ectopic pregnancy) — 수정란이 자궁 외부의 비정상적 위치에 착상된 상태이다.",
-        "note": "ectopic(딴곳의, 위치이상의) — '비정상 위치 착상'으로 정의형 출제."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "Fecal impaction — hardened stool that cannot be eliminated.",
-        "kr": "분변매복(Fecal impaction) — 배출되지 못하고 굳어버린 대변이다.",
-        "note": null
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "Heart attack, Injury, Intestinal obstruction, and Intussusception (in children) — intussusception is a telescoping of one portion of the intestine into another, resulting in reduced blood supply to the affected portion. It is seen almost exclusively in children.",
-        "kr": "심장마비(Heart attack), 외상(Injury), 장폐색(Intestinal obstruction), 장중첩증(Intussusception, 소아) — 장중첩증은 장의 한 부분이 다른 부분 안으로 망원경처럼 겹쳐 들어가는 상태로, 해당 부위의 혈액 공급이 감소한다. 거의 소아에서만 발생한다.",
-        "note": "Intussusception(장중첩증)은 소아에 거의 국한된다는 점이 빈출 포인트."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "Kidney infection (pyelonephritis) — pyel/o (renal pelvis) + nephr/o (kidney) + itis (inflammation). Kidney stones (nephrolithiasis) — formation of calculi within the kidney.",
-        "kr": "신우신염(Pyelonephritis) — pyel/o(신우) + nephr/o(신장) + itis(염증)이다. 신장결석(Nephrolithiasis) — 신장 내에 결석이 형성된 상태이다.",
-        "note": null
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "Liver abscess (pus-filled pocket in the liver), {{Mesenteric}} ischemia (decreased blood flow to the intestines — ischemia means low oxygen state due to obstruction of arterial blood supply), Mesenteric lymphadenitis (swollen lymph nodes in the mesentery), Mesenteric {{thrombosis}} (blood clot in a vein carrying blood from the intestines).",
-        "kr": "간농양(Liver abscess, 간 내 고름 주머니), 장간막 허혈(Mesenteric ischemia, 장으로의 혈류 감소), 장간막 림프절염(Mesenteric lymphadenitis), 장간막 혈전증(Mesenteric thrombosis, 장 정맥의 혈전)이다.",
-        "note": "mesenteric 계열 3가지 구분: ischemia(혈류감소)/lymphadenitis(림프절염증)/thrombosis(정맥 혈전)."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "Pancreatitis (pancreas inflammation), Pericarditis (inflammation of the tissue around the heart), Peritonitis (infection of the abdominal lining), Pleurisy (inflammation of the membrane surrounding the lungs — e.g., Tuberculous pleurisy), Pneumonia.",
-        "kr": "췌장염(Pancreatitis), 심낭염(Pericarditis), 복막염(Peritonitis), 흉막염(Pleurisy), 폐렴(Pneumonia)이다.",
-        "note": "pericarditis/peritonitis/pleurisy처럼 발음이 비슷한 '~itis' 용어들을 구분해서 외울 것."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "acute",
-        "en": "Pulmonary {{infarction}} (loss of blood flow to the lungs), Ruptured spleen, {{Salpingitis}} (inflammation of the fallopian tubes), {{Sclerosing}} mesenteritis (fibrosis from inflammation of mesentery), {{Shingles}} (herpes zoster), Spleen infection, Splenic abscess, Torn colon, Urinary tract infection (UTI), Viral gastroenteritis (stomach flu).",
-        "kr": "폐경색(Pulmonary infarction), 비장 파열(Ruptured spleen), 난관염(Salpingitis), 경화성 장간막염(Sclerosing mesenteritis), 대상포진(Shingles/Herpes zoster), 비장 감염, 비장 농양, 결장 파열, 요로감염(UTI), 바이러스성 위장염이다.",
-        "note": "salpingitis(난관염)도 정의형으로 자주 출제."
-      },
-      {
-        "sectionTitle": "Chronic (Intermittent, or Episodic)",
-        "listGroup": "chronic",
-        "en": "The specific cause of chronic abdominal pain is often difficult to determine. Symptoms may range from mild to severe, coming and going but not necessarily worsening over time. Conditions that may cause chronic abdominal pain include:",
-        "kr": "만성 복통의 구체적인 원인을 파악하는 것은 종종 어렵다. 증상은 경미한 것에서 심각한 것까지 다양하며, 반복적으로 나타나지만 반드시 시간이 지남에 따라 악화되지는 않는다.",
-        "note": null,
-        "isIntro": true
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "chronic",
-        "en": "{{Angina pectoris}} — chest pain that occurs secondary to the reduced blood flow to the heart. Occurs when partial coronary artery occlusion restricts blood supply during exertion or excitement.",
-        "kr": "협심증(Angina pectoris) — 심장으로의 혈류 감소로 인한 흉통이다. 심장 동맥의 부분 폐색으로 평소에는 증상이 없으나, 운동이나 흥분 시 심장에 혈액이 충분히 공급되지 않아 발생한다.",
-        "note": "angina pectoris(협심증) 정의는 'chest pain secondary to reduced blood flow to the heart'로 빈출."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "chronic",
-        "en": "{{Celiac disease}} — a chronic disorder of the digestive tract resulting in an inability to tolerate gluten. Gluten is a protein found in wheat, rye, and barley. In this disorder, gluten causes inflammation of the intestine lining.",
-        "kr": "셀리악병(Celiac disease) — 글루텐 불내성을 특징으로 하는 만성 소화기 질환이다. 글루텐은 밀·호밀·보리에 존재하는 단백질로, 이 질환에서는 글루텐이 장 내막에 염증을 유발한다.",
-        "note": "celiac disease(글루텐 불내성)."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "chronic",
-        "en": "{{Endometriosis}} — a condition in which functional endometrial tissue is present outside the uterus.",
-        "kr": "자궁내막증(Endometriosis) — 기능성 자궁내막 조직이 자궁 외부에 존재하는 상태이다.",
-        "note": "endometriosis('자궁 외부의 기능성 자궁내막조직'으로 정의형 출제)."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "chronic",
-        "en": "Gallstones, Gastritis (inflammation of the stomach lining), Gastroesophageal reflux disease (GERD).",
-        "kr": "담석증(Gallstones), 위염(Gastritis), 위식도역류질환(GERD)이다.",
-        "note": "GERD = '위식도역류'를 뜻하는 용어로 출제됨."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "chronic",
-        "en": "{{Hiatal}} hernia — abnormal exit of tissue or an organ through the wall of the cavity in which it normally resides, occurring at the hiatus (opening) in the diaphragm.",
-        "kr": "열공 탈장(Hiatal hernia) — 정상적으로 위치해야 할 체강 벽을 통해 조직이나 장기가 비정상적으로 빠져나온 상태로, 횡격막의 열공(구멍)을 통해 발생한다.",
-        "note": "hernia(탈장)의 일반적 정의 'abnormal exit of tissue/organ through the wall of the cavity'가 정의형으로 출제됨."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "chronic",
-        "en": "Inguinal hernia, Irritable bowel {{syndrome}}, Mittelschmerz (pain associated with ovulation), Nonulcer stomach pain, Ovarian cysts.",
-        "kr": "서혜부 탈장(Inguinal hernia), 과민성 대장 증후군(Irritable bowel syndrome), 중간통(Mittelschmerz), 비궤양성 위통(Nonulcer stomach pain), 난소 낭종(Ovarian cysts).",
-        "note": null
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "chronic",
-        "en": "Pelvic inflammatory disease (PID) — infection of the female reproductive organs. {{Peptic}} ulcer — related to the action of gastric juices on the digestive tract lining.",
-        "kr": "골반 염증성 질환(PID) — 여성 생식기관의 감염이다. 소화성 궤양(Peptic ulcer) — 위산 등 소화액의 작용으로 소화관 내막이 손상된 상태이다.",
-        "note": "PID('infection of the female reproductive organs')."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "chronic",
-        "en": "Sickle cell anemia, {{Strained}} or pulled abdominal muscle, Ulcerative colitis (a type of inflammatory bowel disease [IBD]).",
-        "kr": "겸상 적혈구 빈혈(Sickle cell anemia), 복부 근육 긴장 또는 파열, 궤양성 대장염(Ulcerative colitis, 염증성 장질환[IBD]의 일종)이다.",
-        "note": "ulcerative colitis는 IBD의 일종으로 chronic 분류 (cf. Crohn's disease는 progressive 분류)."
-      },
-      {
+        "type": "bulletGroup",
         "sectionTitle": "Progressive",
-        "listGroup": "progressive",
-        "en": "Abdominal pain that steadily worsens over time, often accompanied by the development of other symptoms, is usually serious. Causes of progressive abdominal pain include:",
-        "kr": "시간이 지남에 따라 지속적으로 악화되는 복통은 다른 증상을 동반하는 경우가 많으며, 대개 심각한 상태를 의미한다.",
-        "note": null,
-        "isIntro": true
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "progressive",
-        "en": "Cancer, Crohn's disease (a type of inflammatory bowel disease), Enlarged spleen (splenomegaly), Gallbladder cancer.",
-        "kr": "암(Cancer), 크론병(Crohn's disease), 비장 비대(Splenomegaly), 담낭암(Gallbladder cancer)이다.",
-        "note": "Crohn's disease(크론병)는 IBD의 일종 — progressive 분류."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "progressive",
-        "en": "{{Hepatitis}} (liver inflammation), Kidney cancer, Lead poisoning, Liver cancer.",
-        "kr": "간염(Hepatitis), 신장암(Kidney cancer), 납 중독(Lead poisoning), 간암(Liver cancer)이다.",
-        "note": "hepatitis(간염, 'liver inflammation'으로 정의형 출제)."
-      },
-      {
-        "sectionTitle": null,
-        "listGroup": "progressive",
-        "en": "Non-Hodgkin's lymphoma (malignant tumor of the lymphatic system), Pancreatic cancer, Stomach cancer, Tubo-ovarian abscess (pus-filled pocket involving a fallopian tube and an ovary), {{Uremia}} (retention or buildup of renal waste products in the blood).",
-        "kr": "비호지킨 림프종(Non-Hodgkin's lymphoma, 림프계의 악성 종양), 췌장암(Pancreatic cancer), 위암(Stomach cancer), 난관-난소 농양(Tubo-ovarian abscess), 요독증(Uremia, 혈중에 신장의 노폐물이 축적된 상태)이다.",
-        "note": "uremia(요독증, '혈중 신장노폐물 축적'으로 정의형 출제), Non-Hodgkin's lymphoma('malignant tumor of the lymphatic system'으로 정의형 출제) 둘 다 빈출."
+        "introEn": "Abdominal pain that steadily worsens over time, often accompanied by the development of other symptoms, is usually serious. Causes of progressive abdominal pain include:",
+        "items": [
+          "Cancer",
+          "Crohn's disease (a type of inflammatory bowel disease)",
+          "Enlarged spleen (splenomegaly)",
+          "Gallbladder cancer",
+          "{{Hepatitis}} (liver inflammation)",
+          "Kidney cancer",
+          "Lead poisoning",
+          "Liver cancer",
+          "Non-Hodgkin's lymphoma",
+          "Pancreatic cancer",
+          "Stomach cancer",
+          "Tubo-ovarian abscess (pus-filled pocket involving a fallopian tube and an ovary)",
+          "{{Uremia}} (retention or buildup of renal waste products in your blood)"
+        ],
+        "kr": "진행성 복통의 원인: 암, 크론병(염증성 장질환의 일종), 비장 비대, 담낭암, 간염(간의 염증), 신장암, 납 중독, 간암, 비호지킨 림프종, 췌장암, 위암, 난관-난소 농양(나팔관과 난소를 포함하는 고름주머니), 요독증(혈중 신장 노폐물 축적).",
+        "note": "진행성 원인 중 정의형 빈출: hepatitis(간염='liver inflammation'), uremia(요독증='혈중 신장노폐물 축적'), Crohn's disease는 IBD의 일종으로 progressive 분류(cf. ulcerative colitis는 chronic)."
       }
     ],
     "footnotes": {
@@ -816,17 +718,14 @@
       "chronic": "만성(chronic). Persisting over a long period of time. 장기간 지속되는.",
       "nausea": "구역, 오심(nausea). The subjective feeling of a need to vomit. 토하고 싶은 주관적 느낌.",
       "vomiting": "구토(vomiting). The oral expulsion of gastrointestinal contents due to gut and thoracoabdominal wall contractions.",
-      "tenderness": "압통(tenderness). The development of pain with the application of light touch (palpation) to a specific area. (관련) rebound tenderness=반동압통.",
+      "tenderness": "압통(tenderness). The development of pain with the application of light touch (palpation) to a specific area.",
       "indigestion": "소화불량(indigestion). 오심, 구토, 속쓰림, 역류, dyspepsia를 포괄하는 비특이적 상복부 불편감 용어.",
       "episodic": "간헐적인(episodic). 불규칙한 간격으로 발생하거나 나타나는.",
       "progressive": "진행성(progressive). Advancing, going from bad to worse, increasing in scope or severity.",
       "aneurysm": "동맥류(aneurysm). A sac formed by the dilatation of the wall of an artery, a vein or the heart.",
-      "pulsating": "박동성의(pulsating). 심장박동처럼 주기적으로 확장·수축하는.",
-      "bruit": "잡음(bruit). 동맥/혈관에서 들리는 예상치 못한 swishing 소리. 부분 폐색에 의한 혈류 난류를 시사.",
       "Cholangitis": "담관염(cholangitis). chol/e(담즙) + angi/o(관) + -itis(염증) = 쓸개관의 염증.",
       "Cholecystitis": "담낭염(cholecystitis). cholecyst(담낭) + -itis(염증) = 쓸개주머니의 염증.",
       "Cystitis": "방광염(cystitis). 요방광의 염증.",
-      "Diabetic ketoacidosis": "당뇨병성 케톤산증. 혈중 케톤(지방대사 부산물) 농도가 과도하게 높아진 심각한 대사 이상.",
       "ketones": "케톤체(ketones). 지방 대사의 부산물. 혈중 과다 축적 시 당뇨병성 케톤산증을 유발.",
       "Diverticulitis": "게실염(diverticulitis). 장벽 바깥으로 돌출된 게실(diverticulum)에 염증이 생긴 상태. S자 결장에 호발.",
       "Ectopic": "딴곳의, 위치이상의(ectopic). 정상 위치가 아닌 곳에 존재하는. Ectopic pregnancy=자궁외임신.",
@@ -836,7 +735,7 @@
       "Salpingitis": "난관염(salpingitis). Salpinx(난관)의 염증.",
       "Sclerosing": "경화성의(sclerosing). Sclero-(경화, hardness)에서 유래.",
       "Shingles": "대상포진(shingles). = herpes zoster.",
-      "Angina pectoris": "협심증(angina pectoris). 심장동맥의 부분 폐쇄로 운동/흥분 시 발생하는 흉통.",
+      "Angina": "협심증(angina pectoris). 심장동맥의 부분 폐쇄로 운동/흥분 시 발생하는 흉통.",
       "Celiac disease": "셀리악병(celiac disease). 글루텐 불내성을 특징으로 하는 만성 소화기 질환.",
       "Endometriosis": "자궁내막증(endometriosis). 기능성 자궁내막 조직이 자궁 외부에 존재하는 상태.",
       "Hiatal": "열공의(hiatal). Hiatus(틈새, 구멍)에서 유래. Hiatal hernia=열공탈장.",
@@ -894,7 +793,7 @@
           "rows": [
             [
               "<span class=\"term\" data-term=\"aneurysm\">Aneurysm</span>",
-              "동맥·정맥·심장 벽의 dilatation으로 형성된 주머니. <span class=\"term\" data-term=\"pulsating\">pulsating</span> mass + <span class=\"term\" data-term=\"bruit\">bruit</span>"
+              "동맥·정맥·심장 벽의 dilatation으로 형성된 주머니"
             ],
             [
               "<span class=\"term\" data-term=\"Cystitis\">Cystitis</span>",
@@ -951,7 +850,7 @@
           ],
           "rows": [
             [
-              "<span class=\"term\" data-term=\"Angina pectoris\">Angina pectoris</span>",
+              "<span class=\"term\" data-term=\"Angina\">Angina pectoris</span>",
               "chest pain secondary to reduced blood flow to the heart (협심증)"
             ],
             [
@@ -1028,8 +927,6 @@
         "vomiting": "위장관 내용물의 구강 배출(구토).",
         "tenderness": "촉진 시 통증이 발생하는 것(압통).",
         "aneurysm": "동맥·정맥·심장 벽의 확장으로 생긴 주머니 모양 구조.",
-        "pulsating": "심장박동처럼 주기적으로 확장·수축하는.",
-        "bruit": "혈관에서 들리는 잡음. 부분 폐색에 의한 난류를 시사.",
         "Cystitis": "요방광의 염증.",
         "Cholecystitis": "담낭(쓸개주머니)의 염증.",
         "Cholangitis": "담관(쓸개관)의 염증.",
@@ -1039,7 +936,7 @@
         "thrombosis": "혈관 내 혈전 형성.",
         "Salpingitis": "난관(나팔관)의 염증.",
         "Shingles": "대상포진(herpes zoster).",
-        "Angina pectoris": "심장 혈류 감소로 인한 흉통.",
+        "Angina": "심장 혈류 감소로 인한 흉통.",
         "Celiac disease": "글루텐 불내성을 특징으로 하는 만성 소화기 질환.",
         "Endometriosis": "기능성 자궁내막 조직이 자궁 외부에 존재하는 상태.",
         "Hiatal": "횡격막의 열공(틈새)에 관련된.",
