@@ -190,55 +190,55 @@
           ],
           "rows": [
             [
-              "Macules (반점)",
+              "<strong>Macules</strong> (반점)",
               "flat lesions defined by an area of changed color"
             ],
             [
-              "Papules (구진)",
+              "<strong>Papules</strong> (구진)",
               "raised, solid lesions &lt;5mm in diameter"
             ],
             [
-              "Plaques (판)",
+              "<strong>Plaques</strong> (판)",
               "lesions &gt;5mm, flat plateau-like surface"
             ],
             [
-              "Nodules (결절)",
+              "<strong>Nodules</strong> (결절)",
               "lesions &gt;5mm, more rounded configuration"
             ],
             [
-              "Wheals (팽진/두드러기)",
+              "<strong>Wheals</strong> (팽진/두드러기)",
               "pale pink papules/plaques, annular as they enlarge; urticaria, hives"
             ],
             [
-              "Vesicles (소수포)",
+              "<strong>Vesicles</strong> (소수포)",
               "circumscribed elevated lesions &lt;5mm containing fluid"
             ],
             [
-              "Bullae (대수포)",
+              "<strong>Bullae</strong> (대수포)",
               "circumscribed elevated lesions &gt;5mm containing fluid"
             ],
             [
-              "Pustules (농포)",
+              "<strong>Pustules</strong> (농포)",
               "raised lesions containing purulent exudate"
             ],
             [
-              "Purpura (자색반)",
+              "<strong>Purpura</strong> (자색반)",
               "a flat lesion due to bleeding into the skin (nonpalpable)"
             ],
             [
-              "Petechiae (점상출혈)",
+              "<strong>Petechiae</strong> (점상출혈)",
               "purpura &lt;3mm in diameter"
             ],
             [
-              "Ecchymoses (반상출혈)",
+              "<strong>Ecchymoses</strong> (반상출혈)",
               "a flat lesion &gt;3mm in diameter due to bleeding into the skin"
             ],
             [
-              "Ulcer (궤양)",
+              "<strong>Ulcer</strong> (궤양)",
               "lesion from sloughing of inflammatory necrotic tissue (perforated ___)"
             ],
             [
-              "Eschar (가피)",
+              "<strong>Eschar</strong> (가피)",
               "a necrotic lesion covered with a black crust"
             ]
           ]
