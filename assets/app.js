@@ -71,15 +71,13 @@ const FloatPopover = (function () {
 
     const rect = anchorEl.getBoundingClientRect();
     const boxRect = box.getBoundingClientRect();
-    const margin = 10;
+    const margin = 6;
 
     let top = rect.bottom + margin;
-    let tail = "top";
 
     // 화면 아래쪽에 공간이 부족하면 위쪽에 띄움
     if (top + boxRect.height > window.innerHeight - 12) {
       top = rect.top - boxRect.height - margin;
-      tail = "bottom";
       if (top < 12) top = 12; // 위쪽도 부족하면 화면 상단에 붙임
     }
 
@@ -89,7 +87,6 @@ const FloatPopover = (function () {
 
     box.style.top = `${top}px`;
     box.style.left = `${left}px`;
-    box.setAttribute("data-tail", tail);
 
     requestAnimationFrame(() => box.classList.add("show"));
 

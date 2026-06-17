@@ -63,13 +63,38 @@
     const fnTermByKey = {}; // data-fn-key -> term 텍스트 매핑
     let html = "";
 
+    let prevListGroup = null;
+    let sectionParaCounter = 0; // 섹션 내 단락 번호 (소제목이 바뀌면 1로 리셋)
+
     data.paragraphs.forEach((para, idx) => {
       const fnKeys = [];
       const enHtml = renderEnglishWithFootnotes(para.en, fnKeys, idx);
       fnKeys.forEach(({ key, term }) => (fnTermByKey[key] = term));
 
-      html += `<div class="paragraph-block">`;
-      html += `<span class="para-num">¶ ${idx + 1}</span>`;
+      const currentListGroup = para.listGroup || null;
+
+      // 소제목이 있으면 새 섹션 시작 — 이전 목록 그룹을 닫고 제목 박스 삽입
+      if (para.sectionTitle) {
+        if (prevListGroup) html += `</div>`;
+        html += `<div class="orig-section-heading">${para.sectionTitle}</div>`;
+        sectionParaCounter = 0;
+        prevListGroup = null;
+      }
+
+      // 목록 그룹 시작/종료 처리 (소제목 유무와 무관하게 listGroup 값 변화로 판단)
+      if (currentListGroup !== prevListGroup) {
+        if (prevListGroup) html += `</div>`;
+        if (currentListGroup) html += `<div class="orig-item-list">`;
+      }
+      prevListGroup = currentListGroup;
+
+      sectionParaCounter++;
+      const isListItem = !!currentListGroup && !para.isIntro;
+
+      html += `<div class="paragraph-block${isListItem ? " list-item" : ""}">`;
+      if (!isListItem) {
+        html += `<span class="para-num">¶ ${sectionParaCounter}</span>`;
+      }
       html += `<p class="para-en">${enHtml}</p>`;
 
       if (para.kr) {
@@ -84,9 +109,11 @@
       html += `</div>`;
     });
 
+    if (prevListGroup) html += `</div>`;
+
     container.innerHTML = html;
 
-    // 각주 클릭 → 단어 근처에 말풍선 표시
+    // 각주 클릭 → 단어 근처에 박스로 표시
     container.querySelectorAll(".fn").forEach((btn) => {
       const key = btn.getAttribute("data-fn-key");
       const term = fnTermByKey[key];

@@ -315,6 +315,47 @@ main {
   font-family: var(--font-serif);
 }
 
+/* 원문 모드 — 섹션(소제목) 구분 */
+.orig-section-heading {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--color-accent-ink);
+  background: var(--color-accent-soft);
+  display: block;
+  width: fit-content;
+  padding: 5px 14px;
+  border-radius: 2px;
+  margin: 36px 0 18px;
+}
+
+.passage-body > .orig-section-heading:first-child {
+  margin-top: 0;
+}
+
+/* 목록형 항목 (예: Acute causes 나열) — 일반 단락보다 좁은 여백 + 좌측 마커로 리스트처럼 표시 */
+.orig-item-list .paragraph-block {
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+}
+
+.orig-item-list .list-item {
+  padding-left: 16px;
+  position: relative;
+}
+
+.orig-item-list .list-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
 .paragraph-block {
   margin-bottom: 26px;
   padding-bottom: 22px;
@@ -407,7 +448,7 @@ main {
   margin-left: 1px;
 }
 
-/* ---------- 떠다니는 말풍선 (각주 + 핵심단어 정의 공통) ---------- */
+/* ---------- 떠다니는 박스 (각주 + 핵심단어 정의 공통) ---------- */
 
 .float-popover {
   position: fixed;
@@ -415,16 +456,16 @@ main {
   max-width: 300px;
   min-width: 160px;
   background: var(--color-note);
-  border-left: 3px solid var(--color-note-border);
-  border-radius: 2px;
+  border: 1px solid var(--color-note-border);
+  border-radius: var(--radius);
   padding: 10px 14px;
   font-family: var(--font-sans);
   font-size: 12.5px;
   line-height: 1.6;
   color: var(--color-note-ink);
-  box-shadow: 0 6px 20px rgba(31, 36, 33, 0.18);
+  box-shadow: 0 6px 16px rgba(31, 36, 33, 0.16);
   opacity: 0;
-  transform: translateY(4px);
+  transform: translateY(2px);
   transition: opacity 0.12s ease, transform 0.12s ease;
   pointer-events: none;
 }
@@ -445,38 +486,11 @@ main {
   margin-bottom: 3px;
 }
 
-/* 핵심 단어 정의용 말풍선은 강조색(accent) 계열로 */
+/* 핵심 단어 정의용 박스는 중성색 계열로 */
 .float-popover.term-style {
   background: var(--color-tag-bg);
-  border-left: 3px solid var(--color-ink-faint);
+  border: 1px solid var(--color-rule);
   color: var(--color-ink-soft);
-}
-
-/* 말풍선 꼬리 */
-.float-popover::after {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: inherit;
-  border-left: inherit;
-  transform: rotate(45deg);
-}
-
-.float-popover[data-tail="top"]::after {
-  top: -6px;
-  left: 16px;
-  border-left: none;
-  border-top: 3px solid var(--color-note-border);
-}
-
-.float-popover.term-style[data-tail="top"]::after {
-  border-top-color: var(--color-ink-faint);
-}
-
-.float-popover[data-tail="bottom"]::after {
-  bottom: -6px;
-  left: 16px;
 }
 
 /* ---------- 요약 모드 ---------- */
