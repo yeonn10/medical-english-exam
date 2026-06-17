@@ -173,7 +173,8 @@
         if (hasSourceMark) {
           html += `<div class="summary-table-legend"><span class="csv-source">표시</span>는 수업자료·기출문제에 실제로 등장한 표현</div>`;
         }
-        html += `<table class="summary-table"><thead><tr>`;
+        const isKeywordTable = sec.heading && sec.heading.startsWith("핵심 단어");
+        html += `<table class="summary-table${isKeywordTable ? " keyword-table" : ""}"><thead><tr>`;
         sec.columns.forEach((c) => (html += `<th>${c}</th>`));
         html += `</tr></thead><tbody>`;
         sec.rows.forEach((row) => {

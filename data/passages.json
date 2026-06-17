@@ -265,30 +265,30 @@
             ],
             [
               "pyrogens",
-              "발열원(pyrogen). 발열을 유발하는 물질. Substance or agent that produces fever."
+              "발열원. 발열을 유발하는 물질. Substance or agent that produces fever."
             ],
             [
               "antipyretics",
-              "해열제(antipyretic). Any medicine that lowers body temperature."
+              "해열제. Any medicine that lowers body temperature."
             ],
             [
               "hyperpyrexia",
-              "초고열(hyperpyrexia). Extremely high fever, 41.5°C 초과."
+              "초고열. Extremely high fever, 41.5°C 초과."
             ],
             [
               "pyrogen",
               "발열원. Substance or agent that produces fever."
             ],
             [
-              "Exogenous",
-              "외인성(exogenous). 환자 외부에서 유래한 발열원."
+              "exogenous",
+              "외인성. 환자 외부에서 유래한 발열원."
             ],
             [
               "endotoxin",
               "내독소. 그람음성균이 생성하는 LPS. 발열물질이자 병리적 변화 유도 물질."
             ],
             [
-              "Cytokines",
+              "cytokines",
               "사이토카인. 면역/염증/혈액생성 과정을 조절하는 작은 단백질."
             ],
             [
@@ -300,60 +300,60 @@
               "보철, 인공의. Prosthetic valve(인공판막), Prosthetic foot(의족) 등으로 활용."
             ],
             [
-              "Macules",
-              "반점(macule). 색 변화로 정의되는 평평한 병변."
+              "macules",
+              "반점. 색 변화로 정의되는 평평한 병변."
             ],
             [
-              "Papules",
-              "구진(papule). 직경 5mm 미만의 솟아오른 단단한 병변."
+              "papules",
+              "구진. 직경 5mm 미만의 솟아오른 단단한 병변."
             ],
             [
               "plaques",
-              "판(plaque). 직경 5mm 초과, 평평한 고원형 표면의 병변."
+              "판. 직경 5mm 초과, 평평한 고원형 표면의 병변."
             ],
             [
-              "Wheals",
-              "팽진(wheal, 두드러기/hives). 옅은 분홍색, 일시적(24-48시간)인 구진/판."
+              "wheals",
+              "팽진. 두드러기/hives. 옅은 분홍색, 일시적(24-48시간)인 구진/판."
             ],
             [
-              "Vesicles",
-              "소수포(vesicle). 5mm 미만, 액체를 포함한 경계가 분명한 융기 병변."
+              "vesicles",
+              "소수포. 5mm 미만, 액체를 포함한 경계가 분명한 융기 병변."
             ],
             [
               "bullae",
-              "대수포(bulla). 5mm 초과, 액체를 포함한 융기 병변."
+              "대수포. 5mm 초과, 액체를 포함한 융기 병변."
             ],
             [
-              "Pustules",
-              "농포(pustule). 화농성 삼출물을 포함한 솟아오른 병변."
+              "pustules",
+              "농포. 화농성 삼출물을 포함한 솟아오른 병변."
             ],
             [
               "purulent",
-              "화농성의(purulent). 고름을 포함하는. = suppurative."
+              "화농성의. 고름을 포함하는. = suppurative."
             ],
             [
               "exudate",
-              "삼출물(exudate). 염증 조직에서 혈관으로부터 서서히 배출되는 액체/세포 성분."
+              "삼출물. 염증 조직에서 혈관으로부터 서서히 배출되는 액체/세포 성분."
             ],
             [
               "purpura",
-              "자반(purpura). 피부 내 출혈로 인한 자홍색/적갈색 병변."
+              "자반. 피부 내 출혈로 인한 자홍색/적갈색 병변."
             ],
             [
               "petechiae",
-              "점상출혈(petechiae). 자반 중 직경 3mm 미만."
+              "점상출혈. 자반 중 직경 3mm 미만."
             ],
             [
               "ecchymoses",
-              "반상출혈(ecchymoses). 자반 중 직경 3mm 초과."
+              "반상출혈. 자반 중 직경 3mm 초과."
             ],
             [
               "ulcer",
-              "궤양(ulcer). 진피 상층까지 이르는 피부 결손."
+              "궤양. 진피 상층까지 이르는 피부 결손."
             ],
             [
               "eschar",
-              "가피(eschar). 검은 딱지로 덮인 괴사성 병변."
+              "가피. 검은 딱지로 덮인 괴사성 병변."
             ]
           ]
         }
@@ -626,31 +626,31 @@
           "rows": [
             [
               "laparoscopy",
-              "복강경검사(laparoscopy). 작은 절개를 통해 소형 스코프를 복부에 삽입하는 수술. laparo-(복부) + -scope(보는 기구)."
+              "복강경검사. 작은 절개를 통해 소형 스코프를 복부에 삽입하는 수술. laparo-(복부) + -scope(보는 기구)."
             ],
             [
               "onset",
-              "발병(onset). 질병의 징후/증상이 처음 나타나는 시점. 시작."
+              "발병. 질병의 징후/증상이 처음 나타나는 시점. 시작."
             ],
             [
-              "Embryology",
-              "발생학(embryology). 배아 및 태아 시기 장기 발생을 연구하는 학문. foregut/midgut/hindgut 구분의 근거가 됨."
+              "embryology",
+              "발생학. 배아 및 태아 시기 장기 발생을 연구하는 학문. foregut/midgut/hindgut 구분의 근거가 됨."
             ],
             [
               "visceral",
-              "내장의(visceral). 체내 3대 공간(특히 복부)에 있는 큰 내부 장기를 가리킴."
+              "내장의. 체내 3대 공간(특히 복부)에 있는 큰 내부 장기를 가리킴."
             ],
             [
               "afferent",
-              "구심성(afferent). 말초에서 중추(심장/뇌)로 전도되는 방향. 반대말은 efferent(원심성)."
+              "구심성. 말초에서 중추(심장/뇌)로 전도되는 방향. 반대말은 efferent(원심성)."
             ],
             [
               "nociceptors",
-              "통각 수용기(nociceptor). 통증성 자극을 감지하는 감각 수용체."
+              "통각 수용기. 통증성 자극을 감지하는 감각 수용체."
             ],
             [
               "ischemia",
-              "허혈(ischemia). 동맥혈 공급 장애 또는 혈류 부족으로 조직이 저산소 상태가 되는 것."
+              "허혈. 동맥혈 공급 장애 또는 혈류 부족으로 조직이 저산소 상태가 되는 것."
             ],
             [
               "epigastric",
@@ -658,87 +658,87 @@
             ],
             [
               "midgut",
-              "중장(midgut). 위에서 대장까지 이어지는 위장관의 중간 부분."
+              "중장. 위에서 대장까지 이어지는 위장관의 중간 부분."
             ],
             [
               "retroperitoneal",
-              "후복막의(retroperitoneal). 복막 뒤쪽/후방에 위치한."
+              "후복막의. 복막 뒤쪽/후방에 위치한."
             ],
             [
               "aching",
-              "둔통(aching). 둔하고 지속적인 통증을 유발하는 성질."
+              "둔통. 둔하고 지속적인 통증을 유발하는 성질."
             ],
             [
               "gnawing",
-              "쓰라린 통증(gnawing). 둔하고 지속적인 통증의 감각."
+              "쓰라린 통증. 둔하고 지속적인 통증의 감각."
             ],
             [
               "defined",
-              "경계가 분명한(defined). 윤곽이나 경계가 명확하게 드러나는."
+              "경계가 분명한. 윤곽이나 경계가 명확하게 드러나는."
             ],
             [
               "localized",
-              "국소의(localized). 전신성(generalized)과 대조되는 개념."
+              "국소의. 전신성(generalized)과 대조되는 개념."
             ],
             [
               "somatic pain",
-              "체성 통증(somatic pain). 피부, 조직, 근육 통증을 포함하는 통각수용 통증의 한 유형."
+              "체성 통증. 피부, 조직, 근육 통증을 포함하는 통각수용 통증의 한 유형."
             ],
             [
               "parietal peritoneum",
-              "벽쪽 복막(parietal peritoneum). 복부/골반 벽의 내면을 덮는 복막. parietal = 벽(wall)."
+              "벽쪽 복막. 복부/골반 벽의 내면을 덮는 복막. parietal = 벽(wall)."
             ],
             [
               "mesodermal",
-              "중배엽의(mesodermal). 3대 배엽 중 중간층으로, 근골격계·혈액·혈관·비뇨생식기계·결합조직(피부 진피 포함) 등을 만든다."
+              "중배엽의. 3대 배엽 중 중간층으로, 근골격계·혈액·혈관·비뇨생식기계·결합조직(피부 진피 포함) 등을 만든다."
             ],
             [
               "dissection",
-              "박리(dissection). 대동맥의 경우 내벽이 찢어지는 것(aortic dissection)."
+              "박리. 대동맥의 경우 내벽이 찢어지는 것(aortic dissection)."
             ],
             [
               "volvulus",
-              "장염전(volvulus). 위장이나 장이 뒤틀려 생기는 폐색."
+              "장염전. 위장이나 장이 뒤틀려 생기는 폐색."
             ],
             [
               "ipsilateral",
-              "동측의(ipsilateral). 신체의 같은 쪽에 관련된."
+              "동측의. 신체의 같은 쪽에 관련된."
             ],
             [
               "ureteral",
-              "요관의(ureteral). 신장에서 방광으로 소변을 운반하는 관(ureter)에 관련된 형용사."
+              "요관의. 신장에서 방광으로 소변을 운반하는 관(ureter)에 관련된 형용사."
             ],
             [
               "free",
-              "유리된(free). 여기서는 'free intraperitoneal blood' = 복강 내에 고여있지 않고 자유롭게 퍼진 혈액."
+              "유리된. 여기서는 'free intraperitoneal blood' = 복강 내에 고여있지 않고 자유롭게 퍼진 혈액."
             ],
             [
               "sclerotomes",
-              "뼈분절(sclerotome). 뼈, 인대, 관절 등 깊은 구조에서 오는 통증의 연관 영역."
+              "뼈분절. 뼈, 인대, 관절 등 깊은 구조에서 오는 통증의 연관 영역."
             ],
             [
               "myocardial infarction",
-              "심근경색(myocardial infarction). 심장 근육의 비가역적 손상."
+              "심근경색. 심장 근육의 비가역적 손상."
             ],
             [
               "appendicitis",
-              "충수염(appendicitis). 충수돌기의 염증. periumbilical→RLQ 통증 이동이 특징."
+              "충수염. 충수돌기의 염증. periumbilical→RLQ 통증 이동이 특징."
             ],
             [
               "colic",
-              "산통(colic). 급격한 발생과 소실을 특징으로 하는 간헐적 복통을 보이는 임상 증후군. 1.급통증 2.결장이라는 중의적 의미도 있음."
+              "산통. 급격한 발생과 소실을 특징으로 하는 간헐적 복통을 보이는 임상 증후군. 1.급통증 2.결장이라는 중의적 의미도 있음."
             ],
             [
               "paroxysmal",
-              "발작성의(paroxysmal). 갑작스럽고 통제할 수 없는 발작."
+              "발작성의. 갑작스럽고 통제할 수 없는 발작."
             ],
             [
               "transmural",
-              "전벽층의(transmural). 신체나 낭, 또는 모든 중공구조의 벽을 관통하는."
+              "전벽층의. 신체나 낭, 또는 모든 중공구조의 벽을 관통하는."
             ],
             [
               "irritation",
-              "자극(irritation). 비정상적이고 문제를 일으키는 자극."
+              "자극. 비정상적이고 문제를 일으키는 자극."
             ]
           ]
         }
@@ -1262,123 +1262,123 @@
           "rows": [
             [
               "acute",
-              "급성(acute). Having a short and relatively severe course. 짧고 비교적 심한 경과."
+              "급성. Having a short and relatively severe course. 짧고 비교적 심한 경과."
             ],
             [
               "chronic",
-              "만성(chronic). Persisting over a long period of time. 장기간 지속되는."
+              "만성. Persisting over a long period of time. 장기간 지속되는."
             ],
             [
               "nausea",
-              "구역, 오심(nausea). The subjective feeling of a need to vomit. 토하고 싶은 주관적 느낌."
+              "구역, 오심. The subjective feeling of a need to vomit. 토하고 싶은 주관적 느낌."
             ],
             [
               "vomiting",
-              "구토(vomiting). The oral expulsion of gastrointestinal contents due to gut and thoracoabdominal wall contractions."
+              "구토. The oral expulsion of gastrointestinal contents due to gut and thoracoabdominal wall contractions."
             ],
             [
               "tenderness",
-              "압통(tenderness). The development of pain with the application of light touch (palpation) to a specific area."
+              "압통. The development of pain with the application of light touch (palpation) to a specific area."
             ],
             [
               "indigestion",
-              "소화불량(indigestion). 오심, 구토, 속쓰림, 역류, dyspepsia를 포괄하는 비특이적 상복부 불편감 용어."
+              "소화불량. 오심, 구토, 속쓰림, 역류, dyspepsia를 포괄하는 비특이적 상복부 불편감 용어."
             ],
             [
               "episodic",
-              "간헐적인(episodic). 불규칙한 간격으로 발생하거나 나타나는."
+              "간헐적인. 불규칙한 간격으로 발생하거나 나타나는."
             ],
             [
               "progressive",
-              "진행성(progressive). Advancing, going from bad to worse, increasing in scope or severity."
+              "진행성. Advancing, going from bad to worse, increasing in scope or severity."
             ],
             [
               "aneurysm",
-              "동맥류(aneurysm). A sac formed by the dilatation of the wall of an artery, a vein or the heart."
+              "동맥류. A sac formed by the dilatation of the wall of an artery, a vein or the heart."
             ],
             [
-              "Cholangitis",
-              "담관염(cholangitis). chol/e(담즙) + angi/o(관) + -itis(염증) = 쓸개관의 염증."
+              "cholangitis",
+              "담관염. chol/e(담즙) + angi/o(관) + -itis(염증) = 쓸개관의 염증."
             ],
             [
-              "Cholecystitis",
-              "담낭염(cholecystitis). cholecyst(담낭) + -itis(염증) = 쓸개주머니의 염증."
+              "cholecystitis",
+              "담낭염. cholecyst(담낭) + -itis(염증) = 쓸개주머니의 염증."
             ],
             [
-              "Cystitis",
-              "방광염(cystitis). 요방광의 염증."
+              "cystitis",
+              "방광염. 요방광의 염증."
             ],
             [
               "ketones",
-              "케톤체(ketones). 지방 대사의 부산물. 혈중 과다 축적 시 당뇨병성 케톤산증을 유발."
+              "케톤체. 지방 대사의 부산물. 혈중 과다 축적 시 당뇨병성 케톤산증을 유발."
             ],
             [
-              "Diverticulitis",
-              "게실염(diverticulitis). 장벽 바깥으로 돌출된 게실(diverticulum)에 염증이 생긴 상태. S자 결장에 호발."
+              "diverticulitis",
+              "게실염. 장벽 바깥으로 돌출된 게실(diverticulum)에 염증이 생긴 상태. S자 결장에 호발."
             ],
             [
-              "Ectopic",
-              "딴곳의, 위치이상의(ectopic). 정상 위치가 아닌 곳에 존재하는. Ectopic pregnancy=자궁외임신."
+              "ectopic",
+              "딴곳의, 위치이상의. 정상 위치가 아닌 곳에 존재하는. Ectopic pregnancy=자궁외임신."
             ],
             [
-              "Mesenteric",
-              "장간막의(mesenteric). 장과 그 부속물을 후복벽에 연결하는 막(mesentery)에 관련된."
+              "mesenteric",
+              "장간막의. 장과 그 부속물을 후복벽에 연결하는 막(mesentery)에 관련된."
             ],
             [
               "thrombosis",
-              "혈전증(thrombosis). 혈관(주로 정맥) 내 혈전 형성."
+              "혈전증. 혈관(주로 정맥) 내 혈전 형성."
             ],
             [
               "infarction",
-              "경색(infarction). 국소적 산소 결핍으로 인한 조직 괴사 영역의 형성."
+              "경색. 국소적 산소 결핍으로 인한 조직 괴사 영역의 형성."
             ],
             [
-              "Salpingitis",
-              "난관염(salpingitis). Salpinx(난관)의 염증."
+              "salpingitis",
+              "난관염. Salpinx(난관)의 염증."
             ],
             [
-              "Sclerosing",
-              "경화성의(sclerosing). Sclero-(경화, hardness)에서 유래."
+              "sclerosing",
+              "경화성의. Sclero-(경화, hardness)에서 유래."
             ],
             [
-              "Shingles",
-              "대상포진(shingles). = herpes zoster."
+              "shingles",
+              "대상포진. = herpes zoster."
             ],
             [
-              "Angina",
+              "angina",
               "협심증(angina pectoris). 심장동맥의 부분 폐쇄로 운동/흥분 시 발생하는 흉통."
             ],
             [
-              "Celiac disease",
-              "셀리악병(celiac disease). 글루텐 불내성을 특징으로 하는 만성 소화기 질환."
+              "celiac disease",
+              "셀리악병. 글루텐 불내성을 특징으로 하는 만성 소화기 질환."
             ],
             [
-              "Endometriosis",
-              "자궁내막증(endometriosis). 기능성 자궁내막 조직이 자궁 외부에 존재하는 상태."
+              "endometriosis",
+              "자궁내막증. 기능성 자궁내막 조직이 자궁 외부에 존재하는 상태."
             ],
             [
-              "Hiatal",
-              "열공의(hiatal). Hiatus(틈새, 구멍)에서 유래. Hiatal hernia=열공탈장."
+              "hiatal",
+              "열공의. Hiatus(틈새, 구멍)에서 유래. Hiatal hernia=열공탈장."
             ],
             [
               "syndrome",
-              "증후군(syndrome). 함께 발생하여 하나의 질환/상태를 가리키는 징후·증상의 집합."
+              "증후군. 함께 발생하여 하나의 질환/상태를 가리키는 징후·증상의 집합."
             ],
             [
-              "Peptic",
-              "소화성의(peptic). Pepsin 또는 소화 작용과 관련된. Peptic ulcer=소화성 궤양."
+              "peptic",
+              "소화성의. Pepsin 또는 소화 작용과 관련된. Peptic ulcer=소화성 궤양."
             ],
             [
-              "Strained",
-              "긴장된, 과도긴장된(strained). 근육에 외력이 가해져 손상된 상태(=muscle strain)."
+              "strained",
+              "긴장된, 과도긴장된. 근육에 외력이 가해져 손상된 상태(=muscle strain)."
             ],
             [
-              "Hepatitis",
-              "간염(hepatitis). 간의 염증."
+              "hepatitis",
+              "간염. 간의 염증."
             ],
             [
-              "Uremia",
-              "요독증(uremia). 신장 노폐물이 혈중에 축적된 상태."
+              "uremia",
+              "요독증. 신장 노폐물이 혈중에 축적된 상태."
             ]
           ]
         }
@@ -1490,51 +1490,51 @@
           "rows": [
             [
               "claudication",
-              "파행(claudication). 절뚝거림. 간헐적 파행(intermittent claudication)=운동 시 근육의 혈액 공급 부족으로 생기는 통증/불편감. 걷다가 아프고 쉬면 호전. 원인은 말초동맥질환(PAD). 주로 종아리(calf)에 발생."
+              "파행. 절뚝거림. 간헐적 파행(intermittent claudication)=운동 시 근육의 혈액 공급 부족으로 생기는 통증/불편감. 걷다가 아프고 쉬면 호전. 원인은 말초동맥질환(PAD). 주로 종아리(calf)에 발생."
             ],
             [
               "splanchnic",
-              "내장의(splanchnic). = visceral. 내장 순환계를 가리킴."
+              "내장의. = visceral. 내장 순환계를 가리킴."
             ],
             [
               "atheroembolic",
-              "죽종색전의(atheroembolic). 콜레스테롤이나 그 에스터, 또는 죽종판 조각으로 이루어진 색전으로, 보통 작은 동맥에 박힌다."
+              "죽종색전의. 콜레스테롤이나 그 에스터, 또는 죽종판 조각으로 이루어진 색전으로, 보통 작은 동맥에 박힌다."
             ],
             [
               "predisposed regions",
-              "취약 부위(predisposed region). 위험요인이 있어 질환이 발생하기 쉬운 부위."
+              "취약 부위. 위험요인이 있어 질환이 발생하기 쉬운 부위."
             ],
             [
               "predilection",
-              "호발부위(predilection). 특정 부위를 선호하는 경향."
+              "호발부위. 특정 부위를 선호하는 경향."
             ],
             [
               "occlusive",
-              "폐색성의(occlusive). 혈관을 막는 성질의."
+              "폐색성의. 혈관을 막는 성질의."
             ],
             [
               "preferentially",
-              "선호하여(preferentially). 특정 부위를 우선적으로 침범하는 양상을 나타낼 때 사용."
+              "선호하여. 특정 부위를 우선적으로 침범하는 양상을 나타낼 때 사용."
             ],
             [
               "carotid bifurcation",
-              "목동맥 갈림(carotid bifurcation). 경동맥이 내외경동맥으로 분지하는 지점 — 동맥경화 호발부위."
+              "목동맥 갈림. 경동맥이 내외경동맥으로 분지하는 지점 — 동맥경화 호발부위."
             ],
             [
               "coronary",
-              "관상동맥(coronary). 심장에 혈액을 공급하는 혈관."
+              "관상동맥. 심장에 혈액을 공급하는 혈관."
             ],
             [
               "strokes",
-              "stroke(뇌졸중). CNS 공급 동맥의 동맥경화로 흔히 발생하는 임상 양상."
+              "뇌졸중. CNS 공급 동맥의 동맥경화로 흔히 발생하는 임상 양상."
             ],
             [
               "gangrene",
-              "gangrene(괴저). 혈관 공급 후 세균 침범이 동반된 조직 괴사. 말초순환 동맥경화의 대표 합병증."
+              "괴저. 혈관 공급 후 세균 침범이 동반된 조직 괴사. 말초순환 동맥경화의 대표 합병증."
             ],
             [
               "stenosis",
-              "stenosis(협착). 관/도관의 좁아짐. 신동맥 협착(renal artery stenosis)은 동맥경화가 신장에 직접 영향을 주는 예."
+              "협착. 관/도관의 좁아짐. 신동맥 협착(renal artery stenosis)은 동맥경화가 신장에 직접 영향을 주는 예."
             ]
           ]
         }

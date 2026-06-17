@@ -580,6 +580,11 @@ main {
 
 .summary-table tr:last-child td { border-bottom: none; }
 
+.keyword-table td:first-child {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
 /* 원문/기출에 실제로 등장한 표현(CSV 원본 출처) 강조 */
 .csv-source {
   background: var(--color-accent-soft);
