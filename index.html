@@ -3,86 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>문제 학습 — 의학영어 시험대비</title>
-<link rel="stylesheet" href="../assets/style.css">
+<title>의학영어 시험대비</title>
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="site-header-inner">
-    <div class="site-title"><a href="../index.html" style="color:inherit;">의학영어<span class="accent"> · </span>시험대비</a></div>
+    <div class="site-title">의학영어<span class="accent"> · </span>시험대비</div>
     <nav class="site-nav">
-      <a href="../index.html">홈</a>
-      <a href="../passages/index.html">본문 학습</a>
-      <a href="index.html" class="active">문제 학습</a>
+      <a href="index.html" class="active">홈</a>
+      <a href="passages/index.html">본문 학습</a>
+      <a href="quiz/index.html">문제 학습</a>
     </nav>
   </div>
 </header>
 
 <main>
-  <div class="eyebrow">QUIZ</div>
-  <h1 class="page-title">문제 학습</h1>
-  <p class="page-subtitle">역대 기출문제를 본문별로 골라 풀어볼 수 있습니다.</p>
+  <div class="eyebrow">MEDICAL ENGLISH · EXAM PREP</div>
+  <h1 class="page-title">의학영어 시험대비</h1>
+  <p class="page-subtitle">시험범위 본문 4개와 역대 기출문제를 정리한 학습 자료입니다.</p>
 
-  <!-- ===== 설정 화면 ===== -->
-  <div id="view-setup">
-    <div class="quiz-setup-section">
-      <div class="quiz-setup-label">본문 선택</div>
-      <div class="quiz-filterbar" id="passage-filterbar"></div>
-    </div>
+  <div class="section-label">본문 학습</div>
+  <div class="card-grid" id="passage-cards"></div>
 
-    <div class="quiz-setup-section">
-      <div class="quiz-setup-label">문제 유형</div>
-      <div class="mode-toggle" id="mode-toggle">
-        <button id="mode-mc" class="active">객관식</button>
-        <button id="mode-sa">주관식</button>
-      </div>
-    </div>
-
-    <p id="setup-count" style="font-size:13px; color: var(--color-ink-soft); margin-bottom:20px;"></p>
-
-    <button id="start-btn" class="btn">시작하기 →</button>
-  </div>
-
-  <!-- ===== 퀴즈 진행 화면 ===== -->
-  <div id="view-quiz" style="display:none;">
-    <div class="quiz-progress" id="quiz-progress"></div>
-
-    <div class="quiz-card-box">
-      <div class="quiz-source" id="quiz-source"></div>
-      <p class="quiz-question" id="quiz-question"></p>
-      <p class="quiz-passage" id="quiz-passage" style="display:none;"></p>
-
-      <div id="quiz-answer-area"></div>
-
-      <div class="quiz-feedback" id="quiz-feedback">
-        <div class="answer-line" id="feedback-answer-line"></div>
-        <div id="feedback-explanation"></div>
-      </div>
-
-      <div class="quiz-nav">
-        <button class="btn" id="quiz-quit-btn">중단하고 나가기</button>
-        <button class="btn" id="quiz-next-btn" disabled>다음 문제 →</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- ===== 결과 화면 ===== -->
-  <div id="view-result" style="display:none;">
-    <div class="quiz-card-box quiz-summary-box">
-      <div class="big-num" id="result-score"></div>
-      <p style="font-size:14px; color: var(--color-ink-soft); margin: 6px 0 24px;" id="result-detail"></p>
-      <div style="display:flex; gap:10px; justify-content:center;">
-        <button class="btn" id="retry-btn">다시 풀기</button>
-        <button class="btn" id="review-wrong-btn">틀린 문제만 다시</button>
-      </div>
-    </div>
-  </div>
+  <div class="section-label">문제 학습</div>
+  <a href="quiz/index.html" class="quiz-card">
+    <div class="num" style="font-family: var(--font-mono); font-size:11px; color:#8B9088;">QUIZ</div>
+    <h3>기출문제 연습</h3>
+    <p>역대 기출문제를 모아 본문별 · 유형별로 풀어볼 수 있습니다.</p>
+    <span class="btn">시작하기 →</span>
+  </a>
 </main>
 
 <footer class="site-footer">의학영어 시험대비 자료 · 개인 학습용</footer>
 
-<script src="../assets/app.js"></script>
-<script src="../assets/quiz.js"></script>
+<script src="assets/app.js"></script>
+<script>
+  const grid = document.getElementById("passage-cards");
+  grid.innerHTML = PASSAGE_META.map((p) => `
+    <a class="passage-card" href="passages/passage.html?id=${p.id}">
+      <div class="num">${p.num}</div>
+      <h3>${p.title}</h3>
+      <p>${p.desc}</p>
+    </a>
+  `).join("");
+</script>
 </body>
 </html>

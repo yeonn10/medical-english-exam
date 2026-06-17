@@ -130,12 +130,14 @@
     // 문제(stem) / 지문(passage) 분리 렌더링
     document.getElementById("quiz-question").textContent = q.stem;
     const passageEl = document.getElementById("quiz-passage");
-    if (q.passage) {
-      passageEl.textContent = q.passage;
-      passageEl.style.display = "";
-    } else {
-      passageEl.textContent = "";
-      passageEl.style.display = "none";
+    if (passageEl) {
+      if (q.passage) {
+        passageEl.textContent = q.passage;
+        passageEl.style.display = "";
+      } else {
+        passageEl.textContent = "";
+        passageEl.style.display = "none";
+      }
     }
 
     const feedback = document.getElementById("quiz-feedback");
