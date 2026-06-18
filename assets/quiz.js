@@ -156,9 +156,11 @@
   }
 
   // 모든 객관식은 라디오버튼으로 통일. 보기 개수가 많으면 스크롤 박스로 감싼다.
+  // 보기가 많은 문제(매칭형, 병변 분류 등)는 순서를 고정하고, 일반 문제만 매번 섞는다.
   function renderMultipleChoice(area, q) {
-    const choices = shuffle(getChoicesOf(q));
-    const isMany = choices.length > FEW_CHOICES_THRESHOLD;
+    const rawChoices = getChoicesOf(q);
+    const isMany = rawChoices.length > FEW_CHOICES_THRESHOLD;
+    const choices = isMany ? rawChoices : shuffle(rawChoices);
 
     const wrapper = document.createElement("div");
     wrapper.className = `quiz-choices ${isMany ? "many" : ""}`;
