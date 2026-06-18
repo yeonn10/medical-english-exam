@@ -156,7 +156,7 @@
 
   // 모든 객관식은 라디오버튼으로 통일. 보기 개수가 많으면 스크롤 박스로 감싼다.
   function renderMultipleChoice(area, q) {
-    const choices = getChoicesOf(q);
+    const choices = shuffle(getChoicesOf(q));
     const isMany = choices.length > FEW_CHOICES_THRESHOLD;
 
     const wrapper = document.createElement("div");
