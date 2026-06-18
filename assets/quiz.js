@@ -125,7 +125,8 @@
     const meta = passageMetaOf(q.passageId);
 
     document.getElementById("quiz-progress").textContent = `${state.currentIndex + 1} / ${state.questions.length}`;
-    document.getElementById("quiz-source").textContent = `${meta ? meta.title : q.passageId} · 출처: ${q.years.join(", ")}`;
+    const sourceText = q.years && q.years.length ? ` · 출처: ${q.years.join(", ")}` : "";
+    document.getElementById("quiz-source").textContent = `${meta ? meta.title : q.passageId}${sourceText}`;
 
     // 문제(stem) / 지문(passage) 분리 렌더링
     document.getElementById("quiz-question").textContent = q.stem;

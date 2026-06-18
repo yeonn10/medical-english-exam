@@ -2254,5 +2254,39 @@
     "years": [
       21
     ]
+  },
+  {
+    "id": "q081",
+    "passageId": "acute_abdomen",
+    "type": "fill_blank",
+    "stem": "'situated nearest to point of attachment or origin'의 의미로 다음 빈칸에 들어갈 형용사는?",
+    "passage": "\"Pain from foregut structures, which include the stomach, pancreas, liver, biliary system, and the ___ duodenum, will be typically localized to the epigastric region.\"",
+    "choiceSourceType": "open",
+    "choices": [
+      "proximal",
+      "distal",
+      "lateral",
+      "superior"
+    ],
+    "answer": "proximal",
+    "explanation": "proximal(근위부) = 부착점/기원에 가장 가까운 부위. 반대말은 distal(원위부).",
+    "years": []
+  },
+  {
+    "id": "q082",
+    "passageId": "atherosclerosis",
+    "type": "fill_blank",
+    "stem": "'호소증상'을 뜻하며, 다음 빈칸에 들어갈 단어는?",
+    "passage": "\"Pain is the most common presenting ___ in patients with MI.\"",
+    "choiceSourceType": "open",
+    "choices": [
+      "complaint",
+      "symptom",
+      "manifestation",
+      "finding"
+    ],
+    "answer": "complaint",
+    "explanation": "presenting complaint(호소증상) = 환자가 병원에 와서 가장 먼저 호소하는 증상. MI(심근경색) 환자에서는 통증이 가장 흔한 presenting complaint.",
+    "years": []
   }
 ]
