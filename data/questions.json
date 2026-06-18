@@ -2288,21 +2288,5 @@
     "answer": "complaint",
     "explanation": "presenting complaint(호소증상) = 환자가 병원에 와서 가장 먼저 호소하는 증상. MI(심근경색) 환자에서는 통증이 가장 흔한 presenting complaint.",
     "years": []
-  },
-  {
-    "id": "q083",
-    "passageId": "abdominal_pain",
-    "type": "fill_blank",
-    "stem": "Abdominal pain의 chronic causes 중 하나인 GERD의 full name을 고르시오.",
-    "choiceSourceType": "open",
-    "choices": [
-      "Gastroesophageal reflux disease",
-      "Irritable bowel syndrome",
-      "Inflammatory bowel disease",
-      "Peptic ulcer disease"
-    ],
-    "answer": "Gastroesophageal reflux disease",
-    "explanation": "GERD = Gastroesophageal reflux disease(위식도역류질환). 위산이 식도로 역류하여 만성적인 복통/속쓰림을 유발하는 chronic causes 중 하나.",
-    "years": []
   }
 ]

@@ -232,10 +232,16 @@
     return s.toLowerCase().replace(/[^a-z0-9가-힣]/g, "").trim();
   }
 
+  // 정답에 "풀네임 (약어)" 형태가 섞여 있을 때, 주관식 채점에서는 약어를 떼고
+  // 풀네임만 기준으로 비교한다 (예: "Gastroesophageal reflux disease (GERD)" -> 풀네임만 인정)
+  function stripAbbreviation(s) {
+    return s.replace(/\s*\([^)]*\)\s*$/, "").trim();
+  }
+
   function submitAnswer(q, userChoice, areaEl, isShortAnswer) {
     state.answeredCurrent = true;
     const isCorrect = isShortAnswer
-      ? normalize(userChoice) === normalize(q.answer)
+      ? normalize(userChoice) === normalize(stripAbbreviation(q.answer))
       : userChoice === q.answer;
 
     if (isCorrect) {
