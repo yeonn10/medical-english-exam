@@ -238,10 +238,59 @@
     return s.replace(/\s*\([^)]*\)\s*$/, "").trim();
   }
 
+  // 정답이 영어 복수형으로 끝나는 경우, 단수형으로 입력해도 정답으로 인정하기 위해
+  // 가능한 단수형 후보들을 만들어 반환한다. 정답이 여러 단어로 나뉘어 있으면(예: "manifestations / postmortem")
+  // 슬래시로 나눠 각 부분을 따로 변환한 뒤 다시 합친다.
+  function singularize(word) {
+    const w = word.trim();
+    const lower = w.toLowerCase();
+    const candidates = new Set([w]);
+    if (lower.endsWith("ies") && lower.length > 3) {
+      candidates.add(w.slice(0, -3) + "y");
+    } else if (lower.endsWith("ses") && lower.length > 3) {
+      candidates.add(w.slice(0, -2)); // diagnoses -> diagnose 류 보정은 과하지 않게 -es만 제거
+      candidates.add(w.slice(0, -1)); // "ses" -> "se" 가능성
+    } else if (lower.endsWith("es") && lower.length > 2) {
+      candidates.add(w.slice(0, -2));
+      candidates.add(w.slice(0, -1));
+    } else if (lower.endsWith("ae") && lower.length > 2) {
+      candidates.add(w.slice(0, -2) + "a"); // bullae -> bulla
+    } else if (lower.endsWith("s") && !lower.endsWith("ss") && lower.length > 1) {
+      candidates.add(w.slice(0, -1));
+    }
+    return Array.from(candidates);
+  }
+
+  function answerVariants(answer) {
+    const base = stripAbbreviation(answer);
+    // "manifestations / postmortem" 같은 슬래시 구분 두 단어 빈칸은 각 부분을 따로 단수화한 뒤 재조합
+    if (base.includes("/")) {
+      const parts = base.split("/").map((p) => p.trim());
+      const partVariants = parts.map((p) => singularize(p));
+      // 각 파트의 후보 조합을 모두 생성 (파트가 2개 이하인 일반적 경우 기준)
+      let combos = [""];
+      partVariants.forEach((variants, idx) => {
+        const next = [];
+        combos.forEach((c) => {
+          variants.forEach((v) => {
+            next.push(idx === 0 ? v : c + " / " + v);
+          });
+        });
+        combos = next;
+      });
+      return combos;
+    }
+    // 여러 단어로 된 정답(예: "myocardial infarction")은 마지막 단어만 단수화 시도
+    const words = base.split(/\s+/);
+    const lastWord = words[words.length - 1];
+    const lastVariants = singularize(lastWord);
+    return lastVariants.map((v) => words.slice(0, -1).concat(v).join(" "));
+  }
+
   function submitAnswer(q, userChoice, areaEl, isShortAnswer) {
     state.answeredCurrent = true;
     const isCorrect = isShortAnswer
-      ? normalize(userChoice) === normalize(stripAbbreviation(q.answer))
+      ? answerVariants(q.answer).some((variant) => normalize(userChoice) === normalize(variant))
       : userChoice === q.answer;
 
     if (isCorrect) {
