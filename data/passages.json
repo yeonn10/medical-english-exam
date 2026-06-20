@@ -1472,6 +1472,11 @@
         },
         {
           "type": "narrative",
+          "heading": "predispose vs precipitate",
+          "html": "<p><strong>predispose</strong>(소인을 부여하다)와 <strong>precipitate</strong>(촉발하다)는 모두 '원인'과 관련되지만 작용하는 시점과 방식이 다르다.</p><ul class='summary-list'><li><span class='bullet'></span><span><strong>predispose</strong>: 위험요인이 미리 작용해 질환이 생기기 쉬운 '상태(소인)'를 만드는 것. 본문에서 atherosclerosis를 두고 <em>\"generalized or systemic risk factors predispose to its development\"</em>라고 한 것처럼, 고지혈증·흡연·고혈압 같은 위험요인이 동맥경화가 잘 생기는 바탕을 깔아주는 역할.</span></li><li><span class='bullet'></span><span><strong>precipitate</strong>: 이미 그런 소인/기저 상태가 있는 상황에서 특정 자극이 증상을 '급격히 유발/촉발'하는 것. 예를 들어 식사가 mesenteric ischemia의 통증을 precipitate한다고 할 때, 식사 자체가 허혈을 만든 게 아니라 이미 있던 협착 상태에서 혈류 요구량 증가가 통증을 촉발하는 방아쇠 역할을 한다는 의미.</span></li></ul><p>즉 predispose는 '취약하게 만드는 배경 요인', precipitate는 '그 배경 위에서 실제 사건을 촉발하는 방아쇠'로 구분하면 헷갈리지 않는다.</p>"
+        },
+        {
+          "type": "narrative",
           "heading": "공간적 국소성 (Focal in Space)",
           "html": "<p>같은 동맥 내에서도 동맥경화는 특정 <strong>predisposed region</strong>에 국소적으로 발생한다. 관상동맥에서는 좌전하행지 근위부가 <strong>predilection</strong>(호발부위)을 보이고, 신동맥 근위부와 <strong>carotid bifurcation</strong>(목동맥 갈림)도 <strong>preferentially</strong> 침범된다. 병변은 혈류가 흐트러지는 동맥 분지점에서 잘 생긴다. 단, 대동맥에서는 <strong>occlusive</strong>(협착성) 질환이 아니라 확장(ectasia)·동맥류로 나타나기도 한다.</p>"
         },
